@@ -1,4 +1,15 @@
-/workshop
-/workshop_beta
-/workshop_preview
-*.mo
+# library
+/lib
+
+# compiler
+**/bin
+**/obj
+
+# mods
+/FontLoader/Assets/*
+!/FontLoader/Assets/font
+/Translation/*.mo
+
+# steam workshop
+**/workshop
+**/workshop_preview
