@@ -1,5 +1,13 @@
 # dershiuan's Mods for Oxygen Not Include
-Tested game version: **AP-410209-D**
+
+## Tested
+* Game version: **AP-410209-D**
+* Environment: **Windows 10, .Net Framework 4.8**
+
+
+## About
+克服了從外部載入字型的問題，很大程度的解決了缺字的問題。   
+因此重構了專案分為 `繁體中文語言包` 與 `字型載入模組`。
 
 
 ## Mods
