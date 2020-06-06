@@ -14,14 +14,14 @@ namespace FontLoader.Utils
             TMP_FontAsset font = null;
             try
             {
-                if (config.local)
+                if (config.Local)
                 {
-                    var path = Path.Combine(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location), "Assets", config.filename);
+                    var path = Path.Combine(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location), "Assets", config.Filename);
                     font = AssetBundle.LoadFromFile(path).LoadAllAssets<TMP_FontAsset>()[0];
                 }
                 else
                 {
-                    var path = Path.Combine(Application.streamingAssetsPath, "fonts", config.filename);
+                    var path = Path.Combine(Application.streamingAssetsPath, "fonts", config.Filename);
                     font = AssetBundle.LoadFromFile(path).LoadAllAssets<TMP_FontAsset>()[0];
                 }
                 AssetBundle.UnloadAllAssetBundles(false);

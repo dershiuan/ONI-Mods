@@ -7,13 +7,17 @@ namespace FontLoader.Config
 {
     public class FontConfig
     {
-        public bool local { get; set; }
-        public string filename { get; set; }
+        public bool Local { get; set; }
+        public string Filename { get; set; }
+        public string Code { get; set; }
+        public bool LeftToRight { get; set; }
 
-        public FontConfig(bool local, string path)
+        public FontConfig(bool local, string filename, string code, bool leftToRight)
         {
-            this.local = local;
-            this.filename = filename;
+            this.Local = local;
+            this.Filename = filename;
+            this.Code = code;
+            this.LeftToRight = leftToRight;
         }
     }
 
@@ -50,22 +54,23 @@ namespace FontLoader.Config
 
         public FontConfig LoadConfigFile()
         {
-            FontConfig config;
+            FontConfig fc;
             try
             {
                 using (var r = new StreamReader(_executingAssemblyPath))
                 {
                     var json = r.ReadToEnd();
-                    config = JsonConvert.DeserializeObject<FontConfig>(json);
+                    fc = JsonConvert.DeserializeObject<FontConfig>(json);
                 }
             }
             catch (Exception e)
             {
                 Debug.Log($"Load config failure...Excption: {e.Message}");
                 Debug.Log($"Use default config.");
-                config = new FontConfig(true, "font");
+                fc = new FontConfig(true, "font", "zh", true);
             }
-            return config;
+            return fc;
         }
     }
+
 }

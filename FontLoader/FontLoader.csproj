@@ -6,8 +6,8 @@
     <Copyright>Copyright@2020</Copyright>
     <Description>ONI Font Loader</Description>
     <AssemblyTitle>FontLoader</AssemblyTitle>
-    <AssemblyVersion>2020.06.03.0</AssemblyVersion>
-    <FileVersion>2020.06.03.0</FileVersion>
+    <AssemblyVersion>2020.06.06.0</AssemblyVersion>
+    <FileVersion>2020.06.06.0</FileVersion>
   </PropertyGroup>
 
   <ItemGroup>
