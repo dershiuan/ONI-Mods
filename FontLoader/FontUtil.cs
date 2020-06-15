@@ -26,6 +26,7 @@ namespace FontLoader.Utils
                 }
                 AssetBundle.UnloadAllAssetBundles(false);
 
+                font.fontInfo.Scale = config.Scale;
             }
             catch (Exception e)
             {

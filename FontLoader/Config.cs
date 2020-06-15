@@ -11,13 +11,15 @@ namespace FontLoader.Config
         public string Filename { get; set; }
         public string Code { get; set; }
         public bool LeftToRight { get; set; }
+        public float Scale { get; set; }
 
-        public FontConfig(bool local, string filename, string code, bool leftToRight)
+        public FontConfig(bool local, string filename, string code, bool leftToRight, float scale)
         {
             this.Local = local;
             this.Filename = filename;
             this.Code = code;
             this.LeftToRight = leftToRight;
+            this.Scale = scale;
         }
     }
 
@@ -67,7 +69,7 @@ namespace FontLoader.Config
             {
                 Debug.Log($"Load config failure...Excption: {e.Message}");
                 Debug.Log($"Use default config.");
-                fc = new FontConfig(true, "font", "zh", true);
+                fc = new FontConfig(true, "font", "zh", true, 1);
             }
             return fc;
         }
