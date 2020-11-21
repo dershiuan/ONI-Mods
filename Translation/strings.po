@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Application: Oxygen Not IncludedPOT Version: 2.0\n"
-"X-Generator: Poedit 2.3.1\n"
+"X-Generator: Poedit 2.4.2\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #. STRINGS.BUILDING.DETAILS.USE_COUNT
@@ -7789,11 +7789,11 @@ msgid ""
 "Will continue outputting a <b><style=\"logic_off\">Red Signal</style></b> if "
 "the <b><style=\"logic_on\">Green Signal</style></b> did not last long enough."
 msgstr ""
-"如果收到 <b><style=\"logic_on\">>綠色訊號</style></b> 的時間，比計時器所設定"
-"的時間長，則只會發出 <b><style=\"logic_on\">>綠色訊號</style></b>\n"
+"如果收到 <b><style=\"logic_on\">綠色訊號</style></b> 的時間，比計時器所設定的"
+"時間長，則只會發出 <b><style=\"logic_on\">>綠色訊號</style></b>\n"
 "\n"
-"如果收到 <b><style=\"logic_on\">>綠色訊號</style></b> 的時間不夠長，會持續發"
-"出 <b><style=\"logic_on\">紅色訊號</style></b>。"
+"如果收到 <b><style=\"logic_on\">綠色訊號</style></b> 的時間不夠長，會持續發"
+"出 <b><style=\"logic_off\">紅色訊號</style></b>。"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICGATEFILTER.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICGATEFILTER.NAME"
@@ -7936,7 +7936,7 @@ msgstr ""
 "號</style></b> 時，發出 <b><style=\"logic_on\">綠色訊號</style></b>。\n"
 "\n"
 "如果輸入端 A 與輸入端 B 兩個輸入端，都沒有收到 <b><style=\"logic_on\">綠色訊"
-"號</style></b>，則發出 <b><style=\"logic_on\">紅色訊號</style></b>。"
+"號</style></b>，則發出 <b><style=\"logic_off\">紅色訊號</style></b>。"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICGATEOR.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICGATEOR.NAME"
@@ -8368,7 +8368,7 @@ msgstr ""
 #. STRINGS.BUILDINGS.PREFABS.LOGICRIBBONBRIDGE.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICRIBBONBRIDGE.NAME"
 msgid "<link=\"LOGICRIBBONBRIDGE\">Automation Ribbon Bridge</link>"
-msgstr "<link=\"LOGICWIREBRIDGE\">訊號排號橋接器</link>"
+msgstr "<link=\"LOGICWIREBRIDGE\">訊號排線橋接器</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICRIBBONREADER.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICRIBBONREADER.DESC"
@@ -13172,7 +13172,7 @@ msgid ""
 "to increase over time, approaching the maximum value at equilibrium.</indent>"
 msgstr ""
 "<indent=10%><b>第二定律</b></indent>\n"
-"<indent=15%>孤立系統中未達到平衡狀態的熵，隨著時間終將達到大值而處於平衡狀"
+"<indent=15%>孤立系統中未達到平衡狀態的熵，隨著時間終將達到最大值而處於平衡狀"
 "態。</indent>"
 
 #. STRINGS.CODEX.A2_THERMODYNAMICLAWS.BODY.CONTAINER4
@@ -17278,7 +17278,7 @@ msgid ""
 "of lungs, allowing it to hold its breath during the long periods it spends "
 "underground."
 msgstr ""
-"地鼠是一種獨特的生物，它們有兩個完全發育好的肺，讓它可以長時間閉氣待在地底"
+"田鼠是一種獨特的生物，它們有兩個完全發育好的肺，讓它可以長時間閉氣待在地底"
 "下。"
 
 #. STRINGS.CODEX.MOLE.BODY.CONTAINER2
@@ -17286,7 +17286,7 @@ msgctxt "STRINGS.CODEX.MOLE.BODY.CONTAINER2"
 msgid ""
 "Drill-shaped keratin structures circling the Vole's body aids its ability to "
 "drill at high speeds through most natural materials."
-msgstr "鑽頭型的甲殼讓地鼠擁有能在大多數天然材質高速鑽洞的能力。"
+msgstr "鑽頭型的甲殼讓田鼠擁有能在大多數天然材質高速鑽洞的能力。"
 
 #. STRINGS.CODEX.MOLE.SUBTITLE
 msgctxt "STRINGS.CODEX.MOLE.SUBTITLE"
@@ -17296,7 +17296,7 @@ msgstr "可馴化動物"
 #. STRINGS.CODEX.MOLE.TITLE
 msgctxt "STRINGS.CODEX.MOLE.TITLE"
 msgid "Shove Vole"
-msgstr "地鼠"
+msgstr "田鼠"
 
 #. STRINGS.CODEX.MOLTEN.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.MOLTEN.BODY.CONTAINER1"
@@ -20390,7 +20390,7 @@ msgstr "<link=\"LIGHTBUGSPECIES\">發光蟲</link>"
 #. STRINGS.CREATURES.FAMILY.MOLE
 msgctxt "STRINGS.CREATURES.FAMILY.MOLE"
 msgid "<link=\"MOLESPECIES\">Shove Vole</link>"
-msgstr "<link=\"MOLESPECIES\">地鼠</link>"
+msgstr "<link=\"MOLESPECIES\">田鼠</link>"
 
 #. STRINGS.CREATURES.FAMILY.MOO
 msgctxt "STRINGS.CREATURES.FAMILY.MOO"
@@ -20450,7 +20450,7 @@ msgstr "<link=\"LIGHTBUGSPECIES\">發光蟲</link>"
 #. STRINGS.CREATURES.FAMILY_PLURAL.MOLESPECIES
 msgctxt "STRINGS.CREATURES.FAMILY_PLURAL.MOLESPECIES"
 msgid "<link=\"MOLESPECIES\">Shove Voles</link>"
-msgstr "<link=\"MOLESPECIES\">地鼠</link>"
+msgstr "<link=\"MOLESPECIES\">田鼠</link>"
 
 #. STRINGS.CREATURES.FAMILY_PLURAL.MOOSPECIES
 msgctxt "STRINGS.CREATURES.FAMILY_PLURAL.MOOSPECIES"
@@ -21905,19 +21905,19 @@ msgid ""
 "\n"
 "They cannot burrow through <link=\"REFINEDMETAL\">Refined Metals</link>."
 msgstr ""
-"地鼠是喜愛挖掘的動物，會收集並食用地表中的 <link=\"REGOLITH\">土壤</link>。\n"
+"田鼠是喜愛挖掘的動物，會收集並食用地表中的 <link=\"REGOLITH\">土壤</link>。\n"
 "\n"
 "它們無法挖掘 <link=\"REFINEDMETAL\">精煉金屬</link>。"
 
 #. STRINGS.CREATURES.SPECIES.MOLE.EGG_NAME
 msgctxt "STRINGS.CREATURES.SPECIES.MOLE.EGG_NAME"
 msgid "<link=\"MOLE\">Shove Vole Egg</link>"
-msgstr "<link=\"MOLE\">地鼠蛋</link>"
+msgstr "<link=\"MOLE\">田鼠蛋</link>"
 
 #. STRINGS.CREATURES.SPECIES.MOLE.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.MOLE.NAME"
 msgid "<link=\"MOLE\">Shove Vole</link>"
-msgstr "<link=\"MOLE\">地鼠</link>"
+msgstr "<link=\"MOLE\">田鼠</link>"
 
 #. STRINGS.CREATURES.SPECIES.MOO.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.MOO.DESC"
@@ -32245,8 +32245,8 @@ msgstr "氣球藝術家"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.BALLOONARTISTHANDINGOUT.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.BALLOONARTISTHANDINGOUT.TOOLTIP"
-msgid "This Duplicant is handing out balloons to other Duplicants."
-msgstr "此複製人正在努力完成他們的藝術作品。"
+msgid "This Duplicant is handing out balloons to other Duplicants"
+msgstr "此複製人正在發氣球給其它人"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.BALLOONARTISTPLANNING.NAME
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.BALLOONARTISTPLANNING.NAME"
@@ -32255,7 +32255,7 @@ msgstr "氣球藝術家"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.BALLOONARTISTPLANNING.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.BALLOONARTISTPLANNING.TOOLTIP"
-msgid "This Duplicant is planning hand out balloons in their downtime."
+msgid "This Duplicant is planning to hand out balloons in their downtime"
 msgstr "此複製人計劃在休息時間發氣球。"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.BEDUNREACHABLE.NAME
@@ -34658,7 +34658,7 @@ msgstr "這雙手對挖掘隧道有莫大幫助，但對手套來説是一場惡
 #. STRINGS.DUPLICANTS.TRAITS.MOLEHANDS.NAME
 msgctxt "STRINGS.DUPLICANTS.TRAITS.MOLEHANDS.NAME"
 msgid "Mole Hands"
-msgstr "地鼠的雙手"
+msgstr "田鼠的雙手"
 
 #. STRINGS.DUPLICANTS.TRAITS.MOUTHBREATHER.DESC
 msgctxt "STRINGS.DUPLICANTS.TRAITS.MOUTHBREATHER.DESC"
@@ -38526,7 +38526,7 @@ msgstr "溫度透視圖"
 #. STRINGS.INPUT_BINDINGS.ROOT.OVERLAY4
 msgctxt "STRINGS.INPUT_BINDINGS.ROOT.OVERLAY4"
 msgid "Overlay 4"
-msgstr "耐熱度透視圖"
+msgstr "溫差透視圖"
 
 #. STRINGS.INPUT_BINDINGS.ROOT.OVERLAY5
 msgctxt "STRINGS.INPUT_BINDINGS.ROOT.OVERLAY5"
@@ -50513,6 +50513,42 @@ msgctxt "STRINGS.UI.DEVELOPMENTBUILDS.PREVIOUS_VERSION"
 msgid "Previous Version"
 msgstr "上個版本"
 
+#. STRINGS.UI.DEVELOPMENTBUILDS.TESTING_MESSAGE
+msgctxt "STRINGS.UI.DEVELOPMENTBUILDS.TESTING_MESSAGE"
+msgid ""
+"This game is running a Test version of Oxygen Not Included. This means that "
+"some features may be in development or buggier than normal, and not quite "
+"ready to go to the Release version of the game.\n"
+"\n"
+"If you encounter any bugs or strange behavior, we'd appreciate if you took "
+"the time to add a report to the bug forums."
+msgstr ""
+"遊戲目前為缺氧測試版。這表示有些功能仍在開發中，或可能遇而比正式版本更多的錯"
+"誤，並且尚未準備釋出的遊戲版本。\n"
+"\n"
+"如果您遇到的任何錯誤或奇怪的行為，我們會感謝您花時間到論壇回報錯誤。"
+
+#. STRINGS.UI.DEVELOPMENTBUILDS.TESTING_MESSAGE_TITLE
+msgctxt "STRINGS.UI.DEVELOPMENTBUILDS.TESTING_MESSAGE_TITLE"
+msgid "TESTING BUILD"
+msgstr "測試版本"
+
+#. STRINGS.UI.DEVELOPMENTBUILDS.TESTING_MORE_INFO
+msgctxt "STRINGS.UI.DEVELOPMENTBUILDS.TESTING_MORE_INFO"
+msgid "BUG FORUMS"
+msgstr "錯誤論壇"
+
+#. STRINGS.UI.DEVELOPMENTBUILDS.TESTING_TOOLTIP
+msgctxt "STRINGS.UI.DEVELOPMENTBUILDS.TESTING_TOOLTIP"
+msgid ""
+"The game is currently running a Test version\n"
+"\n"
+"Click for more info."
+msgstr ""
+"目前執行的遊戲為測試版本\n"
+"\n"
+"點擊了解更多資訊。"
+
 #. STRINGS.UI.DEVELOPMENTBUILDS.TESTING_WATERMARK
 msgctxt "STRINGS.UI.DEVELOPMENTBUILDS.TESTING_WATERMARK"
 msgid "TESTING BUILD: {0}"
@@ -53185,7 +53221,7 @@ msgid ""
 "\n"
 " • Fixed multiple simulation heat creation/destruction bugs\n"
 " • Fixed Duplicants getting stuck digging forever\n"
-" • Continued work on alternate color modes\n"
+" • Continued work on alternate color sets\n"
 " • Dozens of other fixes and improvements\n"
 "\n"
 "Please check out the full patch notes for more details!"
@@ -53200,7 +53236,7 @@ msgstr ""
 "查看完整更新記錄以了解更多細節！\n"
 "\n"
 "翻譯：古靈精怪\n"
-"版本：AP-419840-D-REV-1"
+"版本：AP-420700-D-REV-2"
 
 #. STRINGS.UI.FRONTEND.MOTD.UPDATE_TEXT
 msgctxt "STRINGS.UI.FRONTEND.MOTD.UPDATE_TEXT"
@@ -53451,12 +53487,13 @@ msgstr ""
 #. STRINGS.UI.FRONTEND.RAILFORCEQUIT.SAVE_EXIT
 msgctxt "STRINGS.UI.FRONTEND.RAILFORCEQUIT.SAVE_EXIT"
 msgid ""
-"Play time has expired, the game is exiting would you like to overwrite {0}?"
+"Play time has expired and the game is exiting. Would you like to overwrite "
+"{0}?"
 msgstr "試玩時間結束，您是否要取代現有的 {0}？"
 
 #. STRINGS.UI.FRONTEND.RAILFORCEQUIT.WARN_EXIT
 msgctxt "STRINGS.UI.FRONTEND.RAILFORCEQUIT.WARN_EXIT"
-msgid "Play time has expired, the game will now exit."
+msgid "Play time has expired and the game will now exit."
 msgstr "試玩時間結束，現在將會退出遊戲。"
 
 #. STRINGS.UI.FRONTEND.SAVESCREEN.CANCELNAME
@@ -56278,7 +56315,7 @@ msgstr ""
 #. STRINGS.UI.OVERLAYS.HEATFLOW.BUTTON
 msgctxt "STRINGS.UI.OVERLAYS.HEATFLOW.BUTTON"
 msgid "Thermal Tolerance Overlay"
-msgstr "耐熱度透視圖"
+msgstr "溫差透視圖"
 
 #. STRINGS.UI.OVERLAYS.HEATFLOW.COOLING
 msgctxt "STRINGS.UI.OVERLAYS.HEATFLOW.COOLING"
@@ -56293,12 +56330,12 @@ msgstr "體溫上升"
 #. STRINGS.UI.OVERLAYS.HEATFLOW.HOVERTITLE
 msgctxt "STRINGS.UI.OVERLAYS.HEATFLOW.HOVERTITLE"
 msgid "THERMAL TOLERANCE"
-msgstr "耐熱度透視圖"
+msgstr "溫差透視圖"
 
 #. STRINGS.UI.OVERLAYS.HEATFLOW.NAME
 msgctxt "STRINGS.UI.OVERLAYS.HEATFLOW.NAME"
 msgid "THERMAL TOLERANCE OVERLAY"
-msgstr "耐熱度透視圖"
+msgstr "溫差透視圖"
 
 #. STRINGS.UI.OVERLAYS.HEATFLOW.NEUTRAL
 msgctxt "STRINGS.UI.OVERLAYS.HEATFLOW.NEUTRAL"
@@ -57193,32 +57230,32 @@ msgstr "已完成複製人的臥室"
 #. STRINGS.UI.OVERLAYS.STATECHANGE.HIGHPOINT
 msgctxt "STRINGS.UI.OVERLAYS.STATECHANGE.HIGHPOINT"
 msgid "High energy state change"
-msgstr "高能源狀態變化"
+msgstr "溫度變高"
 
 #. STRINGS.UI.OVERLAYS.STATECHANGE.LOWPOINT
 msgctxt "STRINGS.UI.OVERLAYS.STATECHANGE.LOWPOINT"
 msgid "Low energy state change"
-msgstr "低能源狀態變化"
+msgstr "溫度變低"
 
 #. STRINGS.UI.OVERLAYS.STATECHANGE.STABLE
 msgctxt "STRINGS.UI.OVERLAYS.STATECHANGE.STABLE"
 msgid "Stable"
-msgstr "穩定"
+msgstr "溫度穩定"
 
 #. STRINGS.UI.OVERLAYS.STATECHANGE.TOOLTIPS.HIGHPOINT
 msgctxt "STRINGS.UI.OVERLAYS.STATECHANGE.TOOLTIPS.HIGHPOINT"
 msgid "Nearing high energy state change"
-msgstr "接近高能源狀態變化"
+msgstr "往高溫狀態變化"
 
 #. STRINGS.UI.OVERLAYS.STATECHANGE.TOOLTIPS.LOWPOINT
 msgctxt "STRINGS.UI.OVERLAYS.STATECHANGE.TOOLTIPS.LOWPOINT"
 msgid "Nearing a low energy state change"
-msgstr "接近低能源狀態變化"
+msgstr "往低溫狀態變化"
 
 #. STRINGS.UI.OVERLAYS.STATECHANGE.TOOLTIPS.STABLE
 msgctxt "STRINGS.UI.OVERLAYS.STATECHANGE.TOOLTIPS.STABLE"
 msgid "Not near any state changes"
-msgstr "沒有任何狀態變化"
+msgstr "溫度狀態幾乎沒有變化"
 
 #. STRINGS.UI.OVERLAYS.SUIT.BUTTON
 msgctxt "STRINGS.UI.OVERLAYS.SUIT.BUTTON"
