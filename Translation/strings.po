@@ -469,7 +469,7 @@ msgstr "輸出 <style=\"KKeyword\">管線</style> 阻塞"
 #. STRINGS.BUILDING.STATUSITEMS.CONNECTED_ROCKET_NO_PORT.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.CONNECTED_ROCKET_NO_PORT.NAME"
 msgid "Missing Rocket Ports"
-msgstr "缺少火箭儲存槽"
+msgstr "缺少火箭貨港"
 
 #. STRINGS.BUILDING.STATUSITEMS.CONNECTED_ROCKET_NO_PORT.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.CONNECTED_ROCKET_NO_PORT.TOOLTIP"
@@ -482,10 +482,10 @@ msgid ""
 "materials from Cargo Bays."
 msgstr ""
 "此 <link=\"LAUNCHPLATFORM\">火箭平台</link> 未連接 <link="
-"\"MODULARLAUNCHPADPORTSOLID\">火箭儲存槽</link>。\n"
+"\"MODULARLAUNCHPADPORTSOLID\">火箭貨港</link>。\n"
 "\n"
-"請建造適合的固體、氣體與液體的 <link=\"MODULARLAUNCHPADPORTSOLID\">火箭儲存槽"
-"</link> 以便裝載與缷載貨艙的資源。"
+"請建造適合的固體、氣體與液體的 <link=\"MODULARLAUNCHPADPORTSOLID\">火箭貨港</"
+"link> 以便裝載與缷載貨艙的資源。"
 
 #. STRINGS.BUILDING.STATUSITEMS.CONNECTED_ROCKET_PORT.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.CONNECTED_ROCKET_PORT.NAME"
@@ -500,7 +500,7 @@ msgid ""
 "from this module."
 msgstr ""
 "此 <link=\"LAUNCHPLATFORM\">火箭平台</link> 有 <link="
-"\"MODULARLAUNCHPADPORTSOLID\">火箭儲存槽</link> 可裝載或缷載此模組的資源。"
+"\"MODULARLAUNCHPADPORTSOLID\">火箭貨港</link> 可裝載或缷載此模組的資源。"
 
 #. STRINGS.BUILDING.STATUSITEMS.CONNECTED_ROCKET_WRONG_PORT.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.CONNECTED_ROCKET_WRONG_PORT.NAME"
@@ -515,7 +515,7 @@ msgid ""
 "type for this Cargo Bay."
 msgstr ""
 "此 <link=\"LAUNCHPLATFORM\">火箭平台</link> 目前連接的 <link="
-"\"MODULARLAUNCHPADPORTSOLID\">火箭儲存槽</link> 與此貨艙不同類別。"
+"\"MODULARLAUNCHPADPORTSOLID\">火箭貨港</link> 與此貨艙不同類別。"
 
 #. STRINGS.BUILDING.STATUSITEMS.CONSTRUCTABLEDIGUNREACHABLE.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.CONSTRUCTABLEDIGUNREACHABLE.NAME"
@@ -2929,7 +2929,7 @@ msgid ""
 msgstr ""
 "未選擇發送目的地。    • {0}\n"
 "\n"
-"設定酬載的目的地 "
+"設定貨箱目的地 "
 
 #. STRINGS.BUILDING.STATUSITEMS.RAILGUN_PATH_NOT_CLEAR.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.RAILGUN_PATH_NOT_CLEAR.NAME"
@@ -2964,10 +2964,10 @@ msgid ""
 "\"RAILGUNPAYLOADOPENER\">Payload Opener</link> to automatically unpack "
 "incoming payloads"
 msgstr ""
-"此酬載已送達目標並準備缷載\n"
+"此貨箱已送達目標並準備缷載\n"
 "\n"
-"直接將其標記為清空，或建造一個 <link=\"RAILGUNPAYLOADOPENER\">軌道炮開箱機</"
-"link> 來自動拆封收到的酬載"
+"直接將其標記為清空，或建造一個 <link=\"RAILGUNPAYLOADOPENER\">星際貨箱拆封機"
+"</link> 來自動拆封收到的星際貨箱"
 
 #. STRINGS.BUILDING.STATUSITEMS.RATIONBOXCONTENTS.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.RATIONBOXCONTENTS.NAME"
@@ -3078,8 +3078,7 @@ msgid ""
 "\n"
 "Loading will proceed afterwards."
 msgstr ""
-"<link=\"LAUNCHPLATFORM\">發射平台</link> 正在將火箭上的可用資源搬到火箭儲存"
-"槽\n"
+"<link=\"LAUNCHPLATFORM\">發射平台</link> 正在將火箭上的可用資源搬到火箭貨港\n"
 "\n"
 "之後將可繼續裝載。"
 
@@ -7805,7 +7804,7 @@ msgstr ""
 "\n"
 "讓火箭可以在主星上發射或著陸。\n"
 "\n"
-"自動連接到建在平台任一側的 <link=\"MODULARLAUNCHPADPORTSOLID\">火箭儲存槽</"
+"自動連接到建在平台任一側的 <link=\"MODULARLAUNCHPADPORTSOLID\">火箭貨港</"
 "link>。"
 
 #. STRINGS.BUILDINGS.PREFABS.LAUNCHPAD.NAME
@@ -10444,7 +10443,7 @@ msgstr "<link=\"MODULARGASINPUT\">氣體輸入中樞</link>"
 #. STRINGS.BUILDINGS.PREFABS.MODULARLAUNCHPADPORT.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.MODULARLAUNCHPADPORT.NAME"
 msgid "<link=\"MODULARLAUNCHPADPORTSOLID\">Rocket Port</link>"
-msgstr "<link=\"MODULARLAUNCHPADPORTSOLID\">固體火箭儲存槽</link>"
+msgstr "<link=\"MODULARLAUNCHPADPORTSOLID\">火箭固體貨港</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.MODULARLAUNCHPADPORTGAS.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.MODULARLAUNCHPADPORTGAS.DESC"
@@ -10466,14 +10465,14 @@ msgstr ""
 "可裝載或缷載火箭貨艙的 <link=\"ELEMENTSGAS\">氣體</link>。\n"
 "\n"
 "當建在 <link=\"LAUNCHPLATFORM\">火箭平台</link> 或 <link="
-"\"MODULARLAUNCHPADPORTSOLID\">火箭儲存槽</link> 旁邊時會自動連接。\n"
+"\"MODULARLAUNCHPADPORTSOLID\">火箭貨港</link> 旁邊時會自動連接。\n"
 "\n"
 "使用與火箭平台連接的氣體過濾器。"
 
 #. STRINGS.BUILDINGS.PREFABS.MODULARLAUNCHPADPORTGAS.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.MODULARLAUNCHPADPORTGAS.NAME"
 msgid "<link=\"MODULARLAUNCHPADPORTGAS\">Gas Rocket Port</link>"
-msgstr "<link=\"MODULARLAUNCHPADPORTGAS\">氣體火箭儲存槽</link>"
+msgstr "<link=\"MODULARLAUNCHPADPORTGAS\">火箭氣體貨港</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.MODULARLAUNCHPADPORTLIQUID.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.MODULARLAUNCHPADPORTLIQUID.DESC"
@@ -10495,14 +10494,14 @@ msgstr ""
 "可裝載或缷載火箭儲存艙的 <link=\"ELEMENTSLIQUID\">液體</link>。\n"
 "\n"
 "當建在 <link=\"LAUNCHPLATFORM\">火箭平台</link> 或 <link="
-"\"MODULARLAUNCHPADPORTSOLID\">火箭儲存槽</link> 旁邊時會自動連接。\n"
+"\"MODULARLAUNCHPADPORTSOLID\">火箭貨港</link> 旁邊時會自動連接。\n"
 "\n"
 "使用與火箭平台連接的液體過濾器。"
 
 #. STRINGS.BUILDINGS.PREFABS.MODULARLAUNCHPADPORTLIQUID.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.MODULARLAUNCHPADPORTLIQUID.NAME"
 msgid "<link=\"MODULARLAUNCHPADPORTLIQUID\">Liquid Rocket Port</link>"
-msgstr "<link=\"MODULARLAUNCHPADPORTLIQUID\">液體火箭儲存槽</link>"
+msgstr "<link=\"MODULARLAUNCHPADPORTLIQUID\">火箭液體貨港</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.MODULARLAUNCHPADPORTSOLID.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.MODULARLAUNCHPADPORTSOLID.DESC"
@@ -10524,14 +10523,14 @@ msgstr ""
 "可裝載或缷載火箭儲存艙的 <link=\"ELEMENTSSOLID\">固體</link>。\n"
 "\n"
 "當建在 <link=\"LAUNCHPLATFORM\">火箭平台</link> 或 <link="
-"\"MODULARLAUNCHPADPORTSOLID\">火箭儲存槽</link> 旁邊時會自動連接。\n"
+"\"MODULARLAUNCHPADPORTSOLID\">火箭貨港</link> 旁邊時會自動連接。\n"
 "\n"
 "使用與火箭平台連接的固體過濾器。"
 
 #. STRINGS.BUILDINGS.PREFABS.MODULARLAUNCHPADPORTSOLID.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.MODULARLAUNCHPADPORTSOLID.NAME"
 msgid "<link=\"MODULARLAUNCHPADPORTSOLID\">Solid Rocket Port</link>"
-msgstr "<link=\"MODULARLAUNCHPADPORTSOLID\">固體火箭儲存槽</link>"
+msgstr "<link=\"MODULARLAUNCHPADPORTSOLID\">火箭固體貨港</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.MODULARLIQUIDINPUT.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.MODULARLIQUIDINPUT.DESC"
@@ -11812,10 +11811,10 @@ msgid ""
 "\n"
 "Cannot transport Duplicants."
 msgstr ""
-"在兩行星之前發射 <link=\"RAILGUNPAYLOAD\">星際酬載</link>。\n"
+"在兩行星之前發射 <link=\"RAILGUNPAYLOAD\">星際貨箱</link>。\n"
 "\n"
-"酬載可以運送 <link=\"ELEMENTSSOLID\">固體</link>、<link=\"ELEMENTSLIQUID\">液"
-"體</link> 或 <link=\"ELEMENTSGAS\">氣體</link> 資源。\n"
+"星際貨箱可以運送 <link=\"ELEMENTSSOLID\">固體</link>、<link=\"ELEMENTSLIQUID"
+"\">液體</link> 或 <link=\"ELEMENTSGAS\">氣體</link> 資源。\n"
 "\n"
 "無法運送複製人。"
 
@@ -11829,7 +11828,7 @@ msgctxt "STRINGS.BUILDINGS.PREFABS.RAILGUNPAYLOADOPENER.DESC"
 msgid ""
 "Payload openers can be hooked up to conveyors, plumbing and ventilation for "
 "improved sorting."
-msgstr "軌道炮開箱機可連接輸送帶、液體管與氣體管來提高分類效率。"
+msgstr "星際貨箱拆封機可連接輸送帶、液體管與氣體管來提高分類效率。"
 
 #. STRINGS.BUILDINGS.PREFABS.RAILGUNPAYLOADOPENER.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.RAILGUNPAYLOADOPENER.EFFECT"
@@ -11841,7 +11840,7 @@ msgid ""
 "\"ELEMENTSLIQUID\">Liquid</link>, and <link=\"ELEMENTSGAS\">Gas</link> "
 "materials and distributes them to the appropriate systems."
 msgstr ""
-"由複製人拆開 <link=\"RAILGUNPAYLOAD\">星際酬載</link>。\n"
+"由複製人拆開 <link=\"RAILGUNPAYLOAD\">星際貨箱</link>。\n"
 "\n"
 "自動分離 <link=\"ELEMENTSSOLID\">固體</link>、<link=\"ELEMENTSLIQUID\">液體</"
 "link>、與 <link=\"ELEMENTSGAS\">氣體</link> 資源並分送到適當的物流系統中。"
@@ -11849,7 +11848,7 @@ msgstr ""
 #. STRINGS.BUILDINGS.PREFABS.RAILGUNPAYLOADOPENER.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.RAILGUNPAYLOADOPENER.NAME"
 msgid "<link=\"RAILGUNPAYLOADOPENER\">Payload Opener</link>"
-msgstr "<link=\"RAILGUNPAYLOADOPENER\">軌道炮開箱機</link>"
+msgstr "<link=\"RAILGUNPAYLOADOPENER\">星際貨箱拆封機</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.RANCHSTATION.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.RANCHSTATION.DESC"
@@ -12436,8 +12435,8 @@ msgid ""
 "Stores <link=\"FERTILIZER\">Fertilizer</link> and <link=\"OXYROCK\">Oxylite</"
 "link> for burning rocket fuels."
 msgstr ""
-"Stores <link=\"FERTILIZER\">肥料</link> 與 <link=\"OXYROCK\">氧氣石</link> 作"
-"為火箭的燃料。"
+"儲存 <link=\"FERTILIZER\">肥料</link> 與 <link=\"OXYROCK\">氧氣石</link> 作為"
+"火箭的燃料。"
 
 #. STRINGS.BUILDINGS.PREFABS.SMALLOXIDIZERTANK.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.SMALLOXIDIZERTANK.NAME"
@@ -13020,19 +13019,19 @@ msgstr "<link=\"SPECIALCARGOBAY\">生物貨艙</link>"
 #. STRINGS.BUILDINGS.PREFABS.STATERPILLAREGG.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.STATERPILLAREGG.DESC"
 msgid "The electrifying egg of the <link=\"STATERPILLAR\">Plug Slug</link>."
-msgstr "激動人心的 <link=\"STATERPILLAR\">電蛞蝓</link> 蛋。"
+msgstr "激動人心的 <link=\"STATERPILLAR\">電氣蛞蝓</link> 蛋。"
 
 #. STRINGS.BUILDINGS.PREFABS.STATERPILLAREGG.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.STATERPILLAREGG.EFFECT"
 msgid ""
 "Slug Eggs can be connected to a <link=\"POWER\">Power</link> circuit as an "
 "energy source."
-msgstr "電蛞蝓電可以連接到 <link=\"POWER\">電力</link> 系統作為電力來源。"
+msgstr "電氣蛞蝓電可以連接到 <link=\"POWER\">電力</link> 系統作為電力來源。"
 
 #. STRINGS.BUILDINGS.PREFABS.STATERPILLAREGG.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.STATERPILLAREGG.NAME"
 msgid "<link=\"STATERPILLAREGG\">Slug Egg</link>"
-msgstr "<link=\"STATERPILLAR\">電蛞蝓蛋</link>"
+msgstr "<link=\"STATERPILLAR\">電氣蛞蝓蛋</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.STATERPILLARGENERATOR.MODIFIERS.HUNGRY
 msgctxt "STRINGS.BUILDINGS.PREFABS.STATERPILLARGENERATOR.MODIFIERS.HUNGRY"
@@ -13047,7 +13046,7 @@ msgstr "野生！"
 #. STRINGS.BUILDINGS.PREFABS.STATERPILLARGENERATOR.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.STATERPILLARGENERATOR.NAME"
 msgid "<link=\"STATERPILLAR\">Plug Slug</link>"
-msgstr "<link=\"STATERPILLAR\">電蛞蝓</link>"
+msgstr "<link=\"STATERPILLAR\">電氣蛞蝓</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.STEAMENGINE.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.STEAMENGINE.DESC"
@@ -13443,7 +13442,7 @@ msgstr ""
 "部署 <link=\"SWEEPBOT\">清潔機器人</link> 來打掃 <link=\"ELEMENTSSOLID\">固體"
 "</link> 與 <link=\"ELEMENTSLIQUID\">液體</link>。\n"
 "\n"
-"儲存清潔機器人身上的 <link=\"ELEMENTSLIQUID\">液體</link> and <link="
+"儲存清潔機器人身上的 <link=\"ELEMENTSLIQUID\">液體</link> 與 <link="
 "\"ELEMENTSSOLID\">固體</link>。\n"
 "\n"
 "需要 <link=\"POWER\">電力</link> 為清潔機器人充電。\n"
@@ -21015,7 +21014,7 @@ msgstr ""
 "\n"
 "結合極輕盈和富有彈性的皮膚，\n"
 "帕夫可以無限的漂浮，\n"
-"而消耗的能量可以乎略不計。\n"
+"而消耗的能量可以忽略不計。\n"
 "\n"
 "同時，它的方向和平衡是透過位於其無用腿中的平衡骨來維持的。"
 
@@ -23087,7 +23086,7 @@ msgstr "<link=\"SQUIRRELSPECIES\">松鼠</link>"
 #. STRINGS.CREATURES.FAMILY_PLURAL.STATERPILLARSPECIES
 msgctxt "STRINGS.CREATURES.FAMILY_PLURAL.STATERPILLARSPECIES"
 msgid "<link=\"STATERPILLARSPECIES\">Plug Slug</link>"
-msgstr "<link=\"STATERPILLARSPECIES\">電蛞蝓</link>"
+msgstr "<link=\"STATERPILLARSPECIES\">電氣蛞蝓</link>"
 
 #. STRINGS.CREATURES.FAMILY_PLURAL.SWEEPBOT
 msgctxt "STRINGS.CREATURES.FAMILY_PLURAL.SWEEPBOT"
@@ -23215,7 +23214,7 @@ msgstr ""
 #. STRINGS.CREATURES.MODIFIERS.DIVERGENTPLANTTENDED.NAME
 msgctxt "STRINGS.CREATURES.MODIFIERS.DIVERGENTPLANTTENDED.NAME"
 msgid "Sweetle Tending"
-msgstr "甲蟲養育"
+msgstr "甲蟲照料"
 
 #. STRINGS.CREATURES.MODIFIERS.DIVERGENTPLANTTENDED.TOOLTIP
 msgctxt "STRINGS.CREATURES.MODIFIERS.DIVERGENTPLANTTENDED.TOOLTIP"
@@ -23229,7 +23228,7 @@ msgstr ""
 #. STRINGS.CREATURES.MODIFIERS.DIVERGENTPLANTTENDEDWORM.NAME
 msgctxt "STRINGS.CREATURES.MODIFIERS.DIVERGENTPLANTTENDEDWORM.NAME"
 msgid "Grubgrub Rub"
-msgstr "毛毛蟲磨擦"
+msgstr "毛毛蟲照料"
 
 #. STRINGS.CREATURES.MODIFIERS.DIVERGENTPLANTTENDEDWORM.TOOLTIP
 msgctxt "STRINGS.CREATURES.MODIFIERS.DIVERGENTPLANTTENDEDWORM.TOOLTIP"
@@ -23783,7 +23782,7 @@ msgstr "捕獸草會吃掉無防備的小動物，在消化後釋放氫氣。"
 #. STRINGS.CREATURES.SPECIES.CRITTERTRAPPLANT.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.CRITTERTRAPPLANT.NAME"
 msgid "<link=\"CRITTERTRAPPLANT\">Saturn Critter Trap</link>"
-msgstr "<link=\"CRITTERTRAPPLANT\">土星動物陷阱</link>"
+msgstr "<link=\"CRITTERTRAPPLANT\">捕獸草</link>"
 
 #. STRINGS.CREATURES.SPECIES.CYLINDRICA.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.CYLINDRICA.DESC"
@@ -24325,7 +24324,7 @@ msgstr "<link=\"DIRTYWATER\">汙水</link> 定期噴發的高壓噴泉。"
 #. STRINGS.CREATURES.SPECIES.GEYSER.SLUSH_WATER.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.SLUSH_WATER.NAME"
 msgid "<link=\"GEYSERGENERICSLUSHWATER\">Cool Slush Geyser</link>"
-msgstr "<link=\"GEYSERGENERICSLUSHWATER\">低溫碎冰噴泉</link>"
+msgstr "<link=\"GEYSERGENERICSLUSHWATER\">低溫汙水噴泉</link>"
 
 #. STRINGS.CREATURES.SPECIES.GEYSER.SMALL_VOLCANO.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.SMALL_VOLCANO.DESC"
@@ -25623,7 +25622,7 @@ msgid ""
 msgstr ""
 "<link=\"CRITTERTRAPPLANT\">捕獸草</link> 的 <link=\"PLANTS\">種子</link>。\n"
 "\n"
-"挖掘掩埋物可能會發現土星動物陷阱種子。"
+"挖掘掩埋物可能會發現捕獸草。"
 
 #. STRINGS.CREATURES.SPECIES.SEEDS.CRITTERTRAPPLANT.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.SEEDS.CRITTERTRAPPLANT.NAME"
@@ -26083,14 +26082,14 @@ msgid ""
 "In time it will mature into a fully grown <link=\"STATERPILLAR\">Plug Slug</"
 "link>."
 msgstr ""
-"一隻圓滾滾的電蛞蝓寶寶。\n"
+"一隻圓滾滾的電氣蛞蝓寶寶。\n"
 "\n"
-"隨著時間會慢慢長大為成年的 <link=\"STATERPILLAR\">電蛞蝓</link>。"
+"隨著時間會慢慢長大為成年的 <link=\"STATERPILLAR\">電氣蛞蝓</link>。"
 
 #. STRINGS.CREATURES.SPECIES.STATERPILLAR.BABY.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.STATERPILLAR.BABY.NAME"
 msgid "<link=\"STATERPILLAR\">Plug Sluglet</link>"
-msgstr "<link=\"STATERPILLAR\">電蛞蝓寶寶</link>"
+msgstr "<link=\"STATERPILLAR\">電氣蛞蝓寶寶</link>"
 
 #. STRINGS.CREATURES.SPECIES.STATERPILLAR.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.STATERPILLAR.DESC"
@@ -26101,19 +26100,19 @@ msgid ""
 "Their power can be harnessed by leaving an exposed wire near areas where "
 "they like to sleep."
 msgstr ""
-"電蛞輸是一種在晚上會 <link=\"POWER\">發電</link> 的動物。\n"
+"電氣蛞蝓是一種在晚上會 <link=\"POWER\">發電</link> 的動物。\n"
 "\n"
 "在它們睡覺的附近拉一些電線，就可以利用它們發出的電力。"
 
 #. STRINGS.CREATURES.SPECIES.STATERPILLAR.EGG_NAME
 msgctxt "STRINGS.CREATURES.SPECIES.STATERPILLAR.EGG_NAME"
 msgid "<link=\"STATERPILLAR\">Slug Egg</link>"
-msgstr "<link=\"STATERPILLAR\">電蛞蝓蛋</link>"
+msgstr "<link=\"STATERPILLAR\">電氣蛞蝓蛋</link>"
 
 #. STRINGS.CREATURES.SPECIES.STATERPILLAR.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.STATERPILLAR.NAME"
 msgid "<link=\"STATERPILLAR\">Plug Slug</link>"
-msgstr "<link=\"STATERPILLAR\">電蛞蝓</link>"
+msgstr "<link=\"STATERPILLAR\">電氣蛞蝓</link>"
 
 #. STRINGS.CREATURES.SPECIES.STEAMSPOUT.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.STEAMSPOUT.DESC"
@@ -26292,22 +26291,21 @@ msgid ""
 "If it is tended by a <link=\"DIVERGENTSPECIES\">Divergent</link> critter, it "
 "will produce high quality fruits instead."
 msgstr ""
-"未成熟的燈籠草生產 <link=\"WORMBASICFRUIT\">未成熟的燈籠草果實</link> 可作為 "
-"<link=\"FOOD\">食物</link>。\n"
+"劣質燈籠草生產 <link=\"WORMBASICFRUIT\">劣質燈籠草果實</link> 可作為 <link="
+"\"FOOD\">食物</link>。\n"
 "\n"
-"如果被 <link=\"DIVERGENTSPECIES\">甲蟲</link> 照顧，會生產高品質的果實。"
+"如果被 <link=\"DIVERGENTSPECIES\">甲蟲</link> 照料，會生產高品質的果實。"
 
 #. STRINGS.CREATURES.SPECIES.WORMPLANT.DOMESTICATEDDESC
 msgctxt "STRINGS.CREATURES.SPECIES.WORMPLANT.DOMESTICATEDDESC"
 msgid ""
 "This plant produces edible <link=\"WORMBASICFRUIT\">Spindly Grubfruit</link>."
-msgstr ""
-"此植物生產可食用的 <link=\"WORMBASICFRUIT\">未成熟的燈籠草果實</link>。"
+msgstr "此植物生產可食用的 <link=\"WORMBASICFRUIT\">劣質燈籠草果實</link>。"
 
 #. STRINGS.CREATURES.SPECIES.WORMPLANT.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.WORMPLANT.NAME"
 msgid "<link=\"WORMPLANT\">Spindly Grubfruit Plant</link>"
-msgstr "<link=\"WORMPLANT\">未成熟的燈籠草</link>"
+msgstr "<link=\"WORMPLANT\">劣質燈籠草</link>"
 
 #. STRINGS.CREATURES.STATS.AGE.NAME
 msgctxt "STRINGS.CREATURES.STATS.AGE.NAME"
@@ -44962,7 +44960,7 @@ msgstr "環境裝飾透視圖"
 #. STRINGS.INPUT_BINDINGS.ROOT.OVERLAY9
 msgctxt "STRINGS.INPUT_BINDINGS.ROOT.OVERLAY9"
 msgid "Overlay 9"
-msgstr "細菌透視圖"
+msgstr "疾病透視圖"
 
 #. STRINGS.INPUT_BINDINGS.ROOT.PANDOWN
 msgctxt "STRINGS.INPUT_BINDINGS.ROOT.PANDOWN"
@@ -46125,7 +46123,7 @@ msgid ""
 "\n"
 "It has a smoky aroma and tastes of coziness."
 msgstr ""
-"慢慢烤熟的 <link=\"WORMBASICFRUIT\">未成熟的燈籠草果實</link>。\n"
+"慢慢烤熟的 <link=\"WORMBASICFRUIT\">劣質燈籠草果實</link>。\n"
 "\n"
 "它有煙熏味且嘗起來可口。"
 
@@ -46137,7 +46135,7 @@ msgstr "<link=\"WORMBASICFOOD\">烤燈籠草果實</link>"
 #. STRINGS.ITEMS.FOOD.WORMBASICFOOD.RECIPEDESC
 msgctxt "STRINGS.ITEMS.FOOD.WORMBASICFOOD.RECIPEDESC"
 msgid "Slow roasted <link=\"WORMBASICFRUIT\">Spindly Grubfruit</link>."
-msgstr "慢慢烤熟的 <link=\"WORMBASICFRUIT\">未成熟的燈籠草果實</link>。"
+msgstr "慢慢烤熟的 <link=\"WORMBASICFRUIT\">劣質燈籠草果實</link>。"
 
 #. STRINGS.ITEMS.FOOD.WORMBASICFRUIT.DESC
 msgctxt "STRINGS.ITEMS.FOOD.WORMBASICFRUIT.DESC"
@@ -46147,14 +46145,14 @@ msgid ""
 "\n"
 "It is nonetheless edible, and vaguely tasty."
 msgstr ""
-"尚未成熟的 <link=\"WORMSUPERFRUIT\">燈籠草果實</link>。\n"
+"發育不良的 <link=\"WORMSUPERFRUIT\">燈籠草果實</link>。\n"
 "\n"
-"儘管如此，還是可以食用且很美味。"
+"還是可以吃，但沒什麼味道。"
 
 #. STRINGS.ITEMS.FOOD.WORMBASICFRUIT.NAME
 msgctxt "STRINGS.ITEMS.FOOD.WORMBASICFRUIT.NAME"
 msgid "<link=\"WORMBASICFRUIT\">Spindly Grubfruit</link>"
-msgstr "<link=\"WORMBASICFRUIT\">未成熟的燈籠草果實</link>"
+msgstr "<link=\"WORMBASICFRUIT\">劣質燈籠草果實</link>"
 
 #. STRINGS.ITEMS.FOOD.WORMSUPERFOOD.DESC
 msgctxt "STRINGS.ITEMS.FOOD.WORMSUPERFOOD.DESC"
@@ -46705,13 +46703,13 @@ msgid ""
 msgstr ""
 "將資源裝箱供星際運輸。\n"
 "\n"
-"可用 <link=\"RAILGUN\">行星軌道炮</link> 發射或 <link=\"RAILGUNPAYLOADOPENER"
-"\">軌道炮開箱機</link>。"
+"可用 <link=\"RAILGUN\">行星軌道炮</link> 發射或用 <link="
+"\"RAILGUNPAYLOADOPENER\">星際貨箱拆封機</link> 拆開。"
 
 #. STRINGS.ITEMS.RAILGUNPAYLOAD.NAME
 msgctxt "STRINGS.ITEMS.RAILGUNPAYLOAD.NAME"
 msgid "<link=\"RAILGUNPAYLOAD\">Interplanetary Payload</link>"
-msgstr "<link=\"RAILGUNPAYLOAD\">星際酬載</link>"
+msgstr "<link=\"RAILGUNPAYLOAD\">星際貨箱</link>"
 
 #. STRINGS.LORE.BUILDINGS.Desk.ENTRY
 msgctxt "STRINGS.LORE.BUILDINGS.Desk.ENTRY"
@@ -47730,7 +47728,7 @@ msgstr ""
 "<link=\"DISEASE\">細菌</link> 像是 <link=\"FOODSICKNESS\">腸病毒</link> 與 "
 "<link=\"SLIMESICKNESS\">肺結核</link> ，會使複製人 <link=\"DISEASE\">生病</"
 "link>。\n"
-"可以使用 <b>細菌透視圖</b> <b><color=#F44A4A>[F9]</b></color> 查看殖民地中，"
+"可以使用 <b>疾病透視圖</b> <b><color=#F44A4A>[F9]</b></color> 查看殖民地中，"
 "所有細菌的密度與它們產生的來源。\n"
 "\n"
 "將 <b>醫學</b> <b><color=#F44A4A>[8]</b></color> 中的洗手盆蓋在殖民地的廁所"
@@ -49543,7 +49541,7 @@ msgstr "珍貴的岩石"
 #| msgid "Taylor"
 msgctxt "STRINGS.MISC.TAGS.RAILGUNPAYLOADEMPTYABLE"
 msgid "Payload"
-msgstr "酬載"
+msgstr "星際貨箱"
 
 #. STRINGS.MISC.TAGS.RAREMATERIALS
 msgctxt "STRINGS.MISC.TAGS.RAREMATERIALS"
@@ -65854,7 +65852,7 @@ msgstr "{0}{1}"
 #. STRINGS.UI.OVERLAYS.DISEASE.BUTTON
 msgctxt "STRINGS.UI.OVERLAYS.DISEASE.BUTTON"
 msgid "Germ Overlay"
-msgstr "細菌透視圖"
+msgstr "疾病透視圖"
 
 #. STRINGS.UI.OVERLAYS.DISEASE.CONTAINER_FORMAT
 msgctxt "STRINGS.UI.OVERLAYS.DISEASE.CONTAINER_FORMAT"
@@ -65943,7 +65941,7 @@ msgstr ""
 #. STRINGS.UI.OVERLAYS.DISEASE.NAME
 msgctxt "STRINGS.UI.OVERLAYS.DISEASE.NAME"
 msgid "GERM OVERLAY"
-msgstr "細菌透視圖"
+msgstr "疾病透視圖"
 
 #. STRINGS.UI.OVERLAYS.DISEASE.NO_DISEASE
 msgctxt "STRINGS.UI.OVERLAYS.DISEASE.NO_DISEASE"
@@ -72604,7 +72602,7 @@ msgid ""
 "\n"
 "Use in case of emergency"
 msgstr ""
-"複製人會乎略時間表與基礎需求去工作\n"
+"複製人會忽略時間表與基礎需求去工作\n"
 "\n"
 "用在緊急情況"
 
@@ -73782,7 +73780,7 @@ msgid ""
 "Filtered Gas Output:\n"
 "{0}"
 msgstr ""
-"過濾氣體出氣口：\n"
+"過濾氣體輸出：\n"
 "{0}"
 
 #. STRINGS.UI.UISIDESCREENS.FILTERSIDESCREEN.FILTEREDELEMENT.LIQUID
@@ -73791,7 +73789,7 @@ msgid ""
 "Filtered Liquid Output:\n"
 "{0}"
 msgstr ""
-"過濾液體出水口：\n"
+"過濾液體輸出：\n"
 "{0}"
 
 #. STRINGS.UI.UISIDESCREENS.FILTERSIDESCREEN.FILTEREDELEMENT.SOLID
@@ -73800,7 +73798,7 @@ msgid ""
 "Filtered Solid Output:\n"
 "{0}"
 msgstr ""
-"過濾固體輸出口：\n"
+"過濾固體輸出：\n"
 "{0}"
 
 #. STRINGS.UI.UISIDESCREENS.FILTERSIDESCREEN.NO_SELECTION
@@ -73836,7 +73834,7 @@ msgstr "出口 2"
 #. STRINGS.UI.UISIDESCREENS.FILTERSIDESCREEN.TITLE
 msgctxt "STRINGS.UI.UISIDESCREENS.FILTERSIDESCREEN.TITLE"
 msgid "Filter Outputs"
-msgstr "過濾器出口"
+msgstr "過濾器輸出"
 
 #. STRINGS.UI.UISIDESCREENS.FILTERSIDESCREEN.UNFILTEREDELEMENTS.GAS
 msgctxt "STRINGS.UI.UISIDESCREENS.FILTERSIDESCREEN.UNFILTEREDELEMENTS.GAS"
@@ -73844,7 +73842,7 @@ msgid ""
 "Gas Output:\n"
 "All"
 msgstr ""
-"出氣口：\n"
+"氣體輸出：\n"
 "全部"
 
 #. STRINGS.UI.UISIDESCREENS.FILTERSIDESCREEN.UNFILTEREDELEMENTS.LIQUID
@@ -73853,7 +73851,7 @@ msgid ""
 "Liquid Output:\n"
 "All"
 msgstr ""
-"出水口：\n"
+"液體輸出：\n"
 "全部"
 
 #. STRINGS.UI.UISIDESCREENS.FILTERSIDESCREEN.UNFILTEREDELEMENTS.SOLID
@@ -73862,13 +73860,13 @@ msgid ""
 "Solid Output:\n"
 "All"
 msgstr ""
-"固體輸出口：\n"
+"固體輸出：\n"
 "全部"
 
 #. STRINGS.UI.UISIDESCREENS.GENESHUFFLERSIDESREEN.BUTTON
 msgctxt "STRINGS.UI.UISIDESCREENS.GENESHUFFLERSIDESREEN.BUTTON"
 msgid "Complete Neural Process"
-msgstr "完成神經處理"
+msgstr "神經振盪完成"
 
 #. STRINGS.UI.UISIDESCREENS.GENESHUFFLERSIDESREEN.BUTTON_RECHARGE
 msgctxt "STRINGS.UI.UISIDESCREENS.GENESHUFFLERSIDESREEN.BUTTON_RECHARGE"

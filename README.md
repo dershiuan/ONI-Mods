@@ -1,7 +1,7 @@
 # dershiuan's Mods for Oxygen Not Include
 
 ## Tested
-* Game version: **AP-410209-D**
+* Game version: **CS-444839-D**
 * Environment: **Windows 10, .Net Framework 4.8**
 
 
