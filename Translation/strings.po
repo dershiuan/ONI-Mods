@@ -741,9 +741,6 @@ msgid "Destination Out Of Range"
 msgstr "目的地超出距離"
 
 #. STRINGS.BUILDING.STATUSITEMS.DESTINATIONOUTOFRANGE.TOOLTIP
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.DESTINATIONOUTOFRANGE.TOOLTIP"
-#| msgid ""
-#| "This rocket lacks the range to reach its destination {Range} / {Distance}"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.DESTINATIONOUTOFRANGE.TOOLTIP"
 msgid ""
 "This rocket lacks the range to reach its destination\n"
@@ -3025,7 +3022,7 @@ msgid ""
 "This port is idle because there is no rocket on the connected <link="
 "\"LAUNCHPLATFORM\">Rocket Platform</link>"
 msgstr ""
-"此儲存槽閒置，因為沒有火箭停靠此 <link=\"LAUNCHPLATFORM\">火箭平台</link>"
+"此貨港閒置，因為沒有火箭停靠此 <link=\"LAUNCHPLATFORM\">火箭平台</link>"
 
 #. STRINGS.BUILDING.STATUSITEMS.ROCKET_PORT_LOADED.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.ROCKET_PORT_LOADED.NAME"
@@ -8943,7 +8940,7 @@ msgid ""
 "the <b><style=\"logic_on\">Green Signal</style></b> did not last long enough."
 msgstr ""
 "如果收到 <b><style=\"logic_on\">綠色訊號</style></b> 的時間，比計時器所設定的"
-"時間長，則只會發出 <b><style=\"logic_on\">>綠色訊號</style></b>\n"
+"時間長，則只會發出 <b><style=\"logic_on\">綠色訊號</style></b>\n"
 "\n"
 "如果收到 <b><style=\"logic_on\">綠色訊號</style></b> 的時間不夠長，會持續發"
 "出 <b><style=\"logic_off\">紅色訊號</style></b>。"
@@ -12493,8 +12490,8 @@ msgid ""
 "Sends a <b><style=\"logic_on\">Green Signal</style></b> when reservoir is "
 "less than <b>{0}%</b> full, until it is <b>{1}% (High Threshold)</b> full"
 msgstr ""
-"當電量少於 <b>{0}%</b>時會發出 <b><style=\"logic_on\">綠色訊號</style></b>，"
-"直到電量達到 <b>{1}%（高門檻）</b>為止"
+"當存量少於 <b>{0}%</b>時會發出 <b><style=\"logic_on\">綠色訊號</style></b>，"
+"直到存量達到 <b>{1}%（高門檻）</b>為止"
 
 #. STRINGS.BUILDINGS.PREFABS.SMARTRESERVOIR.DEACTIVATE_TOOLTIP
 msgctxt "STRINGS.BUILDINGS.PREFABS.SMARTRESERVOIR.DEACTIVATE_TOOLTIP"
@@ -12502,13 +12499,13 @@ msgid ""
 "Sends a <b><style=\"logic_off\">Red Signal</style></b> when reservoir is "
 "<b>{0}%</b> full, until it is less than <b>{1}% (Low Threshold)</b> full"
 msgstr ""
-"當電量在 <b>{0}%</b> 時會發出 <b><style=\"logic_off\">紅色訊號</style></b>，"
-"直到電量低於 <b>{1}%（低門檻）</b>為止"
+"當存量達到 <b>{0}%</b> 時會發出 <b><style=\"logic_off\">紅色訊號</style></"
+"b>，直到存量低於 <b>{1}%（低門檻）</b>為止"
 
 #. STRINGS.BUILDINGS.PREFABS.SMARTRESERVOIR.LOGIC_PORT
 msgctxt "STRINGS.BUILDINGS.PREFABS.SMARTRESERVOIR.LOGIC_PORT"
 msgid "Refill Parameters"
-msgstr "充電參數"
+msgstr "補充參數"
 
 #. STRINGS.BUILDINGS.PREFABS.SMARTRESERVOIR.LOGIC_PORT_ACTIVE
 msgctxt "STRINGS.BUILDINGS.PREFABS.SMARTRESERVOIR.LOGIC_PORT_ACTIVE"
@@ -12517,8 +12514,8 @@ msgid ""
 "less than <b>Low Threshold</b> full, until <b>High Threshold</b> is reached "
 "again"
 msgstr ""
-"當電量少於 <b>低門檻</b> 時會發出 <b><style=\"logic_on\">綠色訊號</style></"
-"b>，並充電直到電量達到 <b>高門檻</b> 為止"
+"當存量少於 <b>低門檻</b> 時會發出 <b><style=\"logic_on\">綠色訊號</style></"
+"b>，直到存量再次達到 <b>高門檻</b> 為止"
 
 #. STRINGS.BUILDINGS.PREFABS.SMARTRESERVOIR.LOGIC_PORT_INACTIVE
 msgctxt "STRINGS.BUILDINGS.PREFABS.SMARTRESERVOIR.LOGIC_PORT_INACTIVE"
@@ -12526,8 +12523,8 @@ msgid ""
 "Sends a <b><style=\"logic_off\">Red Signal</style></b> when reservoir is "
 "<b>High Threshold</b> full, until <b>Low Threshold</b> is reached again"
 msgstr ""
-"當電量大於 <b>高門檻</b> 時會發出 <b><style=\"logic_off\">紅色訊號</style></"
-"b>，並在電低於 <b>低門檻</b> 時開始充電"
+"當存量達到 <b>高門檻</b> 時會發出 <b><style=\"logic_off\">紅色訊號</style></"
+"b>，直到存量再次達到 <b>低門檻</b>"
 
 #. STRINGS.BUILDINGS.PREFABS.SMARTRESERVOIR.SIDESCREEN_ACTIVATE
 msgctxt "STRINGS.BUILDINGS.PREFABS.SMARTRESERVOIR.SIDESCREEN_ACTIVATE"
@@ -22211,7 +22208,7 @@ msgstr "在第 100 周期前，複製人吃掉 400,000 大卡的動物肉。"
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.EQUIP_N_DUPES
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.EQUIP_N_DUPES"
 msgid "And Nowhere to Go"
-msgstr "無處可去"
+msgstr "無處可逃"
 
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.EQUIP_N_DUPES_DESCRIPTION
 msgctxt ""
@@ -22222,7 +22219,7 @@ msgstr "有 {0} 複製人穿著非預設服裝。"
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.EXOSUIT_CYCLES
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.EXOSUIT_CYCLES"
 msgid "Job Suitability"
-msgstr "工作適應力"
+msgstr "工作適當"
 
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.EXOSUIT_CYCLES_DESCRIPTION
 msgctxt ""
@@ -24176,6 +24173,18 @@ msgstr "<link=\"LIQUIDCARBONDIOXIDE\">二氧化碳</link> 定期噴發的高壓�
 msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.LIQUID_CO2.NAME"
 msgid "<link=\"GEYSERGENERICLIQUIDCO2\">Carbon Dioxide Geyser</link>"
 msgstr "<link=\"GEYSERGENERICLIQUIDCO2\">二氧化碳噴泉</link>"
+
+#. STRINGS.CREATURES.SPECIES.GEYSER.LIQUID_SULFUR.DESC
+msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.LIQUID_SULFUR.DESC"
+msgid ""
+"A highly pressurized geyser that periodically erupts with boiling <link="
+"\"LIQUIDSULFUR\">Sulfur</link>."
+msgstr "熱 <link=\"LIQUIDSULFUR\">硫磺</link> 定期噴發的高壓噴泉。"
+
+#. STRINGS.CREATURES.SPECIES.GEYSER.LIQUID_SULFUR.NAME
+msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.LIQUID_SULFUR.NAME"
+msgid "<link=\"GEYSERGENERICLIQUIDSULFUR\">Liquid Sulfur Geyser</link>"
+msgstr "<link=\"GEYSERGENERICLIQUIDSULFUR\">液態硫磺噴泉</link>"
 
 #. STRINGS.CREATURES.SPECIES.GEYSER.METHANE.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.METHANE.DESC"
@@ -31281,6 +31290,16 @@ msgctxt "STRINGS.DUPLICANTS.DEATHS.COMBAT.NAME"
 msgid "Slain"
 msgstr "被殺死的"
 
+#. STRINGS.DUPLICANTS.DEATHS.DEADBATTERY.DESCRIPTION
+msgctxt "STRINGS.DUPLICANTS.DEATHS.DEADBATTERY.DESCRIPTION"
+msgid "{Target} had a limited battery and that battery has depleted."
+msgstr "{Target} 電池電量有限且已耗盡。"
+
+#. STRINGS.DUPLICANTS.DEATHS.DEADBATTERY.NAME
+msgctxt "STRINGS.DUPLICANTS.DEATHS.DEADBATTERY.NAME"
+msgid "Battery Ran Out"
+msgstr "電池耗盡"
+
 #. STRINGS.DUPLICANTS.DEATHS.DROWNED.DESCRIPTION
 msgctxt "STRINGS.DUPLICANTS.DEATHS.DROWNED.DESCRIPTION"
 msgid "{Target} has drowned."
@@ -33651,7 +33670,7 @@ msgstr ""
 #. STRINGS.DUPLICANTS.MODIFIERS.MAJORIRRITATION.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.MAJORIRRITATION.NAME"
 msgid "Major Skin Irritation"
-msgstr "主要皮膚刺激"
+msgstr "重度皮膚刺激"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.MAJORIRRITATION.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.MAJORIRRITATION.TOOLTIP"
@@ -36921,7 +36940,7 @@ msgstr ""
 #. STRINGS.DUPLICANTS.STATUSITEMS.GASLIQUIDEXPOSURE.TOOLTIP_EXPOSED
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.GASLIQUIDEXPOSURE.TOOLTIP_EXPOSED"
 msgid "Current exposure to {element} is {rate} eye irritation"
-msgstr "目前曝露於 {element} 中眼睛受到 {rate} 的刺激"
+msgstr "目前曝露於 {element} 中眼睛受到的刺激 {rate} "
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.GASLIQUIDEXPOSURE.TOOLTIP_EXPOSURE_LEVEL
 msgctxt ""
@@ -37383,7 +37402,7 @@ msgstr "此複製人沒有東西吃"
 #. STRINGS.DUPLICANTS.STATUSITEMS.NOROLE.NAME
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.NOROLE.NAME"
 msgid "No Job"
-msgstr "沒有職業"
+msgstr "沒有工作"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.NOROLE.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.NOROLE.TOOLTIP"
@@ -37529,7 +37548,7 @@ msgid ""
 msgstr ""
 "此複製人的生活品質下降\n"
 "\n"
-"改善設施與增加 <style=\"KKeyword\"休息時間</style> 有助於提升他們的 <style="
+"改善設施與增加 <style=\"KKeyword\">休息時間</style> 有助於提升他們的 <style="
 "\"KKeyword\">士氣</style>"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.PROCESSING.NAME
@@ -38093,12 +38112,12 @@ msgstr ""
 #. STRINGS.DUPLICANTS.STATUSITEMS.STRESSED.NAME
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.STRESSED.NAME"
 msgid "Stressed"
-msgstr "受壓迫"
+msgstr "壓力過大"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.STRESSED.NOTIFICATION_NAME
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.STRESSED.NOTIFICATION_NAME"
 msgid "High stress"
-msgstr "高壓力"
+msgstr "壓力過大"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.STRESSED.NOTIFICATION_TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.STRESSED.NOTIFICATION_TOOLTIP"
@@ -38723,7 +38742,7 @@ msgstr "炸廚房"
 #. STRINGS.DUPLICANTS.TRAITS.DECORDOWN.DESC
 msgctxt "STRINGS.DUPLICANTS.TRAITS.DECORDOWN.DESC"
 msgid "This Duplicant's clearly never heard of ironing"
-msgstr "此複製人很明顯不會熨燙衣服"
+msgstr "此複製人很明顯不會燙衣服"
 
 #. STRINGS.DUPLICANTS.TRAITS.DECORDOWN.NAME
 msgctxt "STRINGS.DUPLICANTS.TRAITS.DECORDOWN.NAME"
@@ -38760,7 +38779,7 @@ msgstr "此複製人無法自己從紙袋挖洞逃出來"
 #. STRINGS.DUPLICANTS.TRAITS.DIGGINGDOWN.NAME
 msgctxt "STRINGS.DUPLICANTS.TRAITS.DIGGINGDOWN.NAME"
 msgid "Undigging"
-msgstr "不會挖洞"
+msgstr "挖掘苦手"
 
 #. STRINGS.DUPLICANTS.TRAITS.DIVERSLUNG.DESC
 msgctxt "STRINGS.DUPLICANTS.TRAITS.DIVERSLUNG.DESC"
@@ -40253,7 +40272,7 @@ msgstr "逼迫自己"
 #. STRINGS.DUPLICANTS.TRAITS.THRIVER.SHORT_DESC
 msgctxt "STRINGS.DUPLICANTS.TRAITS.THRIVER.SHORT_DESC"
 msgid "Attribute bonuses while stressed"
-msgstr "壓力過大是獲得屬性加成"
+msgstr "壓力過大時獲得屬性加成"
 
 #. STRINGS.DUPLICANTS.TRAITS.THRIVER.SHORT_DESC_TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.TRAITS.THRIVER.SHORT_DESC_TOOLTIP"
@@ -45263,8 +45282,8 @@ msgid ""
 "The mixture of berries creates a fragrant, colorful filling that packs a "
 "sweet punch."
 msgstr ""
-"主要由 <link=\"WORMSUPERFRUIT\">燈籠草果實</link> 與 <link=\"PRICKLEFRUIT"
-"\">Gristle 漿果</link> 製成的漿果派。\n"
+"主要由 <link=\"WORMSUPERFRUIT\">燈籠草果實</link> 與 <link=\"PRICKLEFRUIT\">"
+"鬃果</link> 製成的漿果派。\n"
 "\n"
 "混合了多種漿果，填滿了多彩香甜的餡料。"
 
@@ -45379,7 +45398,7 @@ msgid ""
 "\n"
 "Unsurprisingly, it tastes a bit fishy."
 msgstr ""
-"用新鮮的 <style=\"PACU\">帕庫</style> 所料理的 <link=\"FISHMEAT\">魚片</"
+"用新鮮的 <link=\"PACU\">帕庫</link> 所料理的 <link=\"FISHMEAT\">魚片</"
 "link>。\n"
 "\n"
 "不出所料，嘗起來有點腥。"
@@ -45387,7 +45406,7 @@ msgstr ""
 #. STRINGS.ITEMS.FOOD.COOKEDFISH.NAME
 msgctxt "STRINGS.ITEMS.FOOD.COOKEDFISH.NAME"
 msgid "<link=\"COOKEDFISH\">Cooked Fish</link>"
-msgstr "<link=\"COOKEDFISH\">熟魚</link>"
+msgstr "<link=\"COOKEDFISH\">烤魚</link>"
 
 #. STRINGS.ITEMS.FOOD.COOKEDFISH.RECIPEDESC
 msgctxt "STRINGS.ITEMS.FOOD.COOKEDFISH.RECIPEDESC"
@@ -45395,8 +45414,7 @@ msgid ""
 "The cooked <link=\"FISHMEAT\">Fillet</link> of a freshly caught <link=\"PACU"
 "\">Pacu</link>."
 msgstr ""
-"用新鮮的 <style=\"KKeyword\">帕庫</style> 所料理的 <link=\"FISHMEAT\">魚片</"
-"link>。"
+"用新鮮的 <link=\"PACU\">帕庫</link> 所料理的 <link=\"FISHMEAT\">魚片</link>。"
 
 #. STRINGS.ITEMS.FOOD.COOKEDMEAT.DESC
 msgctxt "STRINGS.ITEMS.FOOD.COOKEDMEAT.DESC"
@@ -45673,7 +45691,7 @@ msgid ""
 "<link=\"LETTUCE\">Lettuce</link> scrumptiously wilted in the <link="
 "\"GAMMARAYOVEN\">Gamma Ray Oven</link>."
 msgstr ""
-"<link=\"LETTUCE\">生產</link> 在 <link=\"GAMMARAYOVEN\">烤箱</link> 中快速乾"
+"<link=\"LETTUCE\">生菜</link> 在 <link=\"GAMMARAYOVEN\">烤箱</link> 中快速乾"
 "燥。"
 
 #. STRINGS.ITEMS.FOOD.MICROWAVEDLETTUCE.NAME
@@ -45869,8 +45887,7 @@ msgid ""
 "\n"
 "It will never hatch."
 msgstr ""
-"一個打破的 <style=\"KKeyword\">生蛋</style>可用來料理 <link=\"FOOD\">食物</"
-"link>。\n"
+"一個打破的生蛋可用來料理 <link=\"FOOD\">食物</link>。\n"
 "\n"
 "它不能孵化了。"
 
@@ -47799,9 +47816,13 @@ msgstr ""
 "反之不好的生活品質體驗會降低他們的士氣。\n"
 "當士氣低於他們的期望時，複製人的壓力將會增加。\n"
 "\n"
-"當複製人擔任一個職業時，他們的期望會增加，\n"
-"所以必須改善殖民地的生活品質，以保持他們的士氣。\n"
-"在健康狀況可以看到士氣與壓力的概況。"
+"食物、房間、裝飾與娛樂都會影響複製人的士氣。\n"
+"好的生活品質會提升他們的士氣，反之會降低。\n"
+"當複製人的士氣低於期望值時，壓力就會上升。\n"
+"\n"
+"複製人的士氣期望會隨著技能等級一起增加，\n"
+"所以必須改善殖民地的生活品質維持高士氣。\n"
+"在健康狀況面板可查看士氣與壓力的概況。"
 
 #. STRINGS.MISC.NOTIFICATIONS.MORALE.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.MORALE.NAME"
@@ -49537,8 +49558,6 @@ msgid "Precious Rock"
 msgstr "珍貴的岩石"
 
 #. STRINGS.MISC.TAGS.RAILGUNPAYLOADEMPTYABLE
-#| msgctxt "STRINGS.NAMEGEN.DUPLICANT.NAME.NB.TAYLOR"
-#| msgid "Taylor"
 msgctxt "STRINGS.MISC.TAGS.RAILGUNPAYLOADEMPTYABLE"
 msgid "Payload"
 msgstr "星際貨箱"
@@ -55239,7 +55258,6 @@ msgid ""
 msgstr ""
 
 #. STRINGS.SUBWORLDS.WASTELAND.DESC
-#| msgid ""
 msgctxt "STRINGS.SUBWORLDS.WASTELAND.DESC"
 msgid ""
 msgstr ""
@@ -57536,8 +57554,6 @@ msgid "    • {0} total errands"
 msgstr "    • {0} 件工作"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.ALLCHORESDIAGNOSTIC.TOOLTIP_NAME
-#| msgctxt "STRINGS.DUPLICANTS.TRAITS.REFUSES_TO_DO_TASK"
-#| msgid "Cannot do<b>{0} Errands</b>"
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.ALLCHORESDIAGNOSTIC.TOOLTIP_NAME"
 msgid "<b>Errands</b>"
 msgstr "<b>工作</b>"
@@ -57548,15 +57564,11 @@ msgid "Work Time"
 msgstr "工作時間"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.ALLWORKTIMEDIAGNOSTIC.NORMAL
-#| msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.WORK_TIME.NORMAL"
-#| msgid "Time spent working"
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.ALLWORKTIMEDIAGNOSTIC.NORMAL"
 msgid "    • {0} time spent working"
 msgstr "    • {0} 時間用在工作"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.ALLWORKTIMEDIAGNOSTIC.TOOLTIP_NAME
-#| msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.WORK_TIME.ALL_NAME"
-#| msgid "Work Time"
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.ALLWORKTIMEDIAGNOSTIC.TOOLTIP_NAME"
 msgid "<b>Work Time</b>"
 msgstr "<b>工作時間</b>"
@@ -57572,29 +57584,21 @@ msgid "    • Dead battery"
 msgstr "    • 廢電池"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.BATTERYDIAGNOSTIC.LIMITED_CAPACITY
-#| msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.BATTERY.LIMITED_CAPACITY"
-#| msgid "Limited battery capacity relative to power use"
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.BATTERYDIAGNOSTIC.LIMITED_CAPACITY"
 msgid "    • Limited battery capacity relative to power use"
 msgstr "    • 相對於用電量而言，電池的電量是有限的"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.BATTERYDIAGNOSTIC.NONE
-#| msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.BATTERY.NONE"
-#| msgid "No Batteries"
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.BATTERYDIAGNOSTIC.NONE"
 msgid "    • No Batteries built"
 msgstr "    • 無電池"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.BATTERYDIAGNOSTIC.NORMAL
-#| msgctxt "STRINGS.CREATURES.STATUSITEMS.DRYINGOUT.NAME"
-#| msgid "    • Beached"
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.BATTERYDIAGNOSTIC.NORMAL"
 msgid "    • Battery"
 msgstr "    • 電池"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.BATTERYDIAGNOSTIC.TOOLTIP_NAME
-#| msgctxt "STRINGS.UI.UISIDESCREENS.LOGICALARMSIDESCREEN.NAME"
-#| msgid "<b>Name:</b>"
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.BATTERYDIAGNOSTIC.TOOLTIP_NAME"
 msgid "<b>Battery</b>"
 msgstr "<b>電池</b>"
@@ -57620,8 +57624,6 @@ msgid "    • One or more Duplicants are missing a bed"
 msgstr "    • 一個或多個複製人沒有床"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.BEDDIAGNOSTIC.TOOLTIP_NAME
-#| msgctxt "STRINGS.UI.UISIDESCREENS.LOGICALARMSIDESCREEN.NAME"
-#| msgid "<b>Name:</b>"
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.BEDDIAGNOSTIC.TOOLTIP_NAME"
 msgid "<b>Beds</b>"
 msgstr "<b>床</b>"
@@ -57632,29 +57634,21 @@ msgid "Breathability"
 msgstr "含氧量"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.BREATHABILITYDIAGNOSTIC.NORMAL
-#| msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.BREATHABILITY.NORMAL"
-#| msgid "There is currently adequate oxygen available"
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.BREATHABILITYDIAGNOSTIC.NORMAL"
 msgid "    • There is currently adequate oxygen available"
 msgstr "    • 目前有足夠的氧氣"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.BREATHABILITYDIAGNOSTIC.POOR
-#| msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.BREATHABILITY.POOR"
-#| msgid "Oxygen is becoming scarce or low pressure"
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.BREATHABILITYDIAGNOSTIC.POOR"
 msgid "    • Oxygen is becoming scarce or low pressure"
 msgstr "    • 氧氣變得稀少或低壓"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.BREATHABILITYDIAGNOSTIC.SUFFOCATING
-#| msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.BREATHABILITY.SUFFOCATING"
-#| msgid "One or more Duplicants are currently suffocating"
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.BREATHABILITYDIAGNOSTIC.SUFFOCATING"
 msgid "    • One or more Duplicants are currently suffocating"
 msgstr "    • 一個或多個複製人目前呼吸困難"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.BREATHABILITYDIAGNOSTIC.TOOLTIP_NAME
-#| msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.BREATHABILITY.NAME"
-#| msgid "Breathability"
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.BREATHABILITYDIAGNOSTIC.TOOLTIP_NAME"
 msgid "<b>Breathability</b>"
 msgstr "<b>含氧量</b>"
@@ -57670,8 +57664,6 @@ msgid "Decor"
 msgstr "裝飾"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.DECORDIAGNOSTIC.LOW
-#| msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.DECOR.LOW"
-#| msgid "Currently has very low Decor levels"
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.DECORDIAGNOSTIC.LOW"
 msgid "    • Currently has very low Decor levels"
 msgstr "    • 目前的裝飾值很低"
@@ -57692,22 +57684,16 @@ msgid "Entombed"
 msgstr "掩埋"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.ENTOMBEDDIAGNOSTIC.BUILDING_ENTOMBED
-#| msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.ENTOMBED.BUILDING_ENTOMBED"
-#| msgid "One or more buildings are entombed"
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.ENTOMBEDDIAGNOSTIC.BUILDING_ENTOMBED"
 msgid "    • One or more buildings are entombed"
 msgstr "    • 一個或多個建築被掩埋"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.ENTOMBEDDIAGNOSTIC.NORMAL
-#| msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.ENTOMBED.NORMAL"
-#| msgid "No buildings are entombed"
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.ENTOMBEDDIAGNOSTIC.NORMAL"
 msgid "    • No buildings are entombed"
 msgstr "    • 無建築被掩埋"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.ENTOMBEDDIAGNOSTIC.TOOLTIP_NAME
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.ENTOMBED.NAME"
-#| msgid "Entombed"
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.ENTOMBEDDIAGNOSTIC.TOOLTIP_NAME"
 msgid "<b>Entombed</b>"
 msgstr "<b>掩埋</b>"
@@ -57718,43 +57704,31 @@ msgid "Crops"
 msgstr "農作物"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.FARMDIAGNOSTIC.INOPERATIONAL
-#| msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.FARMS.INOPERATIONAL"
-#| msgid "One or more farm plots are inoperable"
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.FARMDIAGNOSTIC.INOPERATIONAL"
 msgid "    • One or more farm plots are inoperable"
 msgstr "    • 一個或多個農田無法運作"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.FARMDIAGNOSTIC.NONE
-#| msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.FARMS.NONE"
-#| msgid "There are no farm plots in the colony"
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.FARMDIAGNOSTIC.NONE"
 msgid "    • There are no farm plots in the colony"
 msgstr "    • 殖民地沒有農田"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.FARMDIAGNOSTIC.NONE_PLANTED
-#| msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.FARMS.NONE_PLANTED"
-#| msgid "No crops planted"
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.FARMDIAGNOSTIC.NONE_PLANTED"
 msgid "    • No crops planted"
 msgstr "    • 無農作物"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.FARMDIAGNOSTIC.NORMAL
-#| msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.FARMS.NORMAL"
-#| msgid "Colony is growing adequate crops"
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.FARMDIAGNOSTIC.NORMAL"
 msgid "    • Colony is growing adequate crops"
 msgstr "    • 殖民地有足夠的農作物"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.FARMDIAGNOSTIC.TOOLTIP_NAME
-#| msgctxt "STRINGS.UI.UISIDESCREENS.LOGICALARMSIDESCREEN.TOOLTIP"
-#| msgid "<b>Tooltip:</b>"
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.FARMDIAGNOSTIC.TOOLTIP_NAME"
 msgid "<b>Crops</b>"
 msgstr "<b>農作物</b>"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.FARMDIAGNOSTIC.WILTING
-#| msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.FARMS.WILTING"
-#| msgid "One or more crops are wilting"
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.FARMDIAGNOSTIC.WILTING"
 msgid "    • One or more crops are wilting"
 msgstr "    • 一個或多個農作物枯萎"
@@ -57765,38 +57739,27 @@ msgid "Flight Status"
 msgstr "飛行狀態"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.FLOATINGROCKETDIAGNOSTIC.NORMAL_FLIGHT
-#| msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.FLOATINGROCKET.NORMAL_FLIGHT"
-#| msgid "Rocket is on its way to destination"
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.FLOATINGROCKETDIAGNOSTIC.NORMAL_FLIGHT"
 msgid "    • Rocket is on its way to destination"
 msgstr "    • 火箭正在前往目的地"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.FLOATINGROCKETDIAGNOSTIC.NORMAL_LANDED
-#| msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.FLOATINGROCKET.NORMAL_LANDED"
-#| msgid "Rocket is landed"
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.FLOATINGROCKETDIAGNOSTIC.NORMAL_LANDED"
 msgid "    • Rocket is landed"
 msgstr "    • 火箭已著陸"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.FLOATINGROCKETDIAGNOSTIC.TOOLTIP_NAME
-#| msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.FLOATINGROCKET.NAME"
-#| msgid "Flight Status"
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.FLOATINGROCKETDIAGNOSTIC.TOOLTIP_NAME"
 msgid "<b>Flight Status</b>"
 msgstr "<b>飛行狀態</b>"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.FLOATINGROCKETDIAGNOSTIC.WARNING_NO_DESTINATION
-#| msgctxt ""
-#| "STRINGS.UI.COLONY_DIAGNOSTICS.FLOATINGROCKET.WARNING_NO_DESTINATION"
-#| msgid "Rocket is floating in space with no destination"
 msgctxt ""
 "STRINGS.UI.COLONY_DIAGNOSTICS.FLOATINGROCKETDIAGNOSTIC.WARNING_NO_DESTINATION"
 msgid "    • Rocket is floating in space with no destination"
 msgstr "    • 火箭漂在太空且沒有目的地"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.FLOATINGROCKETDIAGNOSTIC.WARNING_NO_SPEED
-#| msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.FLOATINGROCKET.WARNING_NO_SPEED"
-#| msgid "Rocket not progressing towards destination"
 msgctxt ""
 "STRINGS.UI.COLONY_DIAGNOSTICS.FLOATINGROCKETDIAGNOSTIC.WARNING_NO_SPEED"
 msgid "    • Rocket not progressing towards destination"
@@ -57808,36 +57771,26 @@ msgid "Food"
 msgstr "食物"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.FOODDIAGNOSTIC.HUNGRY
-#| msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.FOOD.HUNGRY"
-#| msgid "One or more Duplicants are very hungry"
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.FOODDIAGNOSTIC.HUNGRY"
 msgid "    • One or more Duplicants are very hungry"
 msgstr "    • 一個或多個複製人非常飢餓"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.FOODDIAGNOSTIC.LOW_CALORIES
-#| msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.FOOD.LOW_CALORIES"
-#| msgid "Duplicant to food ratio is low"
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.FOODDIAGNOSTIC.LOW_CALORIES"
 msgid "    • Duplicant to food ratio is low"
 msgstr "    • 複製人的食物存量低"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.FOODDIAGNOSTIC.NO_FOOD
-#| msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.FOOD.NO_FOOD"
-#| msgid "This colony has no food"
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.FOODDIAGNOSTIC.NO_FOOD"
 msgid "    • This colony has no food"
 msgstr "    • 殖民地沒有食物"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.FOODDIAGNOSTIC.NORMAL
-#| msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.FOOD.NORMAL"
-#| msgid "Adequate food supply"
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.FOODDIAGNOSTIC.NORMAL"
 msgid "    • Adequate food supply"
 msgstr "    • 食物充足"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.FOODDIAGNOSTIC.TOOLTIP_NAME
-#| msgctxt "STRINGS.UI.UISIDESCREENS.LOGICALARMSIDESCREEN.ZOOM"
-#| msgid "<b>Zoom:</b>"
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.FOODDIAGNOSTIC.TOOLTIP_NAME"
 msgid "<b>Food</b>"
 msgstr "<b>食物</b>"
@@ -57853,22 +57806,16 @@ msgid "Idleness"
 msgstr "閒置"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.IDLEDIAGNOSTIC.IDLE
-#| msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.IDLENESS.IDLE"
-#| msgid "One or more Duplicants are idle"
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.IDLEDIAGNOSTIC.IDLE"
 msgid "    • One or more Duplicants are idle"
 msgstr "    • 一個或多個複製人閒置"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.IDLEDIAGNOSTIC.NORMAL
-#| msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.IDLENESS.NORMAL"
-#| msgid "All Duplicants currently have tasks"
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.IDLEDIAGNOSTIC.NORMAL"
 msgid "    • All Duplicants currently have tasks"
 msgstr "    • 全部的複製人都有任務"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.IDLEDIAGNOSTIC.TOOLTIP_NAME
-#| msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.IDLENESS.NAME"
-#| msgid "Idleness"
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.IDLEDIAGNOSTIC.TOOLTIP_NAME"
 msgid "<b>Idleness</b>"
 msgstr "<b>閒置</b>"
@@ -57880,8 +57827,6 @@ msgid ""
 msgstr "診斷可以在 <b><color=#E5B000>觀看全觀l</color></b> 面板內關掉"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.NO_DATA
-#| msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.NO_DATA"
-#| msgid "Not enough data for evaluation"
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.NO_DATA"
 msgid "    • Not enough data for evaluation"
 msgstr "    • 數據不足無法評估"
@@ -57892,19 +57837,12 @@ msgid "    • No data"
 msgstr "    • 無資料"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.NO_MINIONS
-#| msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.NO_MINIONS"
-#| msgid ""
-#| "There are no Duplicants on this <style=\"KKeyword\">Planetoid</style>"
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.NO_MINIONS"
 msgid ""
 "    • There are no Duplicants on this <style=\"KKeyword\">Planetoid</style>"
 msgstr "    • 此 <style=\"KKeyword\">小行星</style> 上沒有複製人"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.NO_MINIONS_REQUESTED
-#| msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.NO_MINIONS_REQUESTED"
-#| msgid ""
-#| "This diagnostic in not concerned with rockets that don't have their crew "
-#| "requested"
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.NO_MINIONS_REQUESTED"
 msgid ""
 "    • This diagnostic in not concerned with rockets that don't have their "
@@ -57917,22 +57855,16 @@ msgid "Avg Power"
 msgstr "平均電力"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.POWERUSEDIAGNOSTIC.NORMAL
-#| msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.POWER_USE.NORMAL"
-#| msgid "Currently has adequate power supply"
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.POWERUSEDIAGNOSTIC.NORMAL"
 msgid "    • Currently has adequate power supply"
 msgstr "    • 目前有足夠的電力"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.POWERUSEDIAGNOSTIC.OVERLOADED
-#| msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.POWER_USE.OVERLOADED"
-#| msgid "One or more power grids are damaged"
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.POWERUSEDIAGNOSTIC.OVERLOADED"
 msgid "    • One or more power grids are damaged"
 msgstr "    • 一個或多個電力系統受損"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.POWERUSEDIAGNOSTIC.TOOLTIP_NAME
-#| msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.POWER_USE.NAME"
-#| msgid "Avg Power"
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.POWERUSEDIAGNOSTIC.TOOLTIP_NAME"
 msgid "<b>Avg Power</b>"
 msgstr "<b>平均電力</b>"
@@ -57943,22 +57875,16 @@ msgid "Rocket Fuel"
 msgstr "火箭燃料"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.ROCKETFUELDIAGNOSTIC.NORMAL
-#| msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.ROCKETFUEL.NORMAL"
-#| msgid "Rocket has fuel"
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.ROCKETFUELDIAGNOSTIC.NORMAL"
 msgid "    • Rocket has fuel"
 msgstr "    • 火箭有燃料"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.ROCKETFUELDIAGNOSTIC.TOOLTIP_NAME
-#| msgctxt "STRINGS.ELEMENTS.MATERIAL_MODIFIERS.EFFECTS_HEADER"
-#| msgid "<b>Resource Effects:</b>"
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.ROCKETFUELDIAGNOSTIC.TOOLTIP_NAME"
 msgid "<b>Rocket Fuel</b>"
 msgstr "<b>火箭燃料</b>"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.ROCKETFUELDIAGNOSTIC.WARNING
-#| msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.ROCKETFUEL.WARNING"
-#| msgid "Rocket has no fuel"
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.ROCKETFUELDIAGNOSTIC.WARNING"
 msgid "    • Rocket has no fuel"
 msgstr "    • 火箭沒有燃料"
@@ -57969,8 +57895,6 @@ msgid "Rocket Oxidizer"
 msgstr "火箭氧化劑"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.ROCKETOXIDIZERDIAGNOSTIC.NORMAL
-#| msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.ROCKETOXIDIZER.NORMAL"
-#| msgid "Oxidizer requirements met"
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.ROCKETOXIDIZERDIAGNOSTIC.NORMAL"
 msgid "    • Oxidizer requirements met"
 msgstr "    • 需要適合的氧化劑"
@@ -57981,8 +57905,6 @@ msgid "<b>Rocket Oxidizer</b>"
 msgstr "<b>火箭氧化劑</b>"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.ROCKETOXIDIZERDIAGNOSTIC.WARNING
-#| msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.ROCKETOXIDIZER.WARNING"
-#| msgid "Insufficient oxidizer"
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.ROCKETOXIDIZERDIAGNOSTIC.WARNING"
 msgid "    • Insufficient oxidizer"
 msgstr "    • 氧化劑不足"
@@ -57993,22 +57915,16 @@ msgid "Max Stress"
 msgstr "最高壓力"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.STRESSDIAGNOSTIC.HIGH_STRESS
-#| msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.STRESS.HIGH_STRESS"
-#| msgid "One or more Duplicants is suffering from high stress"
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.STRESSDIAGNOSTIC.HIGH_STRESS"
 msgid "    • One or more Duplicants is suffering from high Stress"
 msgstr "    • 一個或多個複製人正承受著高壓力"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.STRESSDIAGNOSTIC.NORMAL
-#| msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.STRESS.NORMAL"
-#| msgid "All Duplicants currently have manageable stress levels"
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.STRESSDIAGNOSTIC.NORMAL"
 msgid "    • All Duplicants currently have manageable stress levels"
 msgstr "    • 全部複製人的壓力都在控制之中"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.STRESSDIAGNOSTIC.TOOLTIP_NAME
-#| msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.STRESS.NAME"
-#| msgid "Max Stress"
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.STRESSDIAGNOSTIC.TOOLTIP_NAME"
 msgid "<b>Max Stress</b>"
 msgstr "<b>最高壓力</b>"
@@ -58019,43 +57935,31 @@ msgid "Toilets"
 msgstr "廁所"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.TOILETDIAGNOSTIC.FEW_TOILETS
-#| msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.TOILETS.FEW_TOILETS"
-#| msgid "Low toilet to Duplicant ratio"
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.TOILETDIAGNOSTIC.FEW_TOILETS"
 msgid "    • Low toilet to Duplicant ratio"
 msgstr "    • 廁所與複製人的比率太低"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.TOILETDIAGNOSTIC.INOPERATIONAL
-#| msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.TOILETS.INOPERATIONAL"
-#| msgid "One or more toilets are out of order"
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.TOILETDIAGNOSTIC.INOPERATIONAL"
 msgid "    • One or more toilets are out of order"
 msgstr "    • 一間或多間廁需要打掃"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.TOILETDIAGNOSTIC.NO_TOILETS
-#| msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.TOILETS.NO_TOILETS"
-#| msgid "Currently has no toilets"
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.TOILETDIAGNOSTIC.NO_TOILETS"
 msgid "    • Currently has no toilets"
 msgstr "    • 目前沒有廁所"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.TOILETDIAGNOSTIC.NO_WORKING_TOILETS
-#| msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.TOILETS.NO_WORKING_TOILETS"
-#| msgid "Currently has no working toilets"
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.TOILETDIAGNOSTIC.NO_WORKING_TOILETS"
 msgid "    • Currently has no working toilets"
 msgstr "    • 目前沒有可用的廁所"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.TOILETDIAGNOSTIC.NORMAL
-#| msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.TOILETS.NORMAL"
-#| msgid "Currently has an adequate amount of toilets"
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.TOILETDIAGNOSTIC.NORMAL"
 msgid "    • Currently has an adequate amount of toilets"
 msgstr "    • 目前有足夠的廁所"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.TOILETDIAGNOSTIC.TOOLTIP_NAME
-#| msgctxt "STRINGS.UI.UISIDESCREENS.LOGICALARMSIDESCREEN.TOOLTIP"
-#| msgid "<b>Tooltip:</b>"
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.TOILETDIAGNOSTIC.TOOLTIP_NAME"
 msgid "<b>Toilets</b>"
 msgstr "<b>廁所</b>"
@@ -58066,15 +57970,11 @@ msgid "Trapped"
 msgstr "受困"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.TRAPPEDDUPLICANTDIAGNOSTIC.NORMAL
-#| msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.TRAPPED.NORMAL"
-#| msgid "No Duplicants are currently trapped"
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.TRAPPEDDUPLICANTDIAGNOSTIC.NORMAL"
 msgid "    • No Duplicants are currently trapped"
 msgstr "    • 目前沒有複製人受困"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.TRAPPEDDUPLICANTDIAGNOSTIC.STUCK
-#| msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.TRAPPED.STUCK"
-#| msgid "One or more Duplicants are trapped"
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.TRAPPEDDUPLICANTDIAGNOSTIC.STUCK"
 msgid "    • One or more Duplicants are trapped"
 msgstr "    • 一個或多個複製人受困"
@@ -58085,22 +57985,16 @@ msgid "<b>Trapped</b>"
 msgstr "<b>受困</b>"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.TRAVEL_TIME.ALL_NAME
-#| msgctxt "STRINGS.UI.ENDOFDAYREPORT.TRAVEL_TIME.NAME"
-#| msgid "Travel Time:"
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.TRAVEL_TIME.ALL_NAME"
 msgid "Travel Time"
 msgstr "旅行時間"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.TRAVEL_TIME.NORMAL
-#| msgctxt "STRINGS.UI.ENDOFDAYREPORT.TRAVEL_TIME.POSITIVE_TOOLTIP"
-#| msgid "On average, {1} spent {0} of their time traveling between tasks"
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.TRAVEL_TIME.NORMAL"
 msgid "    • {0} time spent traveling between tasks"
 msgstr "    • {0} 花在工作之前往返的時間"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.TRAVEL_TIME.TOOLTIP_NAME
-#| msgctxt "STRINGS.UI.ENDOFDAYREPORT.TRAVEL_TIME.NAME"
-#| msgid "Travel Time:"
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.TRAVEL_TIME.TOOLTIP_NAME"
 msgid "<b>Travel Time</b>"
 msgstr "<b>旅行時間</b>"
@@ -59560,45 +59454,74 @@ msgstr "謝謝！"
 #. STRINGS.UI.DEVELOPMENTBUILDS.ALPHA.LOADING.BODY
 msgctxt "STRINGS.UI.DEVELOPMENTBUILDS.ALPHA.LOADING.BODY"
 msgid ""
-"This game is in the early stages of development which means you're likely to "
+"This DLC is currently in active development, which means you're likely to "
 "encounter strange, amusing, and occasionally just downright frustrating "
 "bugs.\n"
 "\n"
-"During this time Oxygen Not Included will be receiving regular updates to "
-"fix bugs, add features, and introduce additional content, so if you "
-"encounter issues or just have suggestions to share, please let us know on "
-"our forums: <u>http://forums.kleientertainment.com</u>\n"
+" During this time Spaced Out! will be receiving regular updates to fix bugs, "
+"add features, and introduce additional content. To stay up-to-date with our "
+"latest plans, report issues, or make suggestions, please join us on the "
+"forums: http://forums.kleientertainment.com\n"
 "\n"
-"A special thanks to those who joined us during our time in Alpha. We value "
-"your feedback and thank you for joining us in the development process. We "
-"couldn't do this without you.\n"
+" We've got lots of content old and new to add to this DLC before it's ready, "
+"and we're happy to have you along with us. Enjoy your time in deep space!\n"
 "\n"
-"Enjoy your time in deep space!\n"
-"\n"
-"- Klei"
+" - The Team at Klei"
 msgstr ""
-"這遊戲目前處於開發的初期階段，這意味著您可能會遇到奇怪的，有趣的，偶爾令人沮"
-"喪的錯誤。\n"
+"DLC 目前處於開發的初期階段，這意味著您可能會遇到奇怪的，有趣的，偶爾令人沮喪"
+"的錯誤。\n"
 "\n"
-"在此期間，我們將會定期更新修復錯誤、加入新機制和新內容，假如您遇到問題或想分"
-"享建議，請在論壇上通知我們：<u>http://forums.kleientertainment.com</u>\n"
+"在 Spaced Out! 期間，我們將會定期更新修復錯誤、加入新機制和新內容。請加入我們"
+"的論壇，留意我們最新的計劃、回報問題或提供建議：<u>http://forums."
+"kleientertainment.com</u>\n"
 "\n"
-"特別感謝那些參與前期測試的夥伴。 我們重視您的反饋，並感謝您加入我們的開發過"
-"程。 沒有你，我們無法做到這一點。\n"
+"在此 DLC 準備好之前，我們還會加入許多舊有與新的內容。\n"
+"我們很高興有你們的陪伴。\n"
 "\n"
 "在浩瀚的太空中享受你的時光！\n"
 "\n"
-"－Klei"
+"－Klei 團隊"
+
+#. STRINGS.UI.DEVELOPMENTBUILDS.ALPHA.LOADING.BODY_NOLINKS
+msgctxt "STRINGS.UI.DEVELOPMENTBUILDS.ALPHA.LOADING.BODY_NOLINKS"
+msgid ""
+"This DLC is currently in active development, which means you're likely to "
+"encounter strange, amusing, and occasionally just downright frustrating "
+"bugs.\n"
+"\n"
+" During this time Spaced Out! will be receiving regular updates to fix bugs, "
+"add features, and introduce additional content.\n"
+"\n"
+" We've got lots of content old and new to add to this DLC before it's ready, "
+"and we're happy to have you along with us. Enjoy your time in deep space!\n"
+"\n"
+" - The Team at Klei"
+msgstr ""
+"DLC 目前正在開發階段，這意味著您可能會遇到奇怪的，有趣的，偶爾令人沮喪的錯"
+"誤。\n"
+"\n"
+"在 Spaced Out! 期間，我們將會定期更新修復錯誤、加入新機制和新內容。\n"
+"\n"
+"在準備好之前，我還有許多新與舊的會加入到此 DLC 中，並很高興有你與我們一起。\n"
+"\n"
+"在浩瀚的太空中享受你的時光！\n"
+"\n"
+"－Klei 團隊"
 
 #. STRINGS.UI.DEVELOPMENTBUILDS.ALPHA.LOADING.CONTINUEBUTTON
 msgctxt "STRINGS.UI.DEVELOPMENTBUILDS.ALPHA.LOADING.CONTINUEBUTTON"
 msgid "Okay, thanks for the heads up!"
 msgstr "好的，感謝提醒！"
 
+#. STRINGS.UI.DEVELOPMENTBUILDS.ALPHA.LOADING.FORUMBUTTON
+msgctxt "STRINGS.UI.DEVELOPMENTBUILDS.ALPHA.LOADING.FORUMBUTTON"
+msgid "Visit Forums"
+msgstr "訪問論壇"
+
 #. STRINGS.UI.DEVELOPMENTBUILDS.ALPHA.LOADING.TITLE
 msgctxt "STRINGS.UI.DEVELOPMENTBUILDS.ALPHA.LOADING.TITLE"
-msgid "<b>Welcome to Oxygen Not Included!</b>"
-msgstr "<b>歡迎來到缺氧！</b>"
+msgid "<b>Welcome to <i>Spaced Out!</i></b>"
+msgstr "<b>歡迎來到 <i>Spaced Out!</i></b>"
 
 #. STRINGS.UI.DEVELOPMENTBUILDS.ALPHA.MESSAGES.FEEDBACK
 msgctxt "STRINGS.UI.DEVELOPMENTBUILDS.ALPHA.MESSAGES.FEEDBACK"
@@ -59702,8 +59625,6 @@ msgid "BUILD: {0}"
 msgstr "版本：{0}"
 
 #. STRINGS.UI.DIAGNOSTICS_SCREEN.CLICK_TOGGLE_MESSAGE.ALERT_ONLY
-#| msgctxt "STRINGS.UI.DIAGNOSTICS_SCREEN.CLICK_TOGGLE_MESSAGE.ALERT_ONLY"
-#| msgid "Click to make this diagnostic visible on <b>alert only</b>"
 msgctxt "STRINGS.UI.DIAGNOSTICS_SCREEN.CLICK_TOGGLE_MESSAGE.ALERT_ONLY"
 msgid ""
 "\n"
@@ -59715,8 +59636,6 @@ msgstr ""
 "點擊將診斷改為 <b>僅在警報時顯示</b>"
 
 #. STRINGS.UI.DIAGNOSTICS_SCREEN.CLICK_TOGGLE_MESSAGE.ALWAYS
-#| msgctxt "STRINGS.UI.DIAGNOSTICS_SCREEN.CLICK_TOGGLE_MESSAGE.ALWAYS"
-#| msgid "Click to pin this diagnostic - making it <b>always visible</b>"
 msgctxt "STRINGS.UI.DIAGNOSTICS_SCREEN.CLICK_TOGGLE_MESSAGE.ALWAYS"
 msgid ""
 "\n"
@@ -63069,7 +62988,7 @@ msgstr ""
 "查看完整更新記錄以了解更多細節！\n"
 "\n"
 "翻譯：古靈精怪\n"
-"版本：EX1-444834-D-REV-2"
+"版本：EX1-445987-D-REV-2"
 
 #. STRINGS.UI.FRONTEND.MOTD.UPDATE_TEXT
 msgctxt "STRINGS.UI.FRONTEND.MOTD.UPDATE_TEXT"
@@ -65506,7 +65425,7 @@ msgstr "精煉"
 #. STRINGS.UI.NEWBUILDCATEGORIES.REFINING.TOOLTIP
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.REFINING.TOOLTIP"
 msgid "Use the resources you want, filter the ones you don't. {Hotkey}"
-msgstr "使用你要的資源，濾掉你不要的。{Hotkey}"
+msgstr "使用需要的資源，濾掉不需要的。{Hotkey}"
 
 #. STRINGS.UI.NEWBUILDCATEGORIES.RESEARCH.BUILDMENUTITLE
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.RESEARCH.BUILDMENUTITLE"
@@ -65935,7 +65854,7 @@ msgid ""
 "disease spread"
 msgstr ""
 "<b>細菌來源</b>\n"
-"細菌產生的區域\n"
+"細菌滋生的區域\n"
 "* 放置洗手盆或手部消毒機可預防疾病傳播"
 
 #. STRINGS.UI.OVERLAYS.DISEASE.NAME
@@ -66257,8 +66176,8 @@ msgid ""
 "------------------\n"
 "Duplicants can regulate their internal temperatures in these areas"
 msgstr ""
-"<b>舒適區</b>\n"
-"舒適的區域\n"
+"<b>舒適區域</b>\n"
+"溫度舒適的區域\n"
 "------------------\n"
 "複製人在此環境中，可以調節他們的體溫"
 
@@ -72974,6 +72893,16 @@ msgctxt "STRINGS.UI.UISIDESCREENS.ASSIGNABLESIDESCREEN.UNASSIGNED"
 msgid "-"
 msgstr "-"
 
+#. STRINGS.UI.UISIDESCREENS.ASSIGNMENTGROUPCONTROLLER.OFFWORLD
+msgctxt "STRINGS.UI.UISIDESCREENS.ASSIGNMENTGROUPCONTROLLER.OFFWORLD"
+msgid "Offworld"
+msgstr "殖民星"
+
+#. STRINGS.UI.UISIDESCREENS.ASSIGNMENTGROUPCONTROLLER.PILOT
+msgctxt "STRINGS.UI.UISIDESCREENS.ASSIGNMENTGROUPCONTROLLER.PILOT"
+msgid "Pilot"
+msgstr "駕駛員"
+
 #. STRINGS.UI.UISIDESCREENS.ASSIGNMENTGROUPCONTROLLER.TITLE
 msgctxt "STRINGS.UI.UISIDESCREENS.ASSIGNMENTGROUPCONTROLLER.TITLE"
 msgid "Duplicant Assignment"
@@ -74526,6 +74455,11 @@ msgstr ""
 "\n"
 "某些模組可能需要選擇特定的位置部署"
 
+#. STRINGS.UI.UISIDESCREENS.MODULEFLIGHTUTILITYSIDESCREEN.PILOT_FMT
+msgctxt "STRINGS.UI.UISIDESCREENS.MODULEFLIGHTUTILITYSIDESCREEN.PILOT_FMT"
+msgid "{0} - Pilot"
+msgstr "{0}－駕駛員"
+
 #. STRINGS.UI.UISIDESCREENS.MODULEFLIGHTUTILITYSIDESCREEN.REPEAT_BUTTON_TOOLTIP
 msgctxt ""
 "STRINGS.UI.UISIDESCREENS.MODULEFLIGHTUTILITYSIDESCREEN.REPEAT_BUTTON_TOOLTIP"
@@ -74533,6 +74467,12 @@ msgid ""
 "Automatically deploy this module's contents when a destination orbit is "
 "reached."
 msgstr "當到達目的地的軌道時自動部署此模組的內容物。"
+
+#. STRINGS.UI.UISIDESCREENS.MODULEFLIGHTUTILITYSIDESCREEN.SELECT_DUPLICANT
+msgctxt ""
+"STRINGS.UI.UISIDESCREENS.MODULEFLIGHTUTILITYSIDESCREEN.SELECT_DUPLICANT"
+msgid "Select Duplicant..."
+msgstr "選擇複製人…"
 
 #. STRINGS.UI.UISIDESCREENS.MODULEFLIGHTUTILITYSIDESCREEN.TITLE
 msgctxt "STRINGS.UI.UISIDESCREENS.MODULEFLIGHTUTILITYSIDESCREEN.TITLE"
@@ -78376,20 +78316,20 @@ msgstr "冰雪行星"
 #. STRINGS.WORLDS.IDEALLANDINGSITE.DESCRIPTION
 msgctxt "STRINGS.WORLDS.IDEALLANDINGSITE.DESCRIPTION"
 msgid ""
-"An idyllic location with a balanced variety of life-sustaining resources.\n"
+"A mid-sized sandstone and forest world with significant radiation.\n"
 "\n"
-"<smallcaps>Edenia Asteroids have everything necessary to support life and "
-"can harbor a small, self-sustaining colony.</smallcaps>"
+"<smallcaps>Irradiated Forest Asteroids have an abundance of metal for the "
+"taking if Duplicants can withstand the planetoid's radiation.</smallcaps>"
 msgstr ""
-"一個悠閒的地點，有各種維持生命的資源。\n"
+"一個中型的沙岩與森林世界，有著大量的輻射。\n"
 "\n"
-"<smallcaps>伊甸小行星有各種維持生命所需要資源，\n"
-"可建立一個自我維持的小型殖民地。</smallcaps>"
+"<smallcaps>輻射森林小行星，如果複製人能承受此小行星的輻射，就能取得所需的金"
+"屬。</smallcaps>"
 
 #. STRINGS.WORLDS.IDEALLANDINGSITE.NAME
 msgctxt "STRINGS.WORLDS.IDEALLANDINGSITE.NAME"
-msgid "Edenia Asteroid"
-msgstr "伊甸小行星"
+msgid "Irradiated Forest Asteroid"
+msgstr "輻射森林小行星"
 
 #. STRINGS.WORLDS.MARSHYMOONLET.DESCRIPTION
 msgctxt "STRINGS.WORLDS.MARSHYMOONLET.DESCRIPTION"
@@ -78409,6 +78349,24 @@ msgstr ""
 msgctxt "STRINGS.WORLDS.MARSHYMOONLET.NAME"
 msgid "Marshy Asteroid"
 msgstr "泥沼小行星"
+
+#. STRINGS.WORLDS.METALHEAVYLANDINGSITE.DESCRIPTION
+msgctxt "STRINGS.WORLDS.METALHEAVYLANDINGSITE.DESCRIPTION"
+msgid ""
+"A marshy world with significant radiation.\n"
+"\n"
+"<smallcaps>Irradiated Marsh Asteroids have an abundance of metal for the "
+"taking if Duplicants can withstand the planetoid's radiation.</smallcaps>"
+msgstr ""
+"一個沼澤世界，有著大量的輻射。\n"
+"\n"
+"<smallcaps>輻射沼澤小行星，如果複製人能承受此小行星的輻射，就能取得所需的金"
+"屬。</smallcaps>"
+
+#. STRINGS.WORLDS.METALHEAVYLANDINGSITE.NAME
+msgctxt "STRINGS.WORLDS.METALHEAVYLANDINGSITE.NAME"
+msgid "Irradiated Marsh Asteroid"
+msgstr "輻射沼澤小行星"
 
 #. STRINGS.WORLDS.MOON_BARREN.DESCRIPTION
 msgctxt "STRINGS.WORLDS.MOON_BARREN.DESCRIPTION"
@@ -78492,6 +78450,23 @@ msgctxt "STRINGS.WORLDS.OCEANIA.NAME"
 msgid "Oceania"
 msgstr "海洋行星"
 
+#. STRINGS.WORLDS.OILRICHWARPTARGET.DESCRIPTION
+msgctxt "STRINGS.WORLDS.OILRICHWARPTARGET.DESCRIPTION"
+msgid ""
+"A rusty mid-sized world with an oily core.\n"
+"\n"
+"<smallcaps>Duplicants must sift through a great deal of rust and ocean to "
+"reach the prize of this planetoid's oil.</smallcaps>"
+msgstr ""
+"一個中型的鐵鏽世界，有著原油核心。\n"
+"\n"
+"<smallcaps>複製人必須穿過大量的鐵鏽與海洋才能取得此小行星的原油。</smallcaps>"
+
+#. STRINGS.WORLDS.OILRICHWARPTARGET.NAME
+msgctxt "STRINGS.WORLDS.OILRICHWARPTARGET.NAME"
+msgid "Rusty Oil Asteroid"
+msgstr "鐵鏽原油小行星"
+
 #. STRINGS.WORLDS.OILYMOONLET.DESCRIPTION
 msgctxt "STRINGS.WORLDS.OILYMOONLET.DESCRIPTION"
 msgid ""
@@ -78510,16 +78485,6 @@ msgstr ""
 msgctxt "STRINGS.WORLDS.OILYMOONLET.NAME"
 msgid "Viscosia Asteroid"
 msgstr "原油小行星"
-
-#. STRINGS.WORLDS.OILYSWAMP.DESCRIPTION
-msgctxt "STRINGS.WORLDS.OILYSWAMP.DESCRIPTION"
-msgid "..."
-msgstr "…"
-
-#. STRINGS.WORLDS.OILYSWAMP.NAME
-msgctxt "STRINGS.WORLDS.OILYSWAMP.NAME"
-msgid "Oily Swamp Asteroid"
-msgstr "原油沼澤小行星"
 
 #. STRINGS.WORLDS.SANDSTONE_DEFAULT.DESCRIPTION
 msgctxt "STRINGS.WORLDS.SANDSTONE_DEFAULT.DESCRIPTION"
@@ -78665,15 +78630,14 @@ msgstr "渺茫"
 #. STRINGS.WORLDS.SWAMPMOONLET.DESCRIPTION
 msgctxt "STRINGS.WORLDS.SWAMPMOONLET.DESCRIPTION"
 msgid ""
-"A pint-sized polluted planetoid.\n"
+"A huge, polluted swamp planetoid.\n"
 "\n"
-"<smallcaps>Swampy Asteroids have a wealth of raw resources, but they'll need "
-"to be refined to produce useful fuel and building materials.</smallcaps>"
+"<smallcaps>Swampy Asteroids are a great mass of frozen slush and wasteland.</"
+"smallcaps>"
 msgstr ""
-"受汙染的泥澤小行星。\n"
+"一個巨大受汙染的泥澤小行星。\n"
 "\n"
-"<smallcaps>泥澤小行星有豐富的原始資源，但它們需要精煉才能成為有用的燃料與建築"
-"材料。</smallcaps>"
+"<smallcaps>泥澤小行星是一個有大量冰凍泥漿與荒地的地方。</smallcaps>"
 
 #. STRINGS.WORLDS.SWAMPMOONLET.NAME
 msgctxt "STRINGS.WORLDS.SWAMPMOONLET.NAME"
@@ -78691,13 +78655,13 @@ msgid ""
 msgstr ""
 "一個各種資源平衡的小世界。\n"
 "\n"
-"<smallcaps>陸地小行星有各種所需資源可將殖民地建立在一個小地方。離地表距離較"
+"<smallcaps>類地小行星有各種所需資源可將殖民地建立在一個小地方。離地表距離較"
 "短，可在短時間內實現星際旅行。</smallcaps>"
 
 #. STRINGS.WORLDS.TERRAMOONLET.NAME
 msgctxt "STRINGS.WORLDS.TERRAMOONLET.NAME"
 msgid "Terra Asteroid"
-msgstr "陸地小行星"
+msgstr "類地小行星"
 
 #. STRINGS.WORLDS.THE_ROCK.DESCRIPTION
 msgctxt "STRINGS.WORLDS.THE_ROCK.DESCRIPTION"
@@ -78824,3 +78788,20 @@ msgstr ""
 msgctxt "STRINGS.WORLDS.VOLCANIC.NAME"
 msgid "Volcanea"
 msgstr "火山世界"
+
+#. STRINGS.WORLDS.WARPOILYSWAMP.DESCRIPTION
+msgctxt "STRINGS.WORLDS.WARPOILYSWAMP.DESCRIPTION"
+msgid ""
+"A partially frozen world with an oily core.\n"
+"\n"
+"<smallcaps>While Oily Swamp Asteroids are largely swampy, they also contain "
+"a great deal of rust.</smallcaps>"
+msgstr ""
+"一個部分凍結的世界，有著原油核心\n"
+"\n"
+"<smallcaps>整個原油沼澤小行星是大型的沼澤地帶，也有著大量的鐵鏽。</smallcaps>"
+
+#. STRINGS.WORLDS.WARPOILYSWAMP.NAME
+msgctxt "STRINGS.WORLDS.WARPOILYSWAMP.NAME"
+msgid "Oily Swamp Asteroid"
+msgstr "原油沼澤小行星"
