@@ -209,7 +209,7 @@ msgstr "需要更多的廢棄物才能開始堆肥"
 #. STRINGS.BUILDING.STATUSITEMS.BAITED.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.BAITED.NAME"
 msgid "{0} Bait"
-msgstr "{0} 吃餌"
+msgstr "{0} 誘餌"
 
 #. STRINGS.BUILDING.STATUSITEMS.BAITED.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.BAITED.TOOLTIP"
@@ -218,9 +218,9 @@ msgid ""
 "\n"
 "Bait material is set during the construction of the building"
 msgstr ""
-"{0} 吃了誘餌\n"
+"使用 {0} 作為誘餌\n"
 "\n"
-"在建築的設立期間投放誘餌"
+"在此建築的設立期間投放誘餌"
 
 #. STRINGS.BUILDING.STATUSITEMS.BATTERIESSUFFICIENTLYFULL.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.BATTERIESSUFFICIENTLYFULL.NAME"
@@ -230,7 +230,7 @@ msgstr "電池充滿了"
 #. STRINGS.BUILDING.STATUSITEMS.BATTERIESSUFFICIENTLYFULL.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.BATTERIESSUFFICIENTLYFULL.TOOLTIP"
 msgid "All batteries are above the refill threshold"
-msgstr "所有電池都高於充電閾值"
+msgstr "所有電池都高於充電門檻"
 
 #. STRINGS.BUILDING.STATUSITEMS.BOTTLE_EMPTIER.ALLOWED.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.BOTTLE_EMPTIER.ALLOWED.NAME"
@@ -7773,12 +7773,12 @@ msgid ""
 msgstr ""
 "載著一位複製人從軌道上部署。\n"
 "\n"
-"到達時登陸艙會分解。"
+"到達時著陸艙會分解。"
 
 #. STRINGS.BUILDINGS.PREFABS.LANDING_POD.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.LANDING_POD.NAME"
 msgid "Spacefarer Deploy Pod"
-msgstr "登陸艙"
+msgstr "著陸艙"
 
 #. STRINGS.BUILDINGS.PREFABS.LAUNCHPAD.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.LAUNCHPAD.DESC"
@@ -11054,7 +11054,7 @@ msgstr ""
 #. STRINGS.BUILDINGS.PREFABS.PIONEERLANDER.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.PIONEERLANDER.NAME"
 msgid "<link=\"PIONEERLANDER\">Trailblazer Lander</link>"
-msgstr "<link=\"PIONEERLANDER\">開拓者登陸器</link>"
+msgstr "<link=\"PIONEERLANDER\">開拓者著陸艙</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.PIONEERMODULE.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.PIONEERMODULE.DESC"
@@ -11071,7 +11071,7 @@ msgid ""
 "\n"
 "Deployment is available while in a Starmap hex adjacent to a Planetoid."
 msgstr ""
-"可前往的小行星上沒有 <link=\"LAUNCHPLATFORM\">火箭平台</link>。\n"
+"可前往沒有 <link=\"LAUNCHPLATFORM\">火箭平台</link> 的小行星。\n"
 "\n"
 "可容納一個複製人。\n"
 "\n"
@@ -12783,7 +12783,7 @@ msgstr ""
 "接收 <link=\"ELEMENTSSOLID\">固體原料</link> 放到 <link=\"SOLIDCONDUIT\">輸送"
 "帶軌道</link> 上運輸。\n"
 "\n"
-"只接收你所選定的資源。"
+"只接收你所指定的資源。"
 
 #. STRINGS.BUILDINGS.PREFABS.SOLIDCONDUITINBOX.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.SOLIDCONDUITINBOX.NAME"
@@ -13804,7 +13804,7 @@ msgstr "某天可以將有用的東西存放在這"
 #. STRINGS.BUILDINGS.PREFABS.UNCONSTRUCTEDROCKETMODULE.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.UNCONSTRUCTEDROCKETMODULE.EFFECT"
 msgid "Can be changed into a different rocket module"
-msgstr "可以更改成不同的火箭模組"
+msgstr "可以改裝為不同的火箭模組"
 
 #. STRINGS.BUILDINGS.PREFABS.UNCONSTRUCTEDROCKETMODULE.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.UNCONSTRUCTEDROCKETMODULE.NAME"
@@ -13901,7 +13901,7 @@ msgid ""
 "\n"
 "This is the receiving side."
 msgstr ""
-"一台能夠運送 <link=\"ELEMENTSLIQUID\">液體</link>、<link=\"ELEMENTSSOLID\">固"
+"一台可以傳送 <link=\"ELEMENTSLIQUID\">液體</link>、<link=\"ELEMENTSSOLID\">固"
 "體</link> 與 <link=\"ELEMENTSGAS\">氣體</link> 資源的機器。\n"
 "\n"
 "擁有 <link=\"RESEARCHER\">野外調查</link> 技能的複製人可以啟動它。\n"
@@ -13911,7 +13911,7 @@ msgstr ""
 #. STRINGS.BUILDINGS.PREFABS.WARPCONDUITRECEIVER.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.WARPCONDUITRECEIVER.NAME"
 msgid "Supply Teleporter Output"
-msgstr "補給傳送接收器"
+msgstr "補給接收器"
 
 #. STRINGS.BUILDINGS.PREFABS.WARPCONDUITSENDER.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.WARPCONDUITSENDER.DESC"
@@ -13930,7 +13930,7 @@ msgid ""
 "\n"
 "This is the transmitting side."
 msgstr ""
-"一台能夠運送 <link=\"ELEMENTSLIQUID\">液體</link>、<link=\"ELEMENTSSOLID\">固"
+"一台可以傳送 <link=\"ELEMENTSLIQUID\">液體</link>、<link=\"ELEMENTSSOLID\">固"
 "體</link> 與 <link=\"ELEMENTSGAS\">氣體</link> 資源的機器。\n"
 "\n"
 "擁有 <link=\"RESEARCHER\">野外調查</link> 技能的複製人可以啟動它。\n"
@@ -13940,7 +13940,7 @@ msgstr ""
 #. STRINGS.BUILDINGS.PREFABS.WARPCONDUITSENDER.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.WARPCONDUITSENDER.NAME"
 msgid "Supply Teleporter Input"
-msgstr "補給傳送發射器"
+msgstr "補給傳送器"
 
 #. STRINGS.BUILDINGS.PREFABS.WARPPORTAL.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.WARPPORTAL.DESC"
@@ -16137,10 +16137,10 @@ msgstr ""
 "安全碼：B111\n"
 "\n"
 "實驗體：#762，「Hibiscus-3」\n"
-"成年女性，42公分，257公克\n"
+"成年女性，42 公分，257 公克\n"
 "\n"
 "捐贈實驗體：#650, 「Hibiscus」\n"
-"成年女性，42公分，257公克"
+"成年女性，42 公分，257 公克"
 
 #. STRINGS.CODEX.A4_HIBISCUS3.BODY.CONTAINER2
 msgctxt "STRINGS.CODEX.A4_HIBISCUS3.BODY.CONTAINER2"
@@ -18972,8 +18972,8 @@ msgstr ""
 "發送與接收的小行星上都需要一個系統才能成功運送資源。\n"
 "只有培訓過的複製人才能操作 <link=\"RAILGUN\">軌道炮</link>。\n"
 "\n"
-"只有使用 <link=\"LANDINGPOD\">登陸艙</link> 才能在兩地之間傳送複製人。\n"
-"<link=\"LANDINGPOD\">登陸艙</link> 被設計為只能使用一次。\n"
+"只有使用 <link=\"LANDINGPOD\">著陸艙</link> 才能在兩地之間運送複製人。\n"
+"<link=\"LANDINGPOD\">著陸艙</link> 被設計為只能使用一次。\n"
 "抵達的地後，艙體會自動分解。在兩個小行星間傳送複製人非常花費資源，應該儘量減"
 "少使用。"
 
@@ -20433,7 +20433,7 @@ msgstr ""
 "我的複製人完成了不可能的任務，挖穿了星球表面，\n"
 "儘管在此過程中他們為我收進了一些令人不安的新數據。\n"
 "\n"
-"我開始穩疑，我們不在目的地，\n"
+"我開始懷疑，我們不在目的地，\n"
 "而是在一個擁有不尋常元素與資源的小行星上。\n"
 "\n"
 "此外，我的複製人在視野可及的地平線上發現了一個受損的星球，\n"
@@ -26661,17 +26661,17 @@ msgstr "此生物快窒息"
 #. STRINGS.CREATURES.STATUSITEMS.BURROWED.NAME
 msgctxt "STRINGS.CREATURES.STATUSITEMS.BURROWED.NAME"
 msgid "Burrowed"
-msgstr "隠藏"
+msgstr "躲藏"
 
 #. STRINGS.CREATURES.STATUSITEMS.BURROWED.TOOLTIP
 msgctxt "STRINGS.CREATURES.STATUSITEMS.BURROWED.TOOLTIP"
 msgid "Shh! It thinks it's hiding"
-msgstr "噓！ 它認為它是隱藏的"
+msgstr "噓！它認為自己躲好了"
 
 #. STRINGS.CREATURES.STATUSITEMS.BURROWING.NAME
 msgctxt "STRINGS.CREATURES.STATUSITEMS.BURROWING.NAME"
 msgid "Burrowing"
-msgstr "隠藏"
+msgstr "躲藏"
 
 #. STRINGS.CREATURES.STATUSITEMS.BURROWING.TOOLTIP
 msgctxt "STRINGS.CREATURES.STATUSITEMS.BURROWING.TOOLTIP"
@@ -26681,7 +26681,7 @@ msgstr "這個動物試著隠藏"
 #. STRINGS.CREATURES.STATUSITEMS.CALL_ADULT.NAME
 msgctxt "STRINGS.CREATURES.STATUSITEMS.CALL_ADULT.NAME"
 msgid "Calling Adult"
-msgstr "呼喚成年"
+msgstr "呼喚成年同類"
 
 #. STRINGS.CREATURES.STATUSITEMS.CALL_ADULT.TOOLTIP
 msgctxt "STRINGS.CREATURES.STATUSITEMS.CALL_ADULT.TOOLTIP"
@@ -32888,7 +32888,7 @@ msgstr "冰冷的空氣"
 #. STRINGS.DUPLICANTS.MODIFIERS.CONTAMINATEDLUNGS.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.CONTAMINATEDLUNGS.NAME"
 msgid "Yucky Lungs"
-msgstr "骯髒的肺"
+msgstr "肺部發炎"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.CONTAMINATEDLUNGS.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.CONTAMINATEDLUNGS.TOOLTIP"
@@ -36940,7 +36940,7 @@ msgstr ""
 #. STRINGS.DUPLICANTS.STATUSITEMS.GASLIQUIDEXPOSURE.TOOLTIP_EXPOSED
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.GASLIQUIDEXPOSURE.TOOLTIP_EXPOSED"
 msgid "Current exposure to {element} is {rate} eye irritation"
-msgstr "目前曝露於 {element} 中眼睛受到的刺激 {rate} "
+msgstr "目前曝露於 {element} 中眼睛受到的刺激 {rate}"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.GASLIQUIDEXPOSURE.TOOLTIP_EXPOSURE_LEVEL
 msgctxt ""
@@ -58662,7 +58662,7 @@ msgstr "感染率"
 #. STRINGS.UI.DETAILTABS.DISEASE.CURRENT_GERMS
 msgctxt "STRINGS.UI.DETAILTABS.DISEASE.CURRENT_GERMS"
 msgid "SURFACE GERMS"
-msgstr "外部細菌"
+msgstr "表面細菌"
 
 #. STRINGS.UI.DETAILTABS.DISEASE.DETAILS.DEATH_FORMAT
 msgctxt "STRINGS.UI.DETAILTABS.DISEASE.DETAILS.DEATH_FORMAT"
@@ -70641,14 +70641,14 @@ msgctxt ""
 "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.INTERNAL_CONSTRUCTION_COMPLETE.STATUS."
 "FAILURE"
 msgid "Lander not constructed"
-msgstr "未建造登陸艙"
+msgstr "未建造著陸艙"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.INTERNAL_CONSTRUCTION_COMPLETE.STATUS.READY
 msgctxt ""
 "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.INTERNAL_CONSTRUCTION_COMPLETE.STATUS."
 "READY"
 msgid "Landers Ready"
-msgstr "登入艙準備"
+msgstr "著陸艙準備"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.INTERNAL_CONSTRUCTION_COMPLETE.STATUS.WARNING
 msgctxt ""
@@ -70662,14 +70662,14 @@ msgctxt ""
 "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.INTERNAL_CONSTRUCTION_COMPLETE.TOOLTIP."
 "FAILURE"
 msgid "Some landers still require construction"
-msgstr "有些起落架還在建造中"
+msgstr "著陸艙尚在建造中"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.INTERNAL_CONSTRUCTION_COMPLETE.TOOLTIP.READY
 msgctxt ""
 "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.INTERNAL_CONSTRUCTION_COMPLETE.TOOLTIP."
 "READY"
 msgid "All requested landers are built and ready for deployment"
-msgstr "所有的起落架都建造好並準備部署"
+msgstr "所有的著陸艙都建造好並準備部署"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.INTERNAL_CONSTRUCTION_COMPLETE.TOOLTIP.WARNING
 msgctxt ""
@@ -71319,7 +71319,7 @@ msgstr "<b>{0}</b>"
 #. STRINGS.UI.TABLESCREENS.GOTO_DUPLICANT_BUTTON
 msgctxt "STRINGS.UI.TABLESCREENS.GOTO_DUPLICANT_BUTTON"
 msgid "Double-click to go to <b>{0}</b>"
-msgstr "雙擊到 <b>{0}</b>"
+msgstr "雙擊查看 <b>{0}</b>"
 
 #. STRINGS.UI.TABLESCREENS.INFORMATION_NOT_AVAILABLE_TOOLTIP
 msgctxt "STRINGS.UI.TABLESCREENS.INFORMATION_NOT_AVAILABLE_TOOLTIP"
