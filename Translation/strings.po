@@ -62913,6 +62913,11 @@ msgctxt "STRINGS.UI.FRONTEND.MODS.MANAGE_LOCAL"
 msgid "Browse"
 msgstr "瀏覽"
 
+#. STRINGS.UI.FRONTEND.MODS.MOD_DISABLED_CONTENT
+msgctxt "STRINGS.UI.FRONTEND.MODS.MOD_DISABLED_CONTENT"
+msgid " - <i>Not compatible with {Content}</i>"
+msgstr " - <i>不相容於 {Content}</i>"
+
 #. STRINGS.UI.FRONTEND.MODS.REQUIRES_RESTART
 msgctxt "STRINGS.UI.FRONTEND.MODS.REQUIRES_RESTART"
 msgid "Mod changes require restart"
@@ -62988,7 +62993,7 @@ msgstr ""
 "查看完整更新記錄以了解更多細節！\n"
 "\n"
 "翻譯：古靈精怪\n"
-"版本：EX1-445987-D-REV-2"
+"版本：EX1-447268-D-REV-1"
 
 #. STRINGS.UI.FRONTEND.MOTD.UPDATE_TEXT
 msgctxt "STRINGS.UI.FRONTEND.MOTD.UPDATE_TEXT"
