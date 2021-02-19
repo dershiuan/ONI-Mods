@@ -4659,8 +4659,6 @@ msgstr ""
 "隨著時間流失電力。"
 
 #. STRINGS.BUILDINGS.PREFABS.BATTERYMODULE.NAME
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.BATTERY.NAME"
-#| msgid "<link=\"BATTERY\">Battery</link>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.BATTERYMODULE.NAME"
 msgid "<link=\"BATTERYMODULE\">Battery Module</link>"
 msgstr "<link=\"BATTERYMODULE\">電池模組</link>"
@@ -11120,7 +11118,6 @@ msgid "<link=\"ORBITALCARGOMODULE\">Orbital Cargo Module</link>"
 msgstr "<link=\"ORBITALCARGOMODULE\">軌道貨艙模組</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.ORBITALRESEARCHCENTER.DESC
-#| msgid ""
 msgctxt "STRINGS.BUILDINGS.PREFABS.ORBITALRESEARCHCENTER.DESC"
 msgid ""
 msgstr ""
@@ -12699,8 +12696,6 @@ msgid "<link=\"ROCKETINTERIORSOLIDINPUT\">Conveyor Receptacle Fitting</link>"
 msgstr "<link=\"ROCKETINTERIORSOLIDINPUT\">輸送帶儲存箱配件</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.ROCKETINTERIORSOLIDOUTPUT.DESC
-#| msgctxt "STRINGS.UI.ALLRESOURCESSCREEN.FIRST_FRAME_NO_DATA"
-#| msgid "..."
 msgctxt "STRINGS.BUILDINGS.PREFABS.ROCKETINTERIORSOLIDOUTPUT.DESC"
 msgid "..."
 msgstr "…"
@@ -32536,8 +32531,6 @@ msgstr ""
 "•  選擇一個受感染的物品查看更多細節"
 
 #. STRINGS.DUPLICANTS.DISEASES.MEDICINE.BOOSTER
-#| msgctxt "STRINGS.ELEMENTS.TUNGSTEN.NAME"
-#| msgid "<link=\"TUNGSTEN\">Tungsten</link>"
 msgctxt "STRINGS.DUPLICANTS.DISEASES.MEDICINE.BOOSTER"
 msgid "<link=\"IMMUNE SYSTEM\">Immune Booster</link>"
 msgstr "<link=\"IMMUNE SYSTEM\">免役力增強錠</link>"
@@ -53557,6 +53550,18 @@ msgctxt "STRINGS.RESEARCH.TECHS.ADVANCEDRESEARCH.NAME"
 msgid "<link=\"ADVANCEDRESEARCH\">Advanced Research</link>"
 msgstr "<link=\"ADVANCEDRESEARCH\">高級研究</link>"
 
+#. STRINGS.RESEARCH.TECHS.ADVANCEDSCANNERS.DESC
+msgctxt "STRINGS.RESEARCH.TECHS.ADVANCEDSCANNERS.DESC"
+msgid "Computerized systems do the looking, so Duplicants don't have to."
+msgstr "電腦化的系統正在尋找，所以複製人不必。"
+
+#. STRINGS.RESEARCH.TECHS.ADVANCEDSCANNERS.NAME
+#| msgctxt "STRINGS.RESEARCH.TECHS.ADVANCEDFILTRATION.NAME"
+#| msgid "<link=\"ADVANCEDFILTRATION\">Filtration</link>"
+msgctxt "STRINGS.RESEARCH.TECHS.ADVANCEDSCANNERS.NAME"
+msgid "<link=\"ADVANCEDSCANNERS\">Sensitive Microimaging</link>"
+msgstr "<link=\"ADVANCEDSCANNERS\">感測微縮化</link>"
+
 #. STRINGS.RESEARCH.TECHS.AGRICULTURE.DESC
 msgctxt "STRINGS.RESEARCH.TECHS.AGRICULTURE.DESC"
 msgid "Master the agricultural art of crop raising."
@@ -55656,6 +55661,25 @@ msgid ""
 "Recreation Room."
 msgstr "在休息時間訪問娛樂室的複製人會提升士氣。"
 
+#. STRINGS.SUBWORLDS.AQUATIC.DESC
+#| msgid ""
+msgctxt "STRINGS.SUBWORLDS.AQUATIC.DESC"
+msgid ""
+msgstr ""
+
+#. STRINGS.SUBWORLDS.AQUATIC.NAME
+#| msgctxt "STRINGS.CODEX.PACU.SUBTITLE"
+#| msgid "Aquatic Critter"
+msgctxt "STRINGS.SUBWORLDS.AQUATIC.NAME"
+msgid "Aquatic"
+msgstr "Aquatic"
+
+#. STRINGS.SUBWORLDS.AQUATIC.UTILITY
+#| msgid ""
+msgctxt "STRINGS.SUBWORLDS.AQUATIC.UTILITY"
+msgid ""
+msgstr ""
+
 #. STRINGS.SUBWORLDS.BARREN.DESC
 msgctxt "STRINGS.SUBWORLDS.BARREN.DESC"
 msgid ""
@@ -55766,8 +55790,8 @@ msgid ""
 "of <link=\"ICE\">Ice</link> and <link=\"SNOW\">Snow</link>, necessary for a "
 "colony's <link=\"HEAT\">Heat</link> regulation needs."
 msgstr ""
-"冰原零度以下的生態系提供了稀有冰凍的 <link=\"ICE\">冰</link> 與 <link=\"SNOW"
-"\">雪</link>，但殖民地通用需要 <link=\"HEAT\">熱</link>。"
+"凍原零度以下的生態系提供了稀有結凍的 <link=\"ICE\">冰</link> 與 <link=\"SNOW"
+"\">雪</link>，但殖民地通常需要 <link=\"HEAT\">熱</link>。"
 
 #. STRINGS.SUBWORLDS.FROZEN.NAME
 msgctxt "STRINGS.SUBWORLDS.FROZEN.NAME"
@@ -55898,8 +55922,8 @@ msgid ""
 "<link=\"CONTAMINATEDOXYGEN\">Polluted Oxygen</link> as it escapes the lush "
 "fields of <link=\"TOXICSAND\">Polluted Dirt</link> this biome is known for."
 msgstr ""
-"沼澤生態系訪客會感受到 <link=\"CONTAMINATEDOXYGEN\">汙氧</link> 溫柔對待的聲"
-"音，由此生態系的 <link=\"TOXICSAND\">汙土</link> 釋放所形成而聞名。"
+"沼澤生態系的訪客會感受到 <link=\"CONTAMINATEDOXYGEN\">汙氧</link> 溫柔對待的"
+"聲音，由此生態系的 <link=\"TOXICSAND\">汙土</link> 釋放所形成而聞名。"
 
 #. STRINGS.SUBWORLDS.MARSH.NAME
 msgctxt "STRINGS.SUBWORLDS.MARSH.NAME"
@@ -55934,6 +55958,25 @@ msgstr "金屬"
 
 #. STRINGS.SUBWORLDS.METALLIC.UTILITY
 msgctxt "STRINGS.SUBWORLDS.METALLIC.UTILITY"
+msgid ""
+msgstr ""
+
+#. STRINGS.SUBWORLDS.MOO.DESC
+#| msgid ""
+msgctxt "STRINGS.SUBWORLDS.MOO.DESC"
+msgid ""
+msgstr ""
+
+#. STRINGS.SUBWORLDS.MOO.NAME
+#| msgctxt "STRINGS.NAMEGEN.DUPLICANT.NAME.NB.MOOSE"
+#| msgid "Moose"
+msgctxt "STRINGS.SUBWORLDS.MOO.NAME"
+msgid "Moo"
+msgstr "Moo"
+
+#. STRINGS.SUBWORLDS.MOO.UTILITY
+#| msgid ""
+msgctxt "STRINGS.SUBWORLDS.MOO.UTILITY"
 msgid ""
 msgstr ""
 
@@ -56008,7 +56051,7 @@ msgid ""
 "\"EQUIPMENT\">equipped</link>."
 msgstr ""
 "馴服 <link=\"OILFLOATERSPECIES\">小油怪</link> 可創造可再生的石油資源。\n"
-"<link=\"EVILFLOWER\">惡魔花</link> 很漂亮，但只有在複製人有合適 <link="
+"<link=\"EVILFLOWER\">惡魔花</link> 很漂亮，但只能在複製人有合適 <link="
 "\"EQUIPMENT\">裝備</link> 的情況下才能接觸。"
 
 #. STRINGS.SUBWORLDS.RADIOACTIVE.DESC
@@ -56019,7 +56062,7 @@ msgstr ""
 #. STRINGS.SUBWORLDS.RADIOACTIVE.NAME
 msgctxt "STRINGS.SUBWORLDS.RADIOACTIVE.NAME"
 msgid "Radioactive"
-msgstr "放射性"
+msgstr "輻射"
 
 #. STRINGS.SUBWORLDS.RADIOACTIVE.UTILITY
 msgctxt "STRINGS.SUBWORLDS.RADIOACTIVE.UTILITY"
@@ -58415,8 +58458,6 @@ msgid "Elements"
 msgstr "元素"
 
 #. STRINGS.UI.CODEX.SUBWORLDS.NONE
-#| msgctxt "STRINGS.DUPLICANTS.CONGENITALTRAITS.NONE.NAME"
-#| msgid "None"
 msgctxt "STRINGS.UI.CODEX.SUBWORLDS.NONE"
 msgid "None"
 msgstr "無"
@@ -64069,7 +64110,7 @@ msgstr ""
 "查看完整更新記錄來了解更多細節！\n"
 "\n"
 "翻譯：古靈精怪\n"
-"版本：EX1 S7-452242-D-REV-1"
+"版本：EX1 S7-452481-D-REV-1"
 
 #. STRINGS.UI.FRONTEND.MOTD.UPDATE_TEXT
 msgctxt "STRINGS.UI.FRONTEND.MOTD.UPDATE_TEXT"
@@ -64077,7 +64118,6 @@ msgid "LAUNCHED!"
 msgstr "正式推出！"
 
 #. STRINGS.UI.FRONTEND.MOTD.UPDATE_TEXT_EXPANSION1
-#| msgid ""
 msgctxt "STRINGS.UI.FRONTEND.MOTD.UPDATE_TEXT_EXPANSION1"
 msgid ""
 msgstr ""
@@ -71580,23 +71620,53 @@ msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.CREW_BOARDED.TOOLTIP.FAILURE"
 msgid ""
 "No crew members have boarded this rocket\n"
 "\n"
-"Make sure Duplicants have been assigned to this rocket's crew, and that they "
-"have access to the rocket's hatch"
+"Duplicants must be assigned to the rocket crew and have access to the "
+"module's hatch to board\n"
+"------------------\n"
+"    • {0}/{1} Boarded"
 msgstr ""
-"沒有船員登上此火箭\n"
+"沒有船員登上火箭\n"
 "\n"
-"確認已為此火箭指派複製人組員，並且他們可以訪問火箭的艙門"
+"必須指派複製人成為火箭的船員，並能訪問此模組的艙門才能登機\n"
+"------------------\n"
+"    • {0}／{1} 已登機"
+
+#. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.CREW_BOARDED.TOOLTIP.NONE
+msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.CREW_BOARDED.TOOLTIP.NONE"
+msgid ""
+"There are no Duplicants assigned to this rocket crew\n"
+"------------------\n"
+"    • {0}/{1} Boarded"
+msgstr ""
+"火箭沒有指派複製船員\n"
+"------------------\n"
+"    • {0}／{1} 已登機"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.CREW_BOARDED.TOOLTIP.READY
+#| msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.CREW_BOARDED.TOOLTIP.READY"
+#| msgid ""
+#| "All Duplicants assigned to this rocket crew are on board and ready for "
+#| "launch"
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.CREW_BOARDED.TOOLTIP.READY"
 msgid ""
-"All Duplicants assigned to this rocket crew are on board and ready for launch"
-msgstr "指派到此火箭的船員都已登機並準備發射"
+"All Duplicants assigned to the rocket crew are boarded and ready for launch\n"
+"------------------\n"
+"    • {0}/{1} Boarded"
+msgstr ""
+"所有複製人船員都已登機並準備好發射\n"
+"------------------\n"
+"    • {0}／{1} 已登機"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.CREW_BOARDED.TOOLTIP.WARNING
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.CREW_BOARDED.TOOLTIP.WARNING"
-msgid "Some Duplicants assigned to this rocket's crew have not yet boarded"
-msgstr "分配到此火箭的船員尚未登機"
+msgid ""
+"Some Duplicants assigned to this rocket crew have not yet boarded\n"
+"------------------\n"
+"    • {0}/{1} Boarded"
+msgstr ""
+"有些複製人船員尚未登機\n"
+"------------------\n"
+"    • {0}／{1} 已登機"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.CREW_BOARDED.WARNING
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.CREW_BOARDED.WARNING"
@@ -71952,12 +72022,12 @@ msgid ""
 "At least one crew member aboard the rocket must possess the <link=\"PILOT"
 "\">Rocket Piloting</link> skill to launch\n"
 "\n"
-"Make sure a qualified Duplicant is assigned to this rocket's crew, and that "
-"they have access to the rocket's hatch"
+"A qualified Duplicant must be assigned to this rocket's crew, and have "
+"access to the module's hatch"
 msgstr ""
-"火箭上至少需有一名船員有 <link=\"PILOT\">火箭駕駛</link> 技能才能發射\n"
+"火箭上至少需有一名船員擁有 <link=\"PILOT\">火箭駕駛</link> 技能才能發射\n"
 "\n"
-"確認為此火箭指派合格的船員，並且他們能訪問艙門"
+"必須指派合格的複製人成為此火箭的船員，並且可訪問此模組的艙門"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.PILOT_BOARDED.TOOLTIP.READY
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.PILOT_BOARDED.TOOLTIP.READY"
@@ -71994,33 +72064,35 @@ msgstr "裝滿燃料"
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.PROPERLY_FUELED.TOOLTIP.FAILURE
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.PROPERLY_FUELED.TOOLTIP.FAILURE"
 msgid ""
-"More fuel must be loaded before this rocket is ready for takeoff.\n"
+"This rocket does not have enough fuel to reach its destination\n"
 "\n"
-"If the tanks are already full then this rocket can never reach that "
-"destination"
+"If the tanks are full, a different Fuel Tank Module may be required"
 msgstr ""
-"在火箭升空前必須補充更多的燃料。\n"
+"此火箭沒有足夠的燃料到達目的地\n"
 "\n"
-"如果此火箭的燃料艙已滿，那麼還是無法到達目的地"
+"如果燃料艙已滿，會需要加裝燃料艙模組"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.PROPERLY_FUELED.TOOLTIP.READY
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.PROPERLY_FUELED.TOOLTIP.READY"
 msgid ""
-"This rocket has sufficient fuel to make a round trip to and from its "
-"selected destination (or fully fuelled if no destination selected)"
-msgstr "此火箭有足夠燃料往返目的地（或燃料已滿但未選擇目的地）"
+"The rocket is sufficiently fueled for a roundtrip to its destination and back"
+msgstr "此火箭有足夠的氧化劑往返目的地"
+
+#. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.PROPERLY_FUELED.TOOLTIP.READY_NO_DESTINATION
+msgctxt ""
+"STRINGS.UI.STARMAP.LAUNCHCHECKLIST.PROPERLY_FUELED.TOOLTIP."
+"READY_NO_DESTINATION"
+msgid ""
+"This rocket's fuel tanks have been filled to capacity, but it has no "
+"destination"
+msgstr "此火箭燃料艙已滿，但沒有目的地"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.PROPERLY_FUELED.TOOLTIP.WARNING
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.PROPERLY_FUELED.TOOLTIP.WARNING"
 msgid ""
-"This rocket has enough fuel to make it to its destination, but not back "
-"again.\n"
-"\n"
-"The rocket can still be launched if necessary"
-msgstr ""
-"此火箭有足夠的燃料抵達目的地，但不能返航。\n"
-"\n"
-"如果必要此火箭仍然可以升空"
+"The rocket has enough fuel for a one-way trip to its destination, but will "
+"not be able to make it back"
+msgstr "此火箭有足夠的燃料抵達目的地，但不能返航"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.REQUIRED
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.REQUIRED"
@@ -75768,8 +75840,8 @@ msgstr "當到達目的地的軌道時自動部署此模組的內容物"
 #. STRINGS.UI.UISIDESCREENS.MODULEFLIGHTUTILITYSIDESCREEN.SELECT_DUPLICANT
 msgctxt ""
 "STRINGS.UI.UISIDESCREENS.MODULEFLIGHTUTILITYSIDESCREEN.SELECT_DUPLICANT"
-msgid "Select Duplicant..."
-msgstr "選擇複製人…"
+msgid "Select Duplicant"
+msgstr "選擇複製人"
 
 #. STRINGS.UI.UISIDESCREENS.MODULEFLIGHTUTILITYSIDESCREEN.TITLE
 msgctxt "STRINGS.UI.UISIDESCREENS.MODULEFLIGHTUTILITYSIDESCREEN.TITLE"
@@ -79962,7 +80034,7 @@ msgid ""
 msgstr ""
 "一個巨大受汙染的沼澤世界。\n"
 "\n"
-"<smallcaps>泥澤小行星是一個有大量冰凍泥漿與荒地的地方。\n"
+"<smallcaps>沼澤小行星是一個有大量冰凍泥漿與荒地的地方。\n"
 "離地表距離較短，可在短時間內實現星際旅行。</smallcaps>"
 
 #. STRINGS.WORLDS.SWAMPMOONLET.NAME
@@ -80075,9 +80147,9 @@ msgid ""
 "<smallcaps>Duplicants that travel to Tundra Asteroids will need to wear "
 "protective gear due to its harsh environment.</smallcaps>"
 msgstr ""
-"零度以下的小型冰雪行星。\n"
+"零度以下的冰雪小行星。\n"
 "\n"
-"<smallcaps>因為惡劣的環境，複製到 Tundra 旅行需要穿著防護設備。</smallcaps>"
+"<smallcaps>因為惡劣的環境，複製人到 Tundra 旅行需要穿著防護設備。</smallcaps>"
 
 #. STRINGS.WORLDS.TUNDRAMOONLET.NAME
 msgctxt "STRINGS.WORLDS.TUNDRAMOONLET.NAME"
@@ -80149,3 +80221,20 @@ msgstr ""
 msgctxt "STRINGS.WORLDS.WATERMOONLET.NAME"
 msgid "Water Asteroid"
 msgstr "水小行星"
+
+#~ msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.PROPERLY_FUELED.TOOLTIP.FAILURE"
+#~ msgid ""
+#~ "More fuel must be loaded before this rocket is ready for takeoff.\n"
+#~ "\n"
+#~ "If the tanks are already full then this rocket can never reach that "
+#~ "destination"
+#~ msgstr ""
+#~ "在火箭升空前必須補充更多的燃料。\n"
+#~ "\n"
+#~ "如果此火箭的燃料艙已滿，那麼還是無法到達目的地"
+
+#~ msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.PROPERLY_FUELED.TOOLTIP.READY"
+#~ msgid ""
+#~ "This rocket has sufficient fuel to make a round trip to and from its "
+#~ "selected destination (or fully fuelled if no destination selected)"
+#~ msgstr "此火箭有足夠燃料往返目的地（或燃料已滿但未選擇目的地）"
