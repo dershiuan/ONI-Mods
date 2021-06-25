@@ -10,6 +10,9 @@
 !/FontLoader/Assets/font
 /Translation/*.mo
 
+# files
+*.7z
+
 # steam workshop
 **/workshop
 **/workshop_preview

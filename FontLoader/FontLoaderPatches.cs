@@ -2,26 +2,25 @@
 using System.Reflection;
 using FontLoader.Config;
 using FontLoader.Utils;
-using Harmony;
+using HarmonyLib;
 using TMPro;
 
 namespace FontLoader
 {
-    public class FontLoaderPatches
+    public class FontLoaderPatches : KMod.UserMod2
     {
         private static readonly string ns = MethodBase.GetCurrentMethod().DeclaringType.Namespace;
         private static FontConfig fc;
         private static TMP_FontAsset font;
-
-        public static class Mod_OnLoad
+        
+        public override void OnLoad(Harmony harmony)
         {
-            public static void OnLoad()
-            {
-                Debug.Log($"{ns} OnLoad.");
+            Debug.Log($"{ns} OnLoad.");
 
-                fc = ConfigManager.Instance.LoadConfigFile();
-                font = FontUtil.LoadFontAsset(fc);
-            }
+            fc = ConfigManager.Instance.LoadConfigFile();
+            font = FontUtil.LoadFontAsset(fc);
+
+            harmony.PatchAll();
         }
 
         [HarmonyPatch(typeof(Localization))]
