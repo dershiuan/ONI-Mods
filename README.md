@@ -1,7 +1,7 @@
 # dershiuan's Oxygen Not Include Mods
 
 ## Tested
-* Game version: **EX1 S13-469287-D**
+* Game version: **EX1 S14-471883-SD**
 * Environment: **Windows 10, .Net Framework 4.8**
 
 
@@ -19,6 +19,7 @@
 
 ## Changes
 * 更新 Harmony to 2.0
+* 更新 TextMesh Pro to 1.2.3
 
 
 ## Special thanks

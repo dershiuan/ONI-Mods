@@ -12,6 +12,7 @@
 
 # files
 *.7z
+*.zip
 
 # steam workshop
 **/workshop

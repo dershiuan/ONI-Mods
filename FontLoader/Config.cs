@@ -7,15 +7,13 @@ namespace FontLoader.Config
 {
     public class FontConfig
     {
-        public bool Local { get; set; }
         public string Filename { get; set; }
         public string Code { get; set; }
         public bool LeftToRight { get; set; }
         public float Scale { get; set; }
 
-        public FontConfig(bool local, string filename, string code, bool leftToRight, float scale)
+        public FontConfig(string filename, string code, bool leftToRight, float scale)
         {
-            this.Local = local;
             this.Filename = filename;
             this.Code = code;
             this.LeftToRight = leftToRight;
@@ -25,19 +23,10 @@ namespace FontLoader.Config
 
     public class ConfigManager
     {
+        private readonly string ns = MethodBase.GetCurrentMethod().DeclaringType.Namespace;
         private static readonly object _lock = new Object();
         private static ConfigManager instance;
-        private readonly string _executingAssemblyPath;
-        private readonly string _fileName;
-
-        ConfigManager(string executingAssemblyPath = null, string fileName = "config.json")
-        {
-            if (executingAssemblyPath == null)
-                executingAssemblyPath = Path.Combine(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location), fileName);
-
-            this._executingAssemblyPath = executingAssemblyPath;
-            this._fileName = fileName;
-        }
+        public string configPath {get; set;}
 
         public static ConfigManager Instance
         {
@@ -59,7 +48,7 @@ namespace FontLoader.Config
             FontConfig fc;
             try
             {
-                using (var r = new StreamReader(_executingAssemblyPath))
+                using (var r = new StreamReader(Path.Combine(configPath, "config.json")))
                 {
                     var json = r.ReadToEnd();
                     fc = JsonConvert.DeserializeObject<FontConfig>(json);
@@ -67,9 +56,9 @@ namespace FontLoader.Config
             }
             catch (Exception e)
             {
-                Debug.Log($"Load config failure...Excption: {e.Message}");
-                Debug.Log($"Use default config.");
-                fc = new FontConfig(true, "font", "zh", true, 1);
+                Debug.Log($"[{ns}] Load config failure...Excption: {e.Message}");
+                Debug.Log($"[{ns}] Use default config.");
+                fc = new FontConfig("font", "zh", true, 1);
             }
             return fc;
         }

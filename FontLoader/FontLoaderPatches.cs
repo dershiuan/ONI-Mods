@@ -9,18 +9,23 @@ namespace FontLoader
 {
     public class FontLoaderPatches : KMod.UserMod2
     {
-        private static readonly string ns = MethodBase.GetCurrentMethod().DeclaringType.Namespace;
+        private readonly string ns = MethodBase.GetCurrentMethod().DeclaringType.Namespace;
+        public static string rootPath;
         private static FontConfig fc;
         private static TMP_FontAsset font;
         
         public override void OnLoad(Harmony harmony)
         {
-            Debug.Log($"{ns} OnLoad.");
-
+            harmony.PatchAll();
+            rootPath = mod.file_source.GetRoot();
+            ConfigManager.Instance.configPath = mod.file_source.GetRoot();
             fc = ConfigManager.Instance.LoadConfigFile();
             font = FontUtil.LoadFontAsset(fc);
 
-            harmony.PatchAll();
+            if (font == null) {
+                Debug.LogWarning($"[{ns}] Load font asset fail.");
+                return;
+            }
         }
 
         [HarmonyPatch(typeof(Localization))]
@@ -32,12 +37,9 @@ namespace FontLoader
             {
                 try
                 {
-                    if (font != null)
-                    {
-                        var Language = fc.Code == "zh" ? Localization.Language.Chinese : Localization.Language.Unspecified;
-                        var Direction = fc.LeftToRight ? Localization.Direction.LeftToRight : Localization.Direction.RightToLeft;
-                        __result = new Localization.Locale(Language, Direction, fc.Code, font.name);
-                    }
+                    var Language = fc.Code.Equals("zh") ? Localization.Language.Chinese : Localization.Language.Unspecified;
+                    var Direction = fc.LeftToRight ? Localization.Direction.LeftToRight : Localization.Direction.RightToLeft;
+                    __result = new Localization.Locale(Language, Direction, fc.Code, font.name);
                 }
                 catch (Exception ex)
                 {
