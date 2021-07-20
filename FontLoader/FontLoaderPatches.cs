@@ -17,10 +17,14 @@ namespace FontLoader
         {
             public static void OnLoad()
             {
-                Debug.Log($"{ns} OnLoad.");
-
+                Debug.Log($"[{ns}] OnLoad.");
                 fc = ConfigManager.Instance.LoadConfigFile();
                 font = FontUtil.LoadFontAsset(fc);
+
+                if (font == null) {
+                    Debug.LogWarning($"[{ns}] Load font asset fail.");
+                    return;
+                }
             }
         }
 
@@ -33,12 +37,9 @@ namespace FontLoader
             {
                 try
                 {
-                    if (font != null)
-                    {
-                        var Language = fc.Code == "zh" ? Localization.Language.Chinese : Localization.Language.Unspecified;
-                        var Direction = fc.LeftToRight ? Localization.Direction.LeftToRight : Localization.Direction.RightToLeft;
-                        __result = new Localization.Locale(Language, Direction, fc.Code, font.name);
-                    }
+                    var Language = fc.Code.Equals("zh") ? Localization.Language.Chinese : Localization.Language.Unspecified;
+                    var Direction = fc.LeftToRight ? Localization.Direction.LeftToRight : Localization.Direction.RightToLeft;
+                    __result = new Localization.Locale(Language, Direction, fc.Code, font.name);
                 }
                 catch (Exception ex)
                 {

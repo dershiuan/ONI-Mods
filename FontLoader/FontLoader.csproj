@@ -6,37 +6,37 @@
     <Copyright>Copyright@2020</Copyright>
     <Description>ONI Font Loader</Description>
     <AssemblyTitle>FontLoader</AssemblyTitle>
-    <AssemblyVersion>2020.06.15.0</AssemblyVersion>
-    <FileVersion>2020.06.15.0</FileVersion>
+    <AssemblyVersion>2021.07.21.0</AssemblyVersion>
+    <FileVersion>2021.07.21.0</FileVersion>
   </PropertyGroup>
 
   <ItemGroup>
     <Reference Include="0Harmony">
-      <HintPath>..\lib\0Harmony.dll</HintPath>
+      <HintPath>..\lib\1.x\0Harmony.dll</HintPath>
     </Reference>
     <Reference Include="Assembly-CSharp">
-      <HintPath>..\lib\Assembly-CSharp.dll</HintPath>
+      <HintPath>..\lib\1.x\Assembly-CSharp.dll</HintPath>
     </Reference>
     <Reference Include="Assembly-CSharp-firstpass">
-      <HintPath>..\lib\Assembly-CSharp-firstpass.dll</HintPath>
+      <HintPath>..\lib\1.x\Assembly-CSharp-firstpass.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json.dll">
-      <HintPath>..\lib\Newtonsoft.Json.dll</HintPath>
+      <HintPath>..\lib\1.x\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine">
-      <HintPath>..\lib\UnityEngine.dll</HintPath>
+      <HintPath>..\lib\1.x\UnityEngine.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AssetBundleModule">
-      <HintPath>..\lib\UnityEngine.AssetBundleModule.dll</HintPath>
+      <HintPath>..\lib\1.x\UnityEngine.AssetBundleModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.CoreModule">
-      <HintPath>..\lib\UnityEngine.CoreModule.dll</HintPath>
+      <HintPath>..\lib\1.x\UnityEngine.CoreModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>..\lib\UnityEngine.UI.dll</HintPath>
+      <HintPath>..\lib\1.x\UnityEngine.UI.dll</HintPath>
     </Reference>
       <Reference Include="Unity.TextMeshPro">
-      <HintPath>..\lib\Unity.TextMeshPro.dll</HintPath>
+      <HintPath>..\lib\1.x\Unity.TextMeshPro.dll</HintPath>
     </Reference>
   </ItemGroup>
 
