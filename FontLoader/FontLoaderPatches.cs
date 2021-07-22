@@ -9,7 +9,7 @@ namespace FontLoader
 {
     public class FontLoaderPatches : KMod.UserMod2
     {
-        private readonly string ns = MethodBase.GetCurrentMethod().DeclaringType.Namespace;
+        private static readonly string ns = MethodBase.GetCurrentMethod().DeclaringType.Namespace;
         public static string rootPath;
         private static FontConfig fc;
         private static TMP_FontAsset font;
@@ -37,6 +37,10 @@ namespace FontLoader
             {
                 try
                 {
+                    if (font == null) {
+                        return;
+                    }
+
                     var Language = fc.Code.Equals("zh") ? Localization.Language.Chinese : Localization.Language.Unspecified;
                     var Direction = fc.LeftToRight ? Localization.Direction.LeftToRight : Localization.Direction.RightToLeft;
                     __result = new Localization.Locale(Language, Direction, fc.Code, font.name);
