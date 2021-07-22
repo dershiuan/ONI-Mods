@@ -37,6 +37,10 @@ namespace FontLoader
             {
                 try
                 {
+                    if (font == null) {
+                        return;
+                    }
+
                     var Language = fc.Code.Equals("zh") ? Localization.Language.Chinese : Localization.Language.Unspecified;
                     var Direction = fc.LeftToRight ? Localization.Direction.LeftToRight : Localization.Direction.RightToLeft;
                     __result = new Localization.Locale(Language, Direction, fc.Code, font.name);
