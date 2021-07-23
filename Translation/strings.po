@@ -1268,13 +1268,15 @@ msgstr ""
 
 #. STRINGS.BUILDING.STATUSITEMS.FRIDGECOOLING.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.FRIDGECOOLING.NAME"
-msgid "Cooling Contents"
-msgstr "冷卻內容物"
+msgid "Cooling Contents: {UsedPower}"
+msgstr "冷卻內容物：{UsedPower}"
 
 #. STRINGS.BUILDING.STATUSITEMS.FRIDGECOOLING.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.FRIDGECOOLING.TOOLTIP"
-msgid "The contents of this food storage are still being cooled down."
-msgstr "此冰箱的內容物仍在冷卻。"
+msgid ""
+"The contents of this food storage are still being cooled down, using "
+"{UsedPower} of {MaxPower}."
+msgstr "此冰箱的內容物仍在冷卻，使用 {UsedPower} / {MaxPower}。"
 
 #. STRINGS.BUILDING.STATUSITEMS.FRIDGESTEADY.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.FRIDGESTEADY.NAME"
@@ -1286,10 +1288,9 @@ msgctxt "STRINGS.BUILDING.STATUSITEMS.FRIDGESTEADY.TOOLTIP"
 msgid ""
 "Energy saver activated, using {UsedPower} of {MaxPower}\n"
 "\n"
-"The contents of this food storage are at refrigeration temperatures and need "
-"no further cooling."
+"The contents of this food storage are at refrigeration temperatures."
 msgstr ""
-"省電模式已啟動，使用 {UsedPower} / {MaxPower}\n"
+"省電模式啟動，使用 {UsedPower} / {MaxPower}\n"
 "\n"
 "冰箱的內容物處於冷藏溫度，不需進一步冷卻。"
 
@@ -2859,6 +2860,11 @@ msgstr "打開"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.OPERATINGENERGY.EXHAUSTING"
 msgid "Excess produced"
 msgstr "能源過剩"
+
+#. STRINGS.BUILDING.STATUSITEMS.OPERATINGENERGY.FOOD_TRANSFER
+msgctxt "STRINGS.BUILDING.STATUSITEMS.OPERATINGENERGY.FOOD_TRANSFER"
+msgid "Internal Cooling"
+msgstr "內部冷卻"
 
 #. STRINGS.BUILDING.STATUSITEMS.OPERATINGENERGY.LINEITEM
 msgctxt "STRINGS.BUILDING.STATUSITEMS.OPERATINGENERGY.LINEITEM"
@@ -68787,7 +68793,7 @@ msgstr ""
 "查看完整更新記錄了解更多細節！\n"
 "\n"
 "翻譯：古靈精怪\n"
-"版本：EX1 S14-471883-D-REV-5"
+"版本：EX1 S14-472345-S-REV-1"
 
 #. STRINGS.UI.FRONTEND.MOTD.UPDATE_TEXT
 msgctxt "STRINGS.UI.FRONTEND.MOTD.UPDATE_TEXT"
