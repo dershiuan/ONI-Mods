@@ -12,11 +12,11 @@ namespace FontLoader.Utils
         {
             TMP_FontAsset font = null;
             AssetBundle ab = null;
-
             try
             {
-                var path = Path.Combine(ConfigManager.Instance.configPath, "Assets", config.Filename);
-                ab = AssetBundle.LoadFromFile(path);
+                var platform = Application.platform == RuntimePlatform.WindowsPlayer ? "win": "other";
+                var assetPath = Path.Combine(ConfigManager.Instance.configPath, "Assets", platform, config.Filename);
+                ab = AssetBundle.LoadFromFile(assetPath);
 
                 if (ab == null) {
                     Debug.LogWarning("[FontLoader] Unable to load font asset.");
