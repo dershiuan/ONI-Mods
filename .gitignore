@@ -6,8 +6,6 @@
 **/obj
 
 # mods
-/FontLoader/Assets/*
-!/FontLoader/Assets/font
 /Translation/*.mo
 
 # files
