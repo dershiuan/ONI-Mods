@@ -15,8 +15,9 @@ namespace FontLoader.Utils
 
             try
             {
-                var path = Path.Combine(ConfigManager.GetRootPath(), "Assets", config.Filename);
-                ab = AssetBundle.LoadFromFile(path);
+                var platform = Application.platform == RuntimePlatform.WindowsPlayer ? "win": "other";
+                var assetPath = Path.Combine(ConfigManager.GetRootPath(), "Assets", platform, config.Filename);
+                ab = AssetBundle.LoadFromFile(assetPath);
 
                 if (ab == null) {
                     Debug.LogWarning("[FontLoader] Unable to load font asset.");
