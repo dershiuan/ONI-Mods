@@ -26,6 +26,10 @@ namespace FontLoader.Utils
                 
                 font = ab.LoadAllAssets<TMP_FontAsset>()[0];
                 font.fontInfo.Scale = config.Scale;
+
+                if (Application.platform == RuntimePlatform.LinuxPlayer) {
+                    font.material.shader = Resources.Load<TMP_FontAsset>("RobotoCondensed-Regular").material.shader;
+                }
             }
             catch (Exception e)
             {
