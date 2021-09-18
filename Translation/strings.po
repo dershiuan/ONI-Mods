@@ -6481,8 +6481,6 @@ msgid "Delivers a Duplicant from a stranded rocket to the nearest Planetoid."
 msgstr "將複製人從擱淺的火箭運送到附近的小行星。"
 
 #. STRINGS.BUILDINGS.PREFABS.ESCAPEPOD.NAME
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.CLUSTERTELESCOPE.NAME"
-#| msgid "<link=\"TELESCOPE\">Telescope</link>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.ESCAPEPOD.NAME"
 msgid "<link=\"ESCAPEPOD\">Escape Pod</link>"
 msgstr "<link=\"ESCAPEPOD\">逃生艙</link>"
@@ -10381,8 +10379,6 @@ msgid "Receiving: <b><style=\"logic_off\">Red Signal</style></b>"
 msgstr "接收：<b><style=\"logic_off\">紅色訊號</style></b>"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICINTERASTEROIDRECEIVER.NAME
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICWIREBRIDGE.NAME"
-#| msgid "<link=\"LOGICWIREBRIDGE\">Automation Wire Bridge</link>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICINTERASTEROIDRECEIVER.NAME"
 msgid "<link=\"LOGICINTERASTEROIDRECEIVER\">Automation Receiver</link>"
 msgstr "<link=\"LOGICINTERASTEROIDRECEIVER\">訊號接收站</link>"
@@ -15638,12 +15634,12 @@ msgstr "你永遠不會知道你在電話中會遇到誰。"
 #. STRINGS.BUILDINGS.PREFABS.TELEPHONE.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.TELEPHONE.EFFECT"
 msgid ""
-"Provides a way for Duplicants to chat with their friends in different "
-"locations.\n"
+"Can be used by one Duplicant to chat with themselves or with other "
+"Duplicants in different locations.\n"
 "\n"
 "Chatting increases Duplicant <link=\"MORALE\">Morale</link>."
 msgstr ""
-"提供一種方式讓複製可以和他們的朋友在不同的地點聊天。\n"
+"提供一種方式讓複製人可以和他們的朋友在不同的地點聊天。\n"
 "\n"
 "聊天提升複製人的 <link=\"MORALE\">士氣</link>。"
 
@@ -15653,17 +15649,12 @@ msgid "{attrib}: {amount} (No One)"
 msgstr "{attrib}：{amount}（沒有人）"
 
 #. STRINGS.BUILDINGS.PREFABS.TELEPHONE.EFFECT_BABBLE_TOOLTIP
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.BEACHCHAIR.LIGHTEFFECT_HIGH_TOOLTIP"
-#| msgid ""
-#| "Duplicants will gain {amount} {attrib} if this building is in at least "
-#| "{lux} light."
 msgctxt "STRINGS.BUILDINGS.PREFABS.TELEPHONE.EFFECT_BABBLE_TOOLTIP"
-msgid "Duplicants will gain {amount} {attrib} if they chat to no one."
-msgstr "如果他們自由自言，複製人會獲得 {amount} {attrib}。"
+msgid ""
+"Duplicants will gain {amount} {attrib} if they chat only with themselves."
+msgstr "如果他們自言自語，複製人會獲得 {amount} {attrib}。"
 
 #. STRINGS.BUILDINGS.PREFABS.TELEPHONE.EFFECT_CHAT
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.BEACHCHAIR.LIGHTEFFECT_HIGH"
-#| msgid "{attrib}: {amount} (Bright Light)"
 msgctxt "STRINGS.BUILDINGS.PREFABS.TELEPHONE.EFFECT_CHAT"
 msgid "{attrib}: {amount} (At least one duplicant)"
 msgstr "{attrib}：{amount}（最少一位複製人）"
@@ -15671,8 +15662,8 @@ msgstr "{attrib}：{amount}（最少一位複製人）"
 #. STRINGS.BUILDINGS.PREFABS.TELEPHONE.EFFECT_CHAT_TOOLTIP
 msgctxt "STRINGS.BUILDINGS.PREFABS.TELEPHONE.EFFECT_CHAT_TOOLTIP"
 msgid ""
-"Duplicants will gain {amount} {attrib} if they chat to at least one other "
-"duplicant."
+"Duplicants will gain {amount} {attrib} if they chat with at least one other "
+"Duplicant."
 msgstr "如果最少與一位複製人聊天，複製人會獲得 {amount} {attrib}。"
 
 #. STRINGS.BUILDINGS.PREFABS.TELEPHONE.EFFECT_LONG_DISTANCE
@@ -15683,13 +15674,11 @@ msgstr "{attrib}：{amount}（最少與一位複製人跨星際通訊）"
 #. STRINGS.BUILDINGS.PREFABS.TELEPHONE.EFFECT_LONG_DISTANCE_TOOLTIP
 msgctxt "STRINGS.BUILDINGS.PREFABS.TELEPHONE.EFFECT_LONG_DISTANCE_TOOLTIP"
 msgid ""
-"Duplicants will gain {amount} {attrib} if they chat to at least one other "
-"duplicant across space."
-msgstr "如果最少與一位複製人做跨星際聊天，複製人會獲得 {amount} {attrib}。"
+"Duplicants will gain {amount} {attrib} if they chat with at least one other "
+"Duplicant across space."
+msgstr "如果最少與一位複製人進行跨星際聊天，複製人會獲得 {amount} {attrib}。"
 
 #. STRINGS.BUILDINGS.PREFABS.TELEPHONE.NAME
-#| msgctxt "STRINGS.ELEMENTS.PROPANE.NAME"
-#| msgid "<link=\"PROPANE\">Propane</link>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.TELEPHONE.NAME"
 msgid "<link=\"TELEPHONE\">Party Line Phone</link>"
 msgstr "<link=\"TELEPHONE\">派對專線電話</link>"
@@ -39335,8 +39324,8 @@ msgstr ""
 
 #. STRINGS.DUPLICANTS.MODIFIERS.TELEPHONELONGDISTANCE.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.TELEPHONELONGDISTANCE.NAME"
-msgid "Long Distance"
-msgstr "遠距離"
+msgid "Sociable"
+msgstr "善於交際"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.TELEPHONELONGDISTANCE.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.TELEPHONELONGDISTANCE.TOOLTIP"
@@ -69693,7 +69682,7 @@ msgstr ""
 "   查看完整更新記錄了解更多細節！\n"
 "\n"
 "翻譯：古靈精怪\n"
-"版本：U35-478755-SD-REV-1"
+"版本：U35-479045-SD-REV-1"
 
 #. STRINGS.UI.FRONTEND.MOTD.UPDATE_TEXT
 msgctxt "STRINGS.UI.FRONTEND.MOTD.UPDATE_TEXT"
@@ -88280,6 +88269,10 @@ msgstr ""
 msgctxt "STRINGS.WORLDS.WATERMOONLET.NAME"
 msgid "Water Asteroid"
 msgstr "水小行星"
+
+#~ msgctxt "STRINGS.DUPLICANTS.MODIFIERS.TELEPHONELONGDISTANCE.NAME"
+#~ msgid "Long Distance"
+#~ msgstr "遠距離"
 
 #~ msgctxt "STRINGS.BUILDING.STATUSITEMS.OUTPUTTILEBLOCKED.TOOLTIP"
 #~ msgid "Output is blocked"
