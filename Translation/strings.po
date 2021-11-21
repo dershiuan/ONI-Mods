@@ -450,14 +450,14 @@ msgctxt ""
 msgid ""
 "{Skills} Skill required to operate\n"
 "------------------\n"
-"Open the <b>Skills Panel</b> <b><color=#F44A4A>[L]</b></color> to teach "
+"Open the <b>Skills Panel</b> <b><color=#F44A4A>[J]</b></color> to teach "
 "{Skills} to a Duplicant, or bring a Duplicant with the skill from another "
 "Planetoid"
 msgstr ""
 "需要 {Skills} 技能才能操作\n"
 "------------------\n"
-"開啟 <b>技能面板</b> <b><color=#F44A4A>[L]</b></color> 教授 {Skills} 給一位複"
-"製人"
+"開啟 <b>技能面板</b> <b><color=#F44A4A>[J]</b></color> 教授 {Skills} 給一位複"
+"製人、或從其它星球帶來有此技能的複製人"
 
 #. STRINGS.BUILDING.STATUSITEMS.CLUSTERTELESCOPEALLWORKCOMPLETE.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.CLUSTERTELESCOPEALLWORKCOMPLETE.NAME"
@@ -469,7 +469,7 @@ msgctxt "STRINGS.BUILDING.STATUSITEMS.CLUSTERTELESCOPEALLWORKCOMPLETE.TOOLTIP"
 msgid ""
 "This <style=\"KKeyword\">Telescope</style> has analyzed all the space "
 "visible from its current location"
-msgstr "<style=\"KKeyword\">天文望遠鏡</style> 已分析了目前位置所有可見的太空"
+msgstr "<style=\"KKeyword\">望遠鏡</style> 已分析了目前位置所有可見的太空"
 
 #. STRINGS.BUILDING.STATUSITEMS.COLLECTINGHEP.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.COLLECTINGHEP.NAME"
@@ -491,12 +491,12 @@ msgctxt "STRINGS.BUILDING.STATUSITEMS.COLONYLACKSREQUIREDSKILLPERK.TOOLTIP"
 msgid ""
 "{Skills} Skill required to operate\n"
 "------------------\n"
-"Open the <b>Skills Panel</b> <b><color=#F44A4A>[L]</b></color> to teach "
+"Open the <b>Skills Panel</b> <b><color=#F44A4A>[J]</b></color> to teach "
 "{Skills} to a Duplicant"
 msgstr ""
 "需要 {Skills} 技能才能操作\n"
 "------------------\n"
-"開啟 <b>技能面板</b> <b><color=#F44A4A>[L]</b></color> 教授 {Skills} 給一位複"
+"開啟 <b>技能面板</b> <b><color=#F44A4A>[J]</b></color> 教授 {Skills} 給一位複"
 "製人"
 
 #. STRINGS.BUILDING.STATUSITEMS.CONDUITBLOCKED.NAME
@@ -826,7 +826,7 @@ msgid ""
 "This scanner dish is currently scanning at <b>{Quality}</b> effectiveness\n"
 "\n"
 "Decreased scan quality may be due to:\n"
-"    • Interference from nearby heavy machinery\n"
+"    • Interference from nearby industrial machinery\n"
 "    • Rock or tile obstructing the dish's line of sight on space"
 msgstr ""
 "此雷達目前的探測效率為 <b>{Quality}</b>\n"
@@ -1993,6 +1993,18 @@ msgctxt "STRINGS.BUILDING.STATUSITEMS.LOOKINGUGLY.TOOLTIP"
 msgid "Honestly, Morbs could've done better"
 msgstr "老實説，連莫布都做得比這好"
 
+#. STRINGS.BUILDING.STATUSITEMS.LOSINGRADBOLTS.NAME
+msgctxt "STRINGS.BUILDING.STATUSITEMS.LOSINGRADBOLTS.NAME"
+msgid "Radbolt Decay"
+msgstr "輻射粒子流失"
+
+#. STRINGS.BUILDING.STATUSITEMS.LOSINGRADBOLTS.TOOLTIP
+msgctxt "STRINGS.BUILDING.STATUSITEMS.LOSINGRADBOLTS.TOOLTIP"
+msgid ""
+"This building is unable to maintain the integrity of the radbolts it is "
+"storing"
+msgstr "此建築無法維持它所儲存輻射粒子的完整性"
+
 #. STRINGS.BUILDING.STATUSITEMS.MANUALGENERATORCHARGINGUP.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.MANUALGENERATORCHARGINGUP.NAME"
 msgid "Charging Up"
@@ -2464,7 +2476,7 @@ msgstr "未選擇分析目標"
 msgctxt ""
 "STRINGS.BUILDING.STATUSITEMS.NOAPPLICABLEANALYSISSELECTED.NOTIFICATION_NAME"
 msgid "<link=\"TELESCOPE\">Telescope</link> idle"
-msgstr "<link=\"TELESCOPE\">天文望遠鏡</link> 閒置"
+msgstr "<link=\"TELESCOPE\">望遠鏡</link> 閒置"
 
 #. STRINGS.BUILDING.STATUSITEMS.NOAPPLICABLEANALYSISSELECTED.NOTIFICATION_TOOLTIP
 msgctxt ""
@@ -5719,7 +5731,7 @@ msgctxt "STRINGS.BUILDINGS.PREFABS.CLUSTERTELESCOPE.DESC"
 msgid ""
 "Telescopes are necessary for studying space, allowing rocket travel to other "
 "worlds."
-msgstr "研究太空與進行火箭任務必須使用天文望遠鏡。"
+msgstr "望遠鏡是太空研究的必需品，可讓火箭可以飛到其它世界。"
 
 #. STRINGS.BUILDINGS.PREFABS.CLUSTERTELESCOPE.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.CLUSTERTELESCOPE.EFFECT"
@@ -5740,10 +5752,44 @@ msgstr ""
 #. STRINGS.BUILDINGS.PREFABS.CLUSTERTELESCOPE.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.CLUSTERTELESCOPE.NAME"
 msgid "<link=\"TELESCOPE\">Telescope</link>"
-msgstr "<link=\"TELESCOPE\">天文望遠鏡</link>"
+msgstr "<link=\"TELESCOPE\">望遠鏡</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.CLUSTERTELESCOPE.REQUIREMENT_TOOLTIP
 msgctxt "STRINGS.BUILDINGS.PREFABS.CLUSTERTELESCOPE.REQUIREMENT_TOOLTIP"
+msgid "A steady {0} supply is required to sustain working Duplicants."
+msgstr "需要穩定的供應 {0} 複製人才能保持工作。"
+
+#. STRINGS.BUILDINGS.PREFABS.CLUSTERTELESCOPEENCLOSED.DESC
+msgctxt "STRINGS.BUILDINGS.PREFABS.CLUSTERTELESCOPEENCLOSED.DESC"
+msgid ""
+"Telescopes are necessary for studying space, allowing rocket travel to other "
+"worlds."
+msgstr "望遠鏡是研究太空的必需品，可讓火箭飛向其它世界。"
+
+#. STRINGS.BUILDINGS.PREFABS.CLUSTERTELESCOPEENCLOSED.EFFECT
+msgctxt "STRINGS.BUILDINGS.PREFABS.CLUSTERTELESCOPEENCLOSED.EFFECT"
+msgid ""
+"Reveals visitable Planetoids in space... in comfort!\n"
+"\n"
+"Assigned Duplicants must possess the <link=\"ASTRONOMY\">Astronomy</link> "
+"skill.\n"
+"\n"
+"Building must be exposed to space to function."
+msgstr ""
+"揭露太空中可拜訪的小行星…舒服。\n"
+"\n"
+"複製人必須具備 <link=\"ASTRONOMY\">天文學</link> 技能。\n"
+"\n"
+"建築必須曝露在太空中才能運作。"
+
+#. STRINGS.BUILDINGS.PREFABS.CLUSTERTELESCOPEENCLOSED.NAME
+msgctxt "STRINGS.BUILDINGS.PREFABS.CLUSTERTELESCOPEENCLOSED.NAME"
+msgid "<link=\"TELESCOPE\">Enclosed Telescope</link>"
+msgstr "<link=\"TELESCOPE\">天文望遠鏡</link>"
+
+#. STRINGS.BUILDINGS.PREFABS.CLUSTERTELESCOPEENCLOSED.REQUIREMENT_TOOLTIP
+msgctxt ""
+"STRINGS.BUILDINGS.PREFABS.CLUSTERTELESCOPEENCLOSED.REQUIREMENT_TOOLTIP"
 msgid "A steady {0} supply is required to sustain working Duplicants."
 msgstr "需要穩定的供應 {0} 複製人才能保持工作。"
 
@@ -5974,8 +6020,8 @@ msgid ""
 msgstr ""
 "進行 <link=\"RESEARCH\">星際研究</link> 來解鎖新科技。\n"
 "\n"
-"消耗 <link=\"TELESCOPE\">天文望遠鏡</link> 與 <link=\"RESEARCHMODULE\">研究模"
-"組</link> 資料。\n"
+"消耗 <link=\"TELESCOPE\">望遠鏡</link> 與 <link=\"RESEARCHMODULE\">研究模組</"
+"link> 資料。\n"
 "\n"
 "複製人必須具備 <link=\"ASTRONOMY\">天文學</link> 技能。"
 
@@ -7833,7 +7879,13 @@ msgid "<link=\"GRAVE\">Tasteful Memorial</link>"
 msgstr "<link=\"GRAVE\">雅緻的紀念碑</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.GRAVITASDOOR.DESC
+#| msgid ""
 msgctxt "STRINGS.BUILDINGS.PREFABS.GRAVITASDOOR.DESC"
+msgid ""
+msgstr ""
+
+#. STRINGS.BUILDINGS.PREFABS.GRAVITASDOOR.EFFECT
+msgctxt "STRINGS.BUILDINGS.PREFABS.GRAVITASDOOR.EFFECT"
 msgid "An office door to an office that no longer exists."
 msgstr "辦公室門通往一個已不存在的辦公室。"
 
@@ -8005,6 +8057,65 @@ msgctxt "STRINGS.BUILDINGS.PREFABS.HEATCOMPRESSOR.NAME"
 msgid "<link=\"HEATCOMPRESSOR\">Liquid Heatquilizer</link>"
 msgstr "<link=\"HEATCOMPRESSOR\">液體除熱機</link>"
 
+#. STRINGS.BUILDINGS.PREFABS.HEPBATTERY.DESC
+msgctxt "STRINGS.BUILDINGS.PREFABS.HEPBATTERY.DESC"
+msgid "Particles packed up and ready to go."
+msgstr "粒子打包好準備出發。"
+
+#. STRINGS.BUILDINGS.PREFABS.HEPBATTERY.EFFECT
+msgctxt "STRINGS.BUILDINGS.PREFABS.HEPBATTERY.EFFECT"
+msgid ""
+"Stores Radbolts in a high-energy state, ready for transport.\n"
+"\n"
+"Requires a <b><style=\"logic_on\">Green Signal</style></b> to release "
+"radbolts from storage when the Radbolt threshold is reached.\n"
+"\n"
+"Radbolts in storage will rapidly decay while this building is disabled."
+msgstr ""
+"將輻射粒子以高能狀態儲存以便運送。\n"
+"\n"
+"當達到輻射粒子門檻，需要 <b><style=\"logic_on\">綠色訊號</style></b> 來釋放儲"
+"存的輻射粒子。\n"
+"\n"
+"當此建築停用時，所儲存的輻射粒子會快速流失。"
+
+#. STRINGS.BUILDINGS.PREFABS.HEPBATTERY.LOGIC_PORT
+msgctxt "STRINGS.BUILDINGS.PREFABS.HEPBATTERY.LOGIC_PORT"
+msgid "Do not emit Radbolts"
+msgstr "不要釋放輻射粒子"
+
+#. STRINGS.BUILDINGS.PREFABS.HEPBATTERY.LOGIC_PORT_ACTIVE
+msgctxt "STRINGS.BUILDINGS.PREFABS.HEPBATTERY.LOGIC_PORT_ACTIVE"
+msgid "<b><style=\"logic_on\">Green Signal</style></b>: Emit Radbolts"
+msgstr "<b><style=\"logic_on\">綠色訊號</style></b>：釋放輻射粒子"
+
+#. STRINGS.BUILDINGS.PREFABS.HEPBATTERY.LOGIC_PORT_INACTIVE
+msgctxt "STRINGS.BUILDINGS.PREFABS.HEPBATTERY.LOGIC_PORT_INACTIVE"
+msgid "<b><style=\"logic_off\">Red Signal</style></b>: Do not emit Radbolts"
+msgstr "<b><style=\"logic_off\">紅色訊號</style></b>：不釋放輻射粒子"
+
+#. STRINGS.BUILDINGS.PREFABS.HEPBATTERY.LOGIC_PORT_STORAGE
+msgctxt "STRINGS.BUILDINGS.PREFABS.HEPBATTERY.LOGIC_PORT_STORAGE"
+msgid "Radbolt Storage"
+msgstr "輻射粒子存量"
+
+#. STRINGS.BUILDINGS.PREFABS.HEPBATTERY.LOGIC_PORT_STORAGE_ACTIVE
+msgctxt "STRINGS.BUILDINGS.PREFABS.HEPBATTERY.LOGIC_PORT_STORAGE_ACTIVE"
+msgid ""
+"Sends a <b><style=\"logic_on\">Green Signal</style></b> when its Radbolt "
+"Storage is full"
+msgstr "當輻射粒子裝滿時發出 <b><style=\"logic_on\">綠色訊號</style></b>"
+
+#. STRINGS.BUILDINGS.PREFABS.HEPBATTERY.LOGIC_PORT_STORAGE_INACTIVE
+msgctxt "STRINGS.BUILDINGS.PREFABS.HEPBATTERY.LOGIC_PORT_STORAGE_INACTIVE"
+msgid "Otherwise, sends a <b><style=\"logic_off\">Red Signal</style></b>"
+msgstr "否則，發出 <b><style=\"logic_off\">紅色訊號</style></b>"
+
+#. STRINGS.BUILDINGS.PREFABS.HEPBATTERY.NAME
+msgctxt "STRINGS.BUILDINGS.PREFABS.HEPBATTERY.NAME"
+msgid "<link=\"HEPBATTERY\">Radbolt Chamber</link>"
+msgstr "<link=\"HEPBATTERY\">輻射粒子儲存槽</link>"
+
 #. STRINGS.BUILDINGS.PREFABS.HEPBRIDGETILE.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.HEPBRIDGETILE.DESC"
 msgid "Allows Radbolts to pass through walls."
@@ -8120,11 +8231,16 @@ msgctxt "STRINGS.BUILDINGS.PREFABS.HIGHENERGYPARTICLESPAWNER.EFFECT"
 msgid ""
 "Attracts nearby <link=\"RADIATION\">Radiation</link> to generate Radbolts.\n"
 "\n"
-"Emits generated Radbolts in the direction of your choosing."
+"Emits generated Radbolts in the direction of your choosing when the set "
+"Radbolt threshold is reached.\n"
+"\n"
+"Radbolts collected will rapidly decay while this building is disabled."
 msgstr ""
 "吸收附近的 <link=\"RADIATION\">輻射</link> 產生輻射粒子。\n"
 "\n"
-"朝你所選擇的方向釋放輻射粒子。"
+"當達到輻射粒子門檻時，朝你所選擇的方向釋放輻射粒子。\n"
+"\n"
+"當建築停用時輻射粒子會流失。"
 
 #. STRINGS.BUILDINGS.PREFABS.HIGHENERGYPARTICLESPAWNER.LOGIC_PORT
 msgctxt "STRINGS.BUILDINGS.PREFABS.HIGHENERGYPARTICLESPAWNER.LOGIC_PORT"
@@ -8840,6 +8956,21 @@ msgstr ""
 "\n"
 "自動連接到建在平台任一側的 <link=\"MODULARLAUNCHPADPORTSOLID\">火箭貨港</"
 "link>。"
+
+#. STRINGS.BUILDINGS.PREFABS.LAUNCHPAD.LOGIC_PORT_LANDED_ROCKET
+msgctxt "STRINGS.BUILDINGS.PREFABS.LAUNCHPAD.LOGIC_PORT_LANDED_ROCKET"
+msgid "Landed Rocket"
+msgstr "著陸火箭"
+
+#. STRINGS.BUILDINGS.PREFABS.LAUNCHPAD.LOGIC_PORT_LANDED_ROCKET_ACTIVE
+msgctxt "STRINGS.BUILDINGS.PREFABS.LAUNCHPAD.LOGIC_PORT_LANDED_ROCKET_ACTIVE"
+msgid "Sends a Green Signal when its rocket is on the launch pad"
+msgstr "當火箭準備好，發出綠色訊號"
+
+#. STRINGS.BUILDINGS.PREFABS.LAUNCHPAD.LOGIC_PORT_LANDED_ROCKET_INACTIVE
+msgctxt "STRINGS.BUILDINGS.PREFABS.LAUNCHPAD.LOGIC_PORT_LANDED_ROCKET_INACTIVE"
+msgid "Otherwise, sends a Red Signal"
+msgstr "否則，發出紅色訊號"
 
 #. STRINGS.BUILDINGS.PREFABS.LAUNCHPAD.LOGIC_PORT_LAUNCH
 msgctxt "STRINGS.BUILDINGS.PREFABS.LAUNCHPAD.LOGIC_PORT_LAUNCH"
@@ -13427,9 +13558,15 @@ msgid "Lab Desk"
 msgstr "實驗室研究桌"
 
 #. STRINGS.BUILDINGS.PREFABS.PROPGRAVITASLABWALL.DESC
+#| msgid ""
 msgctxt "STRINGS.BUILDINGS.PREFABS.PROPGRAVITASLABWALL.DESC"
+msgid ""
+msgstr ""
+
+#. STRINGS.BUILDINGS.PREFABS.PROPGRAVITASLABWALL.EFFECT
+msgctxt "STRINGS.BUILDINGS.PREFABS.PROPGRAVITASLABWALL.EFFECT"
 msgid "A regular wall that once existed in a working lab."
-msgstr "曾經存在於一個運作用實驗室的普通牆。"
+msgstr "曾經存在於一個運作中實驗室的普通牆。"
 
 #. STRINGS.BUILDINGS.PREFABS.PROPGRAVITASLABWALL.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.PROPGRAVITASLABWALL.NAME"
@@ -13437,7 +13574,13 @@ msgid "Lab Wall"
 msgstr "實驗室牆"
 
 #. STRINGS.BUILDINGS.PREFABS.PROPGRAVITASLABWINDOW.DESC
+#| msgid ""
 msgctxt "STRINGS.BUILDINGS.PREFABS.PROPGRAVITASLABWINDOW.DESC"
+msgid ""
+msgstr ""
+
+#. STRINGS.BUILDINGS.PREFABS.PROPGRAVITASLABWINDOW.EFFECT
+msgctxt "STRINGS.BUILDINGS.PREFABS.PROPGRAVITASLABWINDOW.EFFECT"
 msgid "A lab window. Formerly a portal to the outside world."
 msgstr "一個實驗室窗戶。以前是通過外面世界的門戶。"
 
@@ -13447,7 +13590,13 @@ msgid "Lab Window"
 msgstr "實驗室窗戶"
 
 #. STRINGS.BUILDINGS.PREFABS.PROPGRAVITASLABWINDOWHORIZONTAL.DESC
+#| msgid ""
 msgctxt "STRINGS.BUILDINGS.PREFABS.PROPGRAVITASLABWINDOWHORIZONTAL.DESC"
+msgid ""
+msgstr ""
+
+#. STRINGS.BUILDINGS.PREFABS.PROPGRAVITASLABWINDOWHORIZONTAL.EFFECT
+msgctxt "STRINGS.BUILDINGS.PREFABS.PROPGRAVITASLABWINDOWHORIZONTAL.EFFECT"
 msgid ""
 "A lab window.\n"
 "\n"
@@ -13485,7 +13634,13 @@ msgid "Shelf"
 msgstr "架子"
 
 #. STRINGS.BUILDINGS.PREFABS.PROPGRAVITASWALL.DESC
+#| msgid ""
 msgctxt "STRINGS.BUILDINGS.PREFABS.PROPGRAVITASWALL.DESC"
+msgid ""
+msgstr ""
+
+#. STRINGS.BUILDINGS.PREFABS.PROPGRAVITASWALL.EFFECT
+msgctxt "STRINGS.BUILDINGS.PREFABS.PROPGRAVITASWALL.EFFECT"
 msgid "The granite wall of a once great scientific facility."
 msgstr "一個曾經偉大科學設施的花崗岩牆。"
 
@@ -15855,7 +16010,7 @@ msgctxt "STRINGS.BUILDINGS.PREFABS.TELESCOPE.DESC"
 msgid ""
 "Telescopes are necessary for learning starmaps and conducting rocket "
 "missions."
-msgstr "學習星圖與進行火箭任務必須使用天文望遠鏡。"
+msgstr "學習星圖與進行火箭任務必須使用望遠鏡。"
 
 #. STRINGS.BUILDINGS.PREFABS.TELESCOPE.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.TELESCOPE.EFFECT"
@@ -15876,7 +16031,7 @@ msgstr ""
 #. STRINGS.BUILDINGS.PREFABS.TELESCOPE.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.TELESCOPE.NAME"
 msgid "<link=\"TELESCOPE\">Telescope</link>"
-msgstr "<link=\"TELESCOPE\">天文望遠鏡</link>"
+msgstr "<link=\"TELESCOPE\">望遠鏡</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.TELESCOPE.REQUIREMENT_TOOLTIP
 msgctxt "STRINGS.BUILDINGS.PREFABS.TELESCOPE.REQUIREMENT_TOOLTIP"
@@ -16654,7 +16809,7 @@ msgstr "由一個奇怪的星球殘骸所形成的一群可探索的森林星團
 
 #. STRINGS.CLUSTER_NAMES.FOREST_START_CLUSTER.NAME
 msgctxt "STRINGS.CLUSTER_NAMES.FOREST_START_CLUSTER.NAME"
-msgid "Forest Cluster"
+msgid "Folia Cluster"
 msgstr "森林星團"
 
 #. STRINGS.CLUSTER_NAMES.MILKYWAY.DESCRIPTION
@@ -16669,13 +16824,13 @@ msgstr "行星系統"
 
 #. STRINGS.CLUSTER_NAMES.MINICLUSTER_BADLANDSSTART.DESCRIPTION
 msgctxt "STRINGS.CLUSTER_NAMES.MINICLUSTER_BADLANDSSTART.DESCRIPTION"
-msgid "A cluster of visitable planetoids with a Badlands starting world."
+msgid "A cluster of visitable planetoids with a Desolands starting world."
 msgstr "有一個荒地起始世界的星團。"
 
 #. STRINGS.CLUSTER_NAMES.MINICLUSTER_BADLANDSSTART.NAME
 msgctxt "STRINGS.CLUSTER_NAMES.MINICLUSTER_BADLANDSSTART.NAME"
-msgid "Moonlet Cluster - The Badlands (experimental)"
-msgstr "衛星星團 －荒地（實驗性）"
+msgid "Moonlet Cluster - The Desolands"
+msgstr "衛星星團 －荒地"
 
 #. STRINGS.CLUSTER_NAMES.MINICLUSTER_FLIPPEDSTART.DESCRIPTION
 msgctxt "STRINGS.CLUSTER_NAMES.MINICLUSTER_FLIPPEDSTART.DESCRIPTION"
@@ -16684,8 +16839,8 @@ msgstr "有一個顛倒起始世界的星團"
 
 #. STRINGS.CLUSTER_NAMES.MINICLUSTER_FLIPPEDSTART.NAME
 msgctxt "STRINGS.CLUSTER_NAMES.MINICLUSTER_FLIPPEDSTART.NAME"
-msgid "Moonlet Cluster - Flipped (experimental)"
-msgstr "衛星星團－顛倒（實驗性）"
+msgid "Moonlet Cluster - Flipped"
+msgstr "衛星星團－顛倒世界"
 
 #. STRINGS.CLUSTER_NAMES.MINICLUSTER_FORESTFROZENSTART.DESCRIPTION
 msgctxt "STRINGS.CLUSTER_NAMES.MINICLUSTER_FORESTFROZENSTART.DESCRIPTION"
@@ -16694,8 +16849,8 @@ msgstr "有一個冰雪森林起始世界的星團。"
 
 #. STRINGS.CLUSTER_NAMES.MINICLUSTER_FORESTFROZENSTART.NAME
 msgctxt "STRINGS.CLUSTER_NAMES.MINICLUSTER_FORESTFROZENSTART.NAME"
-msgid "Moonlet Cluster - Frozen Forest (experimental)"
-msgstr "衛星星團－冰雪森林（實驗性）"
+msgid "Moonlet Cluster - Frozen Forest"
+msgstr "衛星星團－冰雪森林"
 
 #. STRINGS.CLUSTER_NAMES.MINICLUSTER_METALLICSWAMPYSTART.DESCRIPTION
 msgctxt "STRINGS.CLUSTER_NAMES.MINICLUSTER_METALLICSWAMPYSTART.DESCRIPTION"
@@ -16705,8 +16860,8 @@ msgstr "有一個金屬沼澤起始世界的星團。"
 
 #. STRINGS.CLUSTER_NAMES.MINICLUSTER_METALLICSWAMPYSTART.NAME
 msgctxt "STRINGS.CLUSTER_NAMES.MINICLUSTER_METALLICSWAMPYSTART.NAME"
-msgid "Moonlet Cluster - Metallic Swampy (experimental)"
-msgstr "衛星星團－金屬沼澤（實驗性）"
+msgid "Moonlet Cluster - Metallic Swampy"
+msgstr "衛星星團－金屬沼澤"
 
 #. STRINGS.CLUSTER_NAMES.MINICLUSTER_RADIOACTIVEOCEANSTART.DESCRIPTION
 msgctxt "STRINGS.CLUSTER_NAMES.MINICLUSTER_RADIOACTIVEOCEANSTART.DESCRIPTION"
@@ -16716,8 +16871,8 @@ msgstr "有一個輻射海洋起始世界的星團"
 
 #. STRINGS.CLUSTER_NAMES.MINICLUSTER_RADIOACTIVEOCEANSTART.NAME
 msgctxt "STRINGS.CLUSTER_NAMES.MINICLUSTER_RADIOACTIVEOCEANSTART.NAME"
-msgid "Moonlet Cluster - Radioactive Ocean (experimental)"
-msgstr "衛星星團－輻射海洋（實驗性）"
+msgid "Moonlet Cluster - Radioactive Ocean"
+msgstr "衛星星團－輻射海洋"
 
 #. STRINGS.CLUSTER_NAMES.SANDSTONE_START_CLUSTER.DESCRIPTION
 msgctxt "STRINGS.CLUSTER_NAMES.SANDSTONE_START_CLUSTER.DESCRIPTION"
@@ -16728,7 +16883,7 @@ msgstr "由一個奇怪的星球殘骸所形成的一群可探索的類地星團
 
 #. STRINGS.CLUSTER_NAMES.SANDSTONE_START_CLUSTER.NAME
 msgctxt "STRINGS.CLUSTER_NAMES.SANDSTONE_START_CLUSTER.NAME"
-msgid "Terra Cluster"
+msgid "Terrania Cluster"
 msgstr "類地星團"
 
 #. STRINGS.CLUSTER_NAMES.SWAMP_START_CLUSTER.DESCRIPTION
@@ -16740,7 +16895,7 @@ msgstr "由一個奇怪的星球殘骸所形成的一群可探索的沼澤星團
 
 #. STRINGS.CLUSTER_NAMES.SWAMP_START_CLUSTER.NAME
 msgctxt "STRINGS.CLUSTER_NAMES.SWAMP_START_CLUSTER.NAME"
-msgid "Swamp Cluster"
+msgid "Quagmiris Cluster"
 msgstr "沼澤星團"
 
 #. STRINGS.CLUSTER_NAMES.TWO_SMALL_WORLDS.DESCRIPTION
@@ -16752,6 +16907,36 @@ msgstr "兩個舒適的世界分享有限的資源。"
 msgctxt "STRINGS.CLUSTER_NAMES.TWO_SMALL_WORLDS.NAME"
 msgid "Two Small Worlds"
 msgstr "兩個小世界"
+
+#. STRINGS.CLUSTER_NAMES.VANILLA_ARBORIA_CLUSTER.DESCRIPTION
+msgctxt "STRINGS.CLUSTER_NAMES.VANILLA_ARBORIA_CLUSTER.DESCRIPTION"
+msgid "A cluster of planets with a temperate foresty planetoid to start on."
+msgstr "有一個溫帶森林小行星作為起始地的星團。"
+
+#. STRINGS.CLUSTER_NAMES.VANILLA_ARBORIA_CLUSTER.NAME
+msgctxt "STRINGS.CLUSTER_NAMES.VANILLA_ARBORIA_CLUSTER.NAME"
+msgid "Arboria Cluster"
+msgstr "喬木星團"
+
+#. STRINGS.CLUSTER_NAMES.VANILLA_ARIDIO_CLUSTER.DESCRIPTION
+msgctxt "STRINGS.CLUSTER_NAMES.VANILLA_ARIDIO_CLUSTER.DESCRIPTION"
+msgid "A cluster of planets with a hot foresty planetoid to start on."
+msgstr "有一個熱帶森林小行星作為起始地的星團。"
+
+#. STRINGS.CLUSTER_NAMES.VANILLA_ARIDIO_CLUSTER.NAME
+msgctxt "STRINGS.CLUSTER_NAMES.VANILLA_ARIDIO_CLUSTER.NAME"
+msgid "Aridio Cluster"
+msgstr "熱帶星團"
+
+#. STRINGS.CLUSTER_NAMES.VANILLA_BADLANDS_CLUSTER.DESCRIPTION
+msgctxt "STRINGS.CLUSTER_NAMES.VANILLA_BADLANDS_CLUSTER.DESCRIPTION"
+msgid "A cluster of planets with a larger barren planetoid to start on."
+msgstr "一個有較大荒地小行星作為起始地的星團。"
+
+#. STRINGS.CLUSTER_NAMES.VANILLA_BADLANDS_CLUSTER.NAME
+msgctxt "STRINGS.CLUSTER_NAMES.VANILLA_BADLANDS_CLUSTER.NAME"
+msgid "The Badlands Cluster"
+msgstr "荒地星團"
 
 #. STRINGS.CLUSTER_NAMES.VANILLA_FOREST_CLUSTER.DESCRIPTION
 msgctxt "STRINGS.CLUSTER_NAMES.VANILLA_FOREST_CLUSTER.DESCRIPTION"
@@ -16790,8 +16975,8 @@ msgstr "一個有較大類地小行星作為起始地的星團。"
 
 #. STRINGS.CLUSTER_NAMES.VANILLA_SANDSTONE_CLUSTER.NAME
 msgctxt "STRINGS.CLUSTER_NAMES.VANILLA_SANDSTONE_CLUSTER.NAME"
-msgid "Large Terra Cluster"
-msgstr "大型類地星團"
+msgid "Terra Cluster"
+msgstr "類地星團"
 
 #. STRINGS.CLUSTER_NAMES.VANILLA_SANDSTONE_FROZEN_CLUSTER.DESCRIPTION
 msgctxt "STRINGS.CLUSTER_NAMES.VANILLA_SANDSTONE_FROZEN_CLUSTER.DESCRIPTION"
@@ -16810,8 +16995,20 @@ msgstr "一個有較大沼澤小行星作為起始地的星團。"
 
 #. STRINGS.CLUSTER_NAMES.VANILLA_SWAMP_CLUSTER.NAME
 msgctxt "STRINGS.CLUSTER_NAMES.VANILLA_SWAMP_CLUSTER.NAME"
-msgid "Large Swamp Cluster"
-msgstr "大型沼澤星團"
+msgid "Squelchy Cluster"
+msgstr "沼澤星團"
+
+#. STRINGS.CLUSTER_NAMES.VANILLA_VOLCANIC_CLUSTER.DESCRIPTION
+msgctxt "STRINGS.CLUSTER_NAMES.VANILLA_VOLCANIC_CLUSTER.DESCRIPTION"
+msgid ""
+"A cluster of planets with a toasty planetoid full of molten lava pockets to "
+"start on."
+msgstr "有一個烤土司般小行星作為起始地的星團。"
+
+#. STRINGS.CLUSTER_NAMES.VANILLA_VOLCANIC_CLUSTER.NAME
+msgctxt "STRINGS.CLUSTER_NAMES.VANILLA_VOLCANIC_CLUSTER.NAME"
+msgid "Volcanea Cluster"
+msgstr "火山星團"
 
 #. STRINGS.CODEX.A0_PRELIMINARYCALCULATIONS.BODY.CONTAINER2
 msgctxt "STRINGS.CODEX.A0_PRELIMINARYCALCULATIONS.BODY.CONTAINER2"
@@ -22655,8 +22852,8 @@ msgid ""
 "a rocket in orbit.\n"
 "\n"
 msgstr ""
-"掃描太空並查看附近的星際目的地，<link=\"TELESCOPE\">天文望遠鏡</link> 必須先"
-"建造在小行星表面。\n"
+"掃描太空並查看附近的星際目的地，<link=\"TELESCOPE\">望遠鏡</link> 必須先建造"
+"在小行星表面。\n"
 "在小行星軌道上的 <link=\"ORBITALRESEARCHCENTER\">軌道小型實驗室</link> 與加裝"
 "在火箭上的 <link=\"SCANNERMODULE\">製圖模組</link> 也可以揭露星圖的區塊。\n"
 "\n"
@@ -22810,41 +23007,39 @@ msgstr "植物突變"
 
 #. STRINGS.CODEX.GENETICS.HEADER_2
 msgctxt "STRINGS.CODEX.GENETICS.HEADER_2"
-msgid "Breeding"
-msgstr "配種"
-
-#. STRINGS.CODEX.GENETICS.HEADER_3
-msgctxt "STRINGS.CODEX.GENETICS.HEADER_3"
-msgid "Dangers"
-msgstr "危險"
+msgid "Cultivating Mutated Seeds"
+msgstr "培育變異種子"
 
 #. STRINGS.CODEX.GENETICS.PARAGRAPH_1
 msgctxt "STRINGS.CODEX.GENETICS.PARAGRAPH_1"
 msgid ""
-"When selecting a seed to plant, a variety of mutations will be available to "
-"choose from that will affect how the plant develops.\n"
+"Plants exposed to radiation sometimes drop mutated seeds when they are "
+"harvested. Each type of mutation has its own efficiencies and trade-offs.\n"
 "\n"
-"Different plants and critters have different mutations which allow them to "
-"thrive in different situations and produce different materials for harvest.\n"
+"Mutated seeds can be planted once they have been analyzed in the <link="
+"\"GENETICANALYSISSTATION\">Botanical Analyzer</link>, but the resulting "
+"plants will produce no seeds of their own unless they are uprooted.\n"
 "\n"
 msgstr ""
-"當想要栽種植物時，有很多的植物變種可供選擇，這會影響植物的生長方式。\n"
+"在輻射環境中的植物在收成時有機會掉落變異種子。\n"
+"每個變種都有不同的效用與代價。\n"
 "\n"
-"不同的植物與動物有不同的變種，可讓它們生存在不同的環境與生產不同的原料可供收"
-"獲。\n"
+"變異植物在 <link=\"GENETICANALYSISSTATION\">植物分析儀</link> 分析後可以種"
+"植，但此植物不會生產種子，除非被連根剷起。\n"
 "\n"
 
 #. STRINGS.CODEX.GENETICS.PARAGRAPH_2
 msgctxt "STRINGS.CODEX.GENETICS.PARAGRAPH_2"
-msgid "This is where the breeding information will go"
-msgstr "這些是繁殖資訊的去向"
-
-#. STRINGS.CODEX.GENETICS.PARAGRAPH_3
-msgctxt "STRINGS.CODEX.GENETICS.PARAGRAPH_3"
 msgid ""
-"This is where the part about dangers will go\n"
+"Once mutated seeds have been analyzed in the Botanical Analyzer, they are "
+"ready to be planted. Continued exposure to naturally occurring radiation or "
+"a <link=\"RADIATIONLIGHT\">Radiation Lamp</link> is necessary to prevent "
+"wilting.\n"
 "\n"
-msgstr "這裡是危險的去向\n"
+msgstr ""
+"變異種子經過植物分析儀分析後，可用來種植。\n"
+"必須持續曝露於自然輻射環境中或是使用 <link=\"RADIATIONLIGHT\">輻射燈</link> "
+"照射來避免枯萎。\n"
 
 #. STRINGS.CODEX.GENETICS.TITLE
 msgctxt "STRINGS.CODEX.GENETICS.TITLE"
@@ -25300,14 +25495,19 @@ msgid ""
 "Duplicant's radiation resistance, but will not cure a Duplicant's Radiation "
 "Sickness once they have become infected.\n"
 "\n"
-msgstr ""
-"複製人曝露在輻射汙染區時會需要穿防護衣，否則會有輻射中文的危險。\n"
+"On the other hand, exposure to radiation will kill food poisoning, slimelung "
+"and zombie spores on surfaces (including Duplicants).\n"
 "\n"
-"有些複製人天生有較強的輻射抗性，少曝露在輻射汙染區仍然會增加輻射中毒的機"
-"率。\n"
+msgstr ""
+"複製人曝露在輻射汙染區時會需要穿防護衣，否則會有輻射中毒的危險。\n"
+"\n"
+"有些複製人天生有較強的輻射抗性，但長時間曝露在輻射汙染區仍然會增加輻射中毒的"
+"機率。\n"
 "\n"
 "補充碘或食用海鮮可以增加複製人的輻射抗性，但不能治療已感染輻射中毒的複製"
 "人。\n"
+"\n"
+"另一方面曝露於輻射環境會殺死表面的腸病毒、肺結核與殭屍孢子（包括複製人）。\n"
 "\n"
 
 #. STRINGS.CODEX.RADIATION.PARAGRAPH_3
@@ -26908,21 +27108,21 @@ msgstr "穿衣服的複製人：{0}／{1}"
 msgctxt ""
 "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.COLLECT_ARTIFACTS"
 msgid ""
-"Study Terrestrial Artifacts at the Artifact Analysis Station.\n"
-"Terrestrial Artifacts studied: {collectedCount} / {neededCount}"
+"Study different Terrestrial Artifacts at the Artifact Analysis Station.\n"
+"Unique Terrestrial Artifacts studied: {collectedCount} / {neededCount}"
 msgstr ""
-"在文物研究站研究陸地文物。\n"
-"陸地文物研究：{collectedCount} / {neededCount}"
+"在文物分析站研究不同的陸地文物。\n"
+"已研究的獨特陸地文物：{collectedCount} / {neededCount}"
 
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.COLLECT_SPACE_ARTIFACTS
 msgctxt ""
 "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.COLLECT_SPACE_ARTIFACTS"
 msgid ""
-"Study Space Artifacts at the Artifact Analysis Station.\n"
-"Space Artifacts studied: {collectedCount} / {neededCount}"
+"Study different Space Artifacts at the Artifact Analysis Station.\n"
+"Unique Space Artifacts studied: {collectedCount} / {neededCount}"
 msgstr ""
-"在文物分析站研究太空文物。\n"
-"太空文物研究：{collectedCount} / {neededCount}"
+"在文物分析站研究不同的太空文物。\n"
+"已研究的獨特太空文物：{collectedCount} / {neededCount}"
 
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.CONSUME_CALORIES
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.CONSUME_CALORIES"
@@ -35683,8 +35883,8 @@ msgstr "畜牧"
 #. STRINGS.DUPLICANTS.CHORES.RANCH.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.CHORES.RANCH.TOOLTIP"
 msgid ""
-"This Duplicant is tending to a <style=\"KKeyword\">Critter</style>'s "
-"wellbeing"
+"This Duplicant is tending to a <style=\"KKeyword\">Critter</style>'s well-"
+"being"
 msgstr "此複製人正在照顧 <style=\"KKeyword\">動物</style>"
 
 #. STRINGS.DUPLICANTS.CHORES.RECHARGE.NAME
@@ -39882,7 +40082,7 @@ msgstr "此複製人昨晚因為朋友的打呼聲而幾乎沒有闔眼"
 #. STRINGS.DUPLICANTS.MODIFIERS.THRIVER.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.THRIVER.NAME"
 msgid "Clutchy"
-msgstr ""
+msgstr "緊要關頭"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.THRIVER.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.THRIVER.TOOLTIP"
@@ -41208,7 +41408,7 @@ msgctxt "STRINGS.DUPLICANTS.ROLES.SENIOR_RESEARCHER.DESCRIPTION"
 msgid ""
 "Enables Duplicants to study outer space using the <link=\"TELESCOPE"
 "\">Telescope</link>"
-msgstr "複製人可使用 <link=\"TELESCOPE\">天文望遠鏡</link> 研究外太空"
+msgstr "複製人可使用 <link=\"TELESCOPE\">望遠鏡</link> 研究外太空"
 
 #. STRINGS.DUPLICANTS.ROLES.SENIOR_RESEARCHER.NAME
 msgctxt "STRINGS.DUPLICANTS.ROLES.SENIOR_RESEARCHER.NAME"
@@ -41239,6 +41439,16 @@ msgctxt "STRINGS.DUPLICANTS.ROLES.SPACE_RESEARCHER.NAME"
 msgid "<link=\"SPACERESEARCH\">Data Analysis Researcher</link>"
 msgstr "<link=\"SPACERESEARCH\">數據分析研究員</link>"
 
+#. STRINGS.DUPLICANTS.ROLES.SUIT_DURABILITY.DESCRIPTION
+msgctxt "STRINGS.DUPLICANTS.ROLES.SUIT_DURABILITY.DESCRIPTION"
+msgid "Suits equipped by this duplicant lose durability 25% slower."
+msgstr "降低此複製人使用太空衣時的耐久消耗速度 25%。"
+
+#. STRINGS.DUPLICANTS.ROLES.SUIT_DURABILITY.NAME
+msgctxt "STRINGS.DUPLICANTS.ROLES.SUIT_DURABILITY.NAME"
+msgid "<link=\"SUITDURABILITY\">Suit Sustainability Training</link>"
+msgstr "<link=\"SUITDURABILITY\">太空衣持續性訓練</link>"
+
 #. STRINGS.DUPLICANTS.ROLES.SUIT_EXPERT.DESCRIPTION
 msgctxt "STRINGS.DUPLICANTS.ROLES.SUIT_EXPERT.DESCRIPTION"
 msgid "Eliminates the runspeed loss experienced while wearing exosuits"
@@ -41248,16 +41458,6 @@ msgstr "消除穿著太空衣對移動速度的處罰"
 msgctxt "STRINGS.DUPLICANTS.ROLES.SUIT_EXPERT.NAME"
 msgid "<link=\"SUITS1\">Exosuit Training</link>"
 msgstr "<link=\"SUITS1\">太空衣訓練</link>"
-
-#. STRINGS.DUPLICANTS.ROLES.THERMAL_SUIT_WEARER.DESCRIPTION
-msgctxt "STRINGS.DUPLICANTS.ROLES.THERMAL_SUIT_WEARER.DESCRIPTION"
-msgid "Work in progress skill"
-msgstr "熟練中的技能"
-
-#. STRINGS.DUPLICANTS.ROLES.THERMAL_SUIT_WEARER.NAME
-msgctxt "STRINGS.DUPLICANTS.ROLES.THERMAL_SUIT_WEARER.NAME"
-msgid "W.I.P. Skill"
-msgstr "W.I.P. 技能"
 
 #. STRINGS.DUPLICANTS.ROLES.USELESSSKILL.DESCRIPTION
 msgctxt "STRINGS.DUPLICANTS.ROLES.USELESSSKILL.DESCRIPTION"
@@ -44984,7 +45184,7 @@ msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_RESEARCHING3.DESC"
 msgid ""
 "Enables Duplicants to study outer space using the <link=\"TELESCOPE"
 "\">Telescope</link>"
-msgstr "複製人可使用 <link=\"TELESCOPE\">天文望遠鏡</link> 研究外太空"
+msgstr "複製人可使用 <link=\"TELESCOPE\">望遠鏡</link> 研究外太空"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_RESEARCHING3.NAME
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_RESEARCHING3.NAME"
@@ -53420,7 +53620,7 @@ msgstr ""
 msgctxt "STRINGS.MISC.NOTIFICATIONS.INSULATION.MESSAGEBODY"
 msgid ""
 "The temperature of an environment can have positive or negative effects on "
-"the wellbeing of my Duplicants, as well as the plants and critters in my "
+"the well-being of my Duplicants, as well as the plants and critters in my "
 "colony. Selecting <b><color=#F44A4A>[F3]</b></color> will open the "
 "Temperature Overlay where I can check for any hot or cold spots.\n"
 "\n"
@@ -54096,7 +54296,7 @@ msgstr ""
 "增模組。\n"
 "火箭檢查清單中的全部項目都需要完成才能發射。\n"
 "\n"
-"<link=\"TELESCOPE\">天文望遠鏡</link> 需要建造在小行星表面，才能使用 <style="
+"<link=\"TELESCOPE\">望遠鏡</link> 需要建造在小行星表面，才能使用 <style="
 "\"KKeyword\">星圖</style> <b><color=#F44A4A>[Z]</b></color> 查看與設定目的"
 "地。"
 
@@ -55178,13 +55378,12 @@ msgstr "<link=\"COMBUSTIBLELIQUID\">可燃液體</link>"
 #. STRINGS.MISC.TAGS.COMBUSTIBLELIQUID_DESC
 msgctxt "STRINGS.MISC.TAGS.COMBUSTIBLELIQUID_DESC"
 msgid ""
-"Combustible Liquids are liquids that are able to be burned as fuel to be "
-"used in energy production such as in a <link=\"PETROLEUMGENERATOR"
-"\">Petroleum Generator</link> or a <link=\"KEROSENEENGINE\">Petroleum "
-"Engine</link>.\n"
+"Combustible Liquids are liquids that can be burned as fuel to be used in "
+"energy production such as in a <link=\"PETROLEUMGENERATOR\">Petroleum "
+"Generator</link> or a <link=\"KEROSENEENGINE\">Petroleum Engine</link>.\n"
 "\n"
 "Though these liquids have other uses, such as fertilizer for growing a <link="
-"\"BEANPLANTSEED\">Nosh Bean</link> their primary usefulness lies in their "
+"\"BEANPLANTSEED\">Nosh Bean</link>, their primary usefulness lies in their "
 "ability to be burned for <link=\"POWER\">power</link>."
 msgstr ""
 "可燃液體是能夠用來作為燃料產生能源的液體，例如用在 <link=\"PETROLEUMGENERATOR"
@@ -55403,7 +55602,7 @@ msgid ""
 "When heated, ice will melt into its original liquified form (ie.<link="
 "\"BRINEICE\">Brine Ice</link> will liquify into <link=\"BRINE\">Brine</"
 "link>). Each ice element has a different freezing and melting point based "
-"upon their composition and state."
+"upon its composition and state."
 msgstr ""
 "冰是一種原料，主要由（但不完全是）<link=\"WATER\">水</link> 結冰或部分結冰形"
 "成。\n"
@@ -55597,11 +55796,11 @@ msgstr "<link=\"REFINEDMETAL\">精煉金屬</link>"
 #. STRINGS.MISC.TAGS.REFINEDMETAL_DESC
 msgctxt "STRINGS.MISC.TAGS.REFINEDMETAL_DESC"
 msgid ""
-"Refined metals are purified forms of metal often used in higher tier "
+"Refined metals are purified forms of metal often used in higher-tier "
 "electronics due to their tendency to be able to withstand higher "
 "temperatures when they are made into wires. Other benefits include the "
-"higher decor value for some metals which can greatly increase the wellbeing "
-"of a colony.\n"
+"increased decor value for some metals which can greatly improve the well-"
+"being of a colony.\n"
 "\n"
 "Metal ore can be refined in either the <link=\"ROCKCRUSHER\">Rock Crusher</"
 "link> or the <link=\"METALREFINERY\">Metal Refinery</link>."
@@ -58246,7 +58445,48 @@ msgctxt "STRINGS.NAMEGEN.WORLD.PLANETOID_PREFIX"
 msgid "Planetoid: "
 msgstr "小行星： "
 
+#. STRINGS.NAMEGEN.WORLD.ROOTS.FLIPPED
+msgctxt "STRINGS.NAMEGEN.WORLD.ROOTS.FLIPPED"
+msgid ""
+"Revers\n"
+"Inver\n"
+"Err\n"
+"Flipp\n"
+"Upsid\n"
+"Bottom\n"
+"Retr\n"
+"Contr\n"
+"Jumbel\n"
+"Discor\n"
+"Awr\n"
+"Abnorm\n"
+msgstr ""
+"Revers\n"
+"Inver\n"
+"Err\n"
+"Flipp\n"
+"Upsid\n"
+"Bottom\n"
+"Retr\n"
+"Contr\n"
+"Jumbel\n"
+"Discor\n"
+"Awr\n"
+"Abnorm\n"
+
 #. STRINGS.NAMEGEN.WORLD.ROOTS.FOREST
+#| msgctxt "STRINGS.NAMEGEN.WORLD.ROOTS.FOREST"
+#| msgid ""
+#| "Veget\n"
+#| "Leaf\n"
+#| "Wood\n"
+#| "Topiar\n"
+#| "Timber\n"
+#| "Shrub\n"
+#| "Herb\n"
+#| "Grow\n"
+#| "Verd\n"
+#| "Bark\n"
 msgctxt "STRINGS.NAMEGEN.WORLD.ROOTS.FOREST"
 msgid ""
 "Veget\n"
@@ -58258,6 +58498,16 @@ msgid ""
 "Herb\n"
 "Grow\n"
 "Verd\n"
+"Sylv\n"
+"Abund\n"
+"Arbor\n"
+"Twig\n"
+"Canop\n"
+"Perenn\n"
+"Lush\n"
+"Root\n"
+"Sap\n"
+"Cultiv\n"
 "Bark\n"
 msgstr ""
 "Veget\n"
@@ -58269,6 +58519,16 @@ msgstr ""
 "Herb\n"
 "Grow\n"
 "Verd\n"
+"Sylv\n"
+"Abund\n"
+"Arbor\n"
+"Twig\n"
+"Canop\n"
+"Perenn\n"
+"Lush\n"
+"Root\n"
+"Sap\n"
+"Cultiv\n"
 "Bark\n"
 
 #. STRINGS.NAMEGEN.WORLD.ROOTS.GENERIC
@@ -58515,6 +58775,18 @@ msgstr ""
 "Egg\n"
 
 #. STRINGS.NAMEGEN.WORLD.ROOTS.SWAMP
+#| msgctxt "STRINGS.NAMEGEN.WORLD.ROOTS.SWAMP"
+#| msgid ""
+#| "Goop\n"
+#| "Mud\n"
+#| "Muck\n"
+#| "Gross\n"
+#| "Stink\n"
+#| "Smell\n"
+#| "Yuck\n"
+#| "Reek\n"
+#| "Blag\n"
+#| "Ooz\n"
 msgctxt "STRINGS.NAMEGEN.WORLD.ROOTS.SWAMP"
 msgid ""
 "Goop\n"
@@ -58526,6 +58798,16 @@ msgid ""
 "Yuck\n"
 "Reek\n"
 "Blag\n"
+"Sogg\n"
+"Dripp\n"
+"Ugh\n"
+"Pustul\n"
+"Ick\n"
+"Curd\n"
+"Slop\n"
+"Phlegm\n"
+"Gurg\n"
+"Smear\n"
 "Ooz\n"
 msgstr ""
 "Goop\n"
@@ -58537,9 +58819,31 @@ msgstr ""
 "Yuck\n"
 "Reek\n"
 "Blag\n"
+"Sogg\n"
+"Dripp\n"
+"Ugh\n"
+"Pustul\n"
+"Ick\n"
+"Curd\n"
+"Slop\n"
+"Phlegm\n"
+"Gurg\n"
+"Smear\n"
 "Ooz\n"
 
 #. STRINGS.NAMEGEN.WORLD.ROOTS.TERRA
+#| msgctxt "STRINGS.NAMEGEN.WORLD.ROOTS.TERRA"
+#| msgid ""
+#| "Earth\n"
+#| "Fertil\n"
+#| "Soil\n"
+#| "Beaut\n"
+#| "Equ\n"
+#| "Pleth\n"
+#| "Idyll\n"
+#| "Halcy\n"
+#| "Pastor\n"
+#| "Vital\n"
 msgctxt "STRINGS.NAMEGEN.WORLD.ROOTS.TERRA"
 msgid ""
 "Earth\n"
@@ -58551,6 +58855,16 @@ msgid ""
 "Idyll\n"
 "Halcy\n"
 "Pastor\n"
+"Allur\n"
+"Flor\n"
+"Nutril\n"
+"Viv\n"
+"Perseph\n"
+"Sanct\n"
+"Exquis\n"
+"Haven\n"
+"Paix\n"
+"Bloom\n"
 "Vital\n"
 msgstr ""
 "Earth\n"
@@ -58562,6 +58876,16 @@ msgstr ""
 "Idyll\n"
 "Halcy\n"
 "Pastor\n"
+"Allur\n"
+"Flor\n"
+"Nutril\n"
+"Viv\n"
+"Perseph\n"
+"Sanct\n"
+"Exquis\n"
+"Haven\n"
+"Paix\n"
+"Bloom\n"
 "Vital\n"
 
 #. STRINGS.NAMEGEN.WORLD.ROOTS.TUNDRA
@@ -58713,12 +59037,12 @@ msgctxt "STRINGS.RESEARCH.MESSAGING.NO_RESEARCHER_SKILL_TOOLTIP"
 msgid ""
 "The selected research focus requires {ResearchType} to complete\n"
 "\n"
-"Open the <b>Skills Panel</b> <b><color=#F44A4A>[L]</b></color> and teach a "
+"Open the <b>Skills Panel</b> <b><color=#F44A4A>[J]</b></color> and teach a "
 "Duplicant the {ResearchType} Skill to use this building"
 msgstr ""
 "此項研究重點需要 {ResearchType} 才能完成\n"
 "\n"
-"打開 <b>技能面板</b> <b><color=#F44A4A>[L]</b></color> 並教導複製人 "
+"打開 <b>技能面板</b> <b><color=#F44A4A>[J]</b></color> 並教導複製人 "
 "{ResearchType} 技能來使用此建築"
 
 #. STRINGS.RESEARCH.MESSAGING.NORESEARCHSELECTED
@@ -58897,7 +59221,7 @@ msgstr "<link=\"ADVANCEDFILTRATION\">過濾</link>"
 #. STRINGS.RESEARCH.TECHS.ADVANCEDNUCLEARRESEARCH.DESC
 msgctxt "STRINGS.RESEARCH.TECHS.ADVANCEDNUCLEARRESEARCH.DESC"
 msgid ""
-"Harness sub-atomic particles to study the properties of matter, but more."
+"Harness sub-atomic particles to study the properties of matter even more."
 msgstr "利用亞原子粒子來研究物質的特性，與更多。"
 
 #. STRINGS.RESEARCH.TECHS.ADVANCEDNUCLEARRESEARCH.NAME
@@ -59688,6 +60012,16 @@ msgctxt "STRINGS.RESEARCH.TECHS.NUCLEARRESEARCH.NAME"
 msgid "<link=\"ATOMIC\">Materials Science Research</link>"
 msgstr "<link=\"ATOMIC\">材料科學研究</link>"
 
+#. STRINGS.RESEARCH.TECHS.NUCLEARSTORAGE.DESC
+msgctxt "STRINGS.RESEARCH.TECHS.NUCLEARSTORAGE.DESC"
+msgid "Build a quality cache of radbolts."
+msgstr "建造一個輻射粒子的儲存容器。"
+
+#. STRINGS.RESEARCH.TECHS.NUCLEARSTORAGE.NAME
+msgctxt "STRINGS.RESEARCH.TECHS.NUCLEARSTORAGE.NAME"
+msgid "<link=\"ATOMIC\">Radbolt Containment</link>"
+msgstr "<link=\"ATOMIC\">輻射粒子控制</link>"
+
 #. STRINGS.RESEARCH.TECHS.PARALLELAUTOMATION.DESC
 msgctxt "STRINGS.RESEARCH.TECHS.PARALLELAUTOMATION.DESC"
 msgid "Multi-wire automation at a fraction of the space."
@@ -60060,6 +60394,11 @@ msgstr "醫學"
 msgctxt "STRINGS.RESEARCH.TREES.TITLE_POWER"
 msgid "Power"
 msgstr "電力"
+
+#. STRINGS.RESEARCH.TREES.TITLE_RADIATIONTECH
+msgctxt "STRINGS.RESEARCH.TREES.TITLE_RADIATIONTECH"
+msgid "Radiation Technologies"
+msgstr "輻射科技"
 
 #. STRINGS.RESEARCH.TREES.TITLE_ROCKETS
 msgctxt "STRINGS.RESEARCH.TREES.TITLE_ROCKETS"
@@ -61355,7 +61694,7 @@ msgid ""
 "\n"
 "Though my Duplicants appear more than happy to work in the Tundra Biome for "
 "short periods of time, I will need to provide proper <link=\"EQUIPMENT"
-"\">equipment</link> for them to avoid adverse affects to their wellbeing if "
+"\">equipment</link> for them to avoid adverse affects to their well-being if "
 "they are working here for longer periods."
 msgstr ""
 "這裡的生態系缺乏生命，但有些急需的植物且已成熟。\n"
@@ -61370,8 +61709,8 @@ msgstr ""
 "\n"
 "雖然複製人似乎很高興能在冰原生態系中短時間的工作，但如果他們要在這裡長期工"
 "作，\n"
-"我需要提供合適的 <link=\"EQUIPMENT\">裝備</link> 給他們避免對健康造成不好的影"
-"響。"
+"我需要為他們提供合適的 <link=\"EQUIPMENT\">裝備</link> 來避免對健康造成不好的"
+"影響。"
 
 #. STRINGS.SUBWORLDS.JUNGLE.DESC
 msgctxt "STRINGS.SUBWORLDS.JUNGLE.DESC"
@@ -63948,6 +64287,16 @@ msgctxt "STRINGS.UI.CLUSTERMAP.ROCKETS.MAX_HEIGHT.NAME"
 msgid "Height: {0}/{1}"
 msgstr "高度：{0}／{1}"
 
+#. STRINGS.UI.CLUSTERMAP.ROCKETS.MAX_HEIGHT.NAME_MAX_SUPPORTED
+msgctxt "STRINGS.UI.CLUSTERMAP.ROCKETS.MAX_HEIGHT.NAME_MAX_SUPPORTED"
+msgid "Maximum supported rocket height: "
+msgstr "火箭最大支撐高度："
+
+#. STRINGS.UI.CLUSTERMAP.ROCKETS.MAX_HEIGHT.NAME_RAW
+msgctxt "STRINGS.UI.CLUSTERMAP.ROCKETS.MAX_HEIGHT.NAME_RAW"
+msgid "Height: "
+msgstr "高："
+
 #. STRINGS.UI.CLUSTERMAP.ROCKETS.MAX_HEIGHT.TOOLTIP
 msgctxt "STRINGS.UI.CLUSTERMAP.ROCKETS.MAX_HEIGHT.TOOLTIP"
 msgid "The {0} can support a total rocket height {1}"
@@ -63967,6 +64316,11 @@ msgstr "{0} 最大可支撐 {1} 模組（包含自己）"
 msgctxt "STRINGS.UI.CLUSTERMAP.ROCKETS.MODULE_STATS.NAME"
 msgid "Module Stats: "
 msgstr "模組統計： "
+
+#. STRINGS.UI.CLUSTERMAP.ROCKETS.MODULE_STATS.NAME_HEADER
+msgctxt "STRINGS.UI.CLUSTERMAP.ROCKETS.MODULE_STATS.NAME_HEADER"
+msgid "Module Stats"
+msgstr "模組統計"
 
 #. STRINGS.UI.CLUSTERMAP.ROCKETS.MODULE_STATS.TOOLTIP
 msgctxt "STRINGS.UI.CLUSTERMAP.ROCKETS.MODULE_STATS.TOOLTIP"
@@ -64098,8 +64452,8 @@ msgid ""
 msgstr ""
 "在分析前火箭無法飛到這裡\n"
 "\n"
-"可使用 <link=\"TELESCOPE\">天文望遠鏡</link> 或 <link=\"SCANNERMODULE\">製圖"
-"模組</link> 來分析太空"
+"可使用 <link=\"TELESCOPE\">望遠鏡</link> 或 <link=\"SCANNERMODULE\">製圖模組"
+"</link> 來分析太空"
 
 #. STRINGS.UI.CLUSTERMAP.TOOLTIP_INVALID_DESTINATION_NO_LAUNCH_PAD
 msgctxt "STRINGS.UI.CLUSTERMAP.TOOLTIP_INVALID_DESTINATION_NO_LAUNCH_PAD"
@@ -64127,8 +64481,8 @@ msgid ""
 msgstr ""
 "沒有通往此小行星導航路徑\n"
 "\n"
-"使用 <link=\"TELESCOPE\">天文望遠鏡</link> 或 <link=\"SCANNERMODULE\">製圖模"
-"組</link> 分析太空取得路線"
+"使用 <link=\"TELESCOPE\">望遠鏡</link> 或 <link=\"SCANNERMODULE\">製圖模組</"
+"link> 分析太空取得路線"
 
 #. STRINGS.UI.CLUSTERMAP.TOOLTIP_INVALID_DESTINATION_OUT_OF_RANGE
 msgctxt "STRINGS.UI.CLUSTERMAP.TOOLTIP_INVALID_DESTINATION_OUT_OF_RANGE"
@@ -65093,6 +65447,57 @@ msgstr "<b>火箭燃料</b>"
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.ROCKETFUELDIAGNOSTIC.WARNING"
 msgid "    • This rocket has no fuel"
 msgstr "    • 火箭沒有燃料"
+
+#. STRINGS.UI.COLONY_DIAGNOSTICS.ROCKETINORBITDIAGNOSTIC.ALL_NAME
+msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.ROCKETINORBITDIAGNOSTIC.ALL_NAME"
+msgid "Rockets in Orbit"
+msgstr "火箭在軌道上"
+
+#. STRINGS.UI.COLONY_DIAGNOSTICS.ROCKETINORBITDIAGNOSTIC.CRITERIA.CHECKORBIT
+msgctxt ""
+"STRINGS.UI.COLONY_DIAGNOSTICS.ROCKETINORBITDIAGNOSTIC.CRITERIA.CHECKORBIT"
+msgid "Check Orbiting Rockets"
+msgstr "查看繞行軌道的火箭"
+
+#. STRINGS.UI.COLONY_DIAGNOSTICS.ROCKETINORBITDIAGNOSTIC.NORMAL_IN_ORBIT
+msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.ROCKETINORBITDIAGNOSTIC.NORMAL_IN_ORBIT"
+msgid "    • There are {0} in orbit waiting to land"
+msgstr "    • {0} 在軌道上等待著陸"
+
+#. STRINGS.UI.COLONY_DIAGNOSTICS.ROCKETINORBITDIAGNOSTIC.NORMAL_NO_ROCKETS
+msgctxt ""
+"STRINGS.UI.COLONY_DIAGNOSTICS.ROCKETINORBITDIAGNOSTIC.NORMAL_NO_ROCKETS"
+msgid "    • No rockets waiting to land"
+msgstr "    • 無火箭等待著陸"
+
+#. STRINGS.UI.COLONY_DIAGNOSTICS.ROCKETINORBITDIAGNOSTIC.NORMAL_ONE_IN_ORBIT
+msgctxt ""
+"STRINGS.UI.COLONY_DIAGNOSTICS.ROCKETINORBITDIAGNOSTIC.NORMAL_ONE_IN_ORBIT"
+msgid "    • {0} is in orbit waiting to land"
+msgstr "    • {0} 在軌道上等待著陸"
+
+#. STRINGS.UI.COLONY_DIAGNOSTICS.ROCKETINORBITDIAGNOSTIC.TOOLTIP_NAME
+#| msgctxt "STRINGS.UI.UISIDESCREENS.LAUNCHPADSIDESCREEN.IN_ORBIT_ABOVE_PANEL"
+#| msgid "Rockets in orbit"
+msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.ROCKETINORBITDIAGNOSTIC.TOOLTIP_NAME"
+msgid "<b>Rockets in Orbit</b>"
+msgstr "<b>火箭在軌道上</b>"
+
+#. STRINGS.UI.COLONY_DIAGNOSTICS.ROCKETINORBITDIAGNOSTIC.WARNING_ONE_ROCKETS_STRANDED
+#| msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.TRAPPEDDUPLICANTDIAGNOSTIC.NORMAL"
+#| msgid "    • No Duplicants are trapped"
+msgctxt ""
+"STRINGS.UI.COLONY_DIAGNOSTICS.ROCKETINORBITDIAGNOSTIC."
+"WARNING_ONE_ROCKETS_STRANDED"
+msgid "    • No launch pads present. {0} stranded."
+msgstr "    • 無發射平台。{0} 擱淺。"
+
+#. STRINGS.UI.COLONY_DIAGNOSTICS.ROCKETINORBITDIAGNOSTIC.WARNING_ROCKETS_STRANDED
+msgctxt ""
+"STRINGS.UI.COLONY_DIAGNOSTICS.ROCKETINORBITDIAGNOSTIC."
+"WARNING_ROCKETS_STRANDED"
+msgid "    • No launch pads present. {0} rockets stranded."
+msgstr "    • 沒有發射平台台。{0} 火箭擱淺。"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.ROCKETOXIDIZERDIAGNOSTIC.ALL_NAME
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.ROCKETOXIDIZERDIAGNOSTIC.ALL_NAME"
@@ -70502,8 +70907,8 @@ msgstr "STEAM 工作坊"
 
 #. STRINGS.UI.FRONTEND.MOTD.IMAGE_HEADER
 msgctxt "STRINGS.UI.FRONTEND.MOTD.IMAGE_HEADER"
-msgid "RAD NEW WORLDS"
-msgstr "輻射新世界"
+msgid "BUFF AND SHINE"
+msgstr "擦亮與發光"
 
 #. STRINGS.UI.FRONTEND.MOTD.NEWS_BODY
 msgctxt "STRINGS.UI.FRONTEND.MOTD.NEWS_BODY"
@@ -70520,32 +70925,30 @@ msgstr "加入討論"
 #. STRINGS.UI.FRONTEND.MOTD.PATCH_NOTES_SUMMARY
 msgctxt "STRINGS.UI.FRONTEND.MOTD.PATCH_NOTES_SUMMARY"
 msgid ""
-"Welcome to the <b>RAD NEW WORLDS UPDATE!</b>\n"
+"Welcome to the <b>BUFF AND SHINE UPDATE!</b>\n"
 "\n"
 "<b><i>Spaced Out!</i></b>\n"
-"•<indent=20px>Several new clusters options are available in both the Classic "
-"and Spaced Out! style categories. </indent>\n"
-"•<indent=20px>New Manual Radbolt Generator and Radiation Lamp buildings.</"
+"•<indent=20px>Significant changes to radiation and radbolt tuning.</indent>\n"
+"•<indent=20px>Added the new Radbolt Chamber building for storing radbolts.</"
 "indent>\n"
-"•<indent=20px>Major revisions to Cosmic Research to allow for more ways of "
-"gathering research data.</indent>\n"
-"•<indent=20px>Bug fixes</indent>\n"
+"•<indent=20px>Restored the Space Scanner and Enclosed Telescope to Spaced "
+"Out!</indent>\n"
+"•<indent=20px>Bug fixes and polish work.</indent>\n"
 "\n"
 "   Check out the full patch notes for more details!"
 msgstr ""
-"歡迎來到 <b>輻射新世界更新！</b>\n"
+"歡迎來到 <b>擦亮與發光更新！</b>\n"
 "\n"
 "<b><i>Spaced Out!</i></b>\n"
-"•<indent=20px>一些新的星團選項同時可在「經典」與「Spaced Out！」風格類別中設"
-"定。</indent>\n"
-"•<indent=20px>新增人工輻射粒子產生器與輻射燈建築。</indent>\n"
-"•<indent=20px>宇宙研究重大變更，有更多的方式來取得研究數據。</indent>\n"
-"•<indent=20px>錯誤修復</indent>\n"
+"•<indent=20px>輻射與輻射粒子重大調整。</indent>\n"
+"•<indent=20px>新增輻射粒子儲存槽用來儲存輻射粒子。</indent>\n"
+"•<indent=20px>望遠鏡與天文望遠鏡復原到 Spaced Out!</indent>\n"
+"•<indent=20px>錯誤修復與完善工作。</indent>\n"
 "\n"
 "   查看完整更新記錄了解更多細節！\n"
 "\n"
 "翻譯：古靈精怪\n"
-"版本：U37-483944-SD-REV-1"
+"版本：U38-486708-SD-REV-1"
 
 #. STRINGS.UI.FRONTEND.MOTD.UPDATE_TEXT
 msgctxt "STRINGS.UI.FRONTEND.MOTD.UPDATE_TEXT"
@@ -76162,7 +76565,7 @@ msgstr "地理分析"
 #. STRINGS.UI.ROLES_SCREEN.PERKS.CAN_USE_CLUSTER_TELESCOPE.DESCRIPTION
 msgctxt "STRINGS.UI.ROLES_SCREEN.PERKS.CAN_USE_CLUSTER_TELESCOPE.DESCRIPTION"
 msgid "<link=\"TELESCOPE\">Telescope</link> Usage"
-msgstr "使用 <link=\"TELESCOPE\">天文望遠鏡</link>"
+msgstr "使用 <link=\"TELESCOPE\">望遠鏡</link>"
 
 #. STRINGS.UI.ROLES_SCREEN.PERKS.CAN_USE_RANCH_STATION.DESCRIPTION
 msgctxt "STRINGS.UI.ROLES_SCREEN.PERKS.CAN_USE_RANCH_STATION.DESCRIPTION"
@@ -76183,6 +76586,11 @@ msgstr "捕捉動物"
 msgctxt "STRINGS.UI.ROLES_SCREEN.PERKS.CONVEYOR_BUILD.DESCRIPTION"
 msgid "<link=\"SOLIDCONDUIT\">Conveyor Rail</link> Construction"
 msgstr "建造 <link=\"SOLIDCONDUIT\">輸送帶軌道</link>"
+
+#. STRINGS.UI.ROLES_SCREEN.PERKS.EXOSUIT_DURABILITY.DESCRIPTION
+msgctxt "STRINGS.UI.ROLES_SCREEN.PERKS.EXOSUIT_DURABILITY.DESCRIPTION"
+msgid "Slows <link=\"EXOSUIT\">Exosuit</link> Durability Damage"
+msgstr "減緩 <link=\"EXOSUIT\">太空衣</link> 耐久消耗"
 
 #. STRINGS.UI.ROLES_SCREEN.PERKS.EXOSUIT_EXPERTISE.DESCRIPTION
 msgctxt "STRINGS.UI.ROLES_SCREEN.PERKS.EXOSUIT_EXPERTISE.DESCRIPTION"
@@ -79097,7 +79505,7 @@ msgstr "吸引人的異常現象"
 #. STRINGS.UI.SPACEDESTINATIONS.TELESCOPE_TARGET.NAME
 msgctxt "STRINGS.UI.SPACEDESTINATIONS.TELESCOPE_TARGET.NAME"
 msgid "Telescope Target"
-msgstr "天文望遠鏡目標"
+msgstr "望遠鏡目標"
 
 #. STRINGS.UI.SPACEDESTINATIONS.WORMHOLE.DESCRIPTION
 msgctxt "STRINGS.UI.SPACEDESTINATIONS.WORMHOLE.DESCRIPTION"
@@ -79144,7 +79552,7 @@ msgid ""
 "Completing analysis on an object will unlock rocket missions to that "
 "destination."
 msgstr ""
-"使用天文望遠鏡分析太空目的地。\n"
+"使用望遠鏡分析太空目的地。\n"
 "\n"
 "分析完成後，可解鎖火箭任務的目的地。"
 
@@ -79979,6 +80387,36 @@ msgstr "無船員警告"
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.NO_EXTRA_PASSENGERS.WARNING"
 msgid "Non-crew exited"
 msgstr "非船員撤出"
+
+#. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.ON_LAUNCHPAD.STATUS.FAILURE
+msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.ON_LAUNCHPAD.STATUS.FAILURE"
+msgid "Not on a launch pad"
+msgstr "不在發射平台上"
+
+#. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.ON_LAUNCHPAD.STATUS.READY
+msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.ON_LAUNCHPAD.STATUS.READY"
+msgid "On a launch pad"
+msgstr "在發射平台上"
+
+#. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.ON_LAUNCHPAD.STATUS.WARNING
+msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.ON_LAUNCHPAD.STATUS.WARNING"
+msgid "No launch pad"
+msgstr "不在發射平台上"
+
+#. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.ON_LAUNCHPAD.TOOLTIP.FAILURE
+msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.ON_LAUNCHPAD.TOOLTIP.FAILURE"
+msgid "Not on a launch pad"
+msgstr "不在發射平台上"
+
+#. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.ON_LAUNCHPAD.TOOLTIP.READY
+msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.ON_LAUNCHPAD.TOOLTIP.READY"
+msgid "On a launch pad"
+msgstr "在發射平台上"
+
+#. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.ON_LAUNCHPAD.TOOLTIP.WARNING
+msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.ON_LAUNCHPAD.TOOLTIP.WARNING"
+msgid "No launch pad"
+msgstr "無發射平台"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.PILOT_BOARDED.FAILURE
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.PILOT_BOARDED.FAILURE"
@@ -81654,7 +82092,7 @@ msgid ""
 "The <link=\"TELESCOPE\">Telescope</link> can be found in the <b>Stations "
 "Tab</b> <b><color=#F44A4A>[0]</b></color> of the Build Menu"
 msgstr ""
-"建造一個天文望遠鏡以解鎖此選單\n"
+"建造一個望遠鏡以解鎖此選單\n"
 "------------------\n"
 "<link=\"TELESCOPE\">天文望遠鏡</link> 可在建造選單中的 <b>研究</b> "
 "<b><color=#F44A4A>[0]</b></color> 找到"
@@ -82486,6 +82924,13 @@ msgctxt ""
 msgid "Select the first available landing site"
 msgstr "選擇首次可用著陸點"
 
+#. STRINGS.UI.UISIDESCREENS.CLUSTERDESTINATIONSIDESCREEN.DROPDOWN_TOOLTIP_PAD_DISABLED
+msgctxt ""
+"STRINGS.UI.UISIDESCREENS.CLUSTERDESTINATIONSIDESCREEN."
+"DROPDOWN_TOOLTIP_PAD_DISABLED"
+msgid "Landing pad is disabled"
+msgstr "著陸平台被停用"
+
 #. STRINGS.UI.UISIDESCREENS.CLUSTERDESTINATIONSIDESCREEN.DROPDOWN_TOOLTIP_PATH_OBSTRUCTED
 msgctxt ""
 "STRINGS.UI.UISIDESCREENS.CLUSTERDESTINATIONSIDESCREEN."
@@ -82599,6 +83044,11 @@ msgstr "流星雨"
 msgctxt "STRINGS.UI.UISIDESCREENS.COMETDETECTORSIDESCREEN.DISABLED"
 msgid "Ineligible"
 msgstr "條件不符"
+
+#. STRINGS.UI.UISIDESCREENS.COMETDETECTORSIDESCREEN.DUPEMADE
+msgctxt "STRINGS.UI.UISIDESCREENS.COMETDETECTORSIDESCREEN.DUPEMADE"
+msgid "Dupe-made Ballistics"
+msgstr "彈道學"
 
 #. STRINGS.UI.UISIDESCREENS.COMETDETECTORSIDESCREEN.HEADER
 msgctxt "STRINGS.UI.UISIDESCREENS.COMETDETECTORSIDESCREEN.HEADER"
@@ -83397,42 +83847,6 @@ msgstr "選擇方向：{0}"
 msgctxt "STRINGS.UI.UISIDESCREENS.HIGHENERGYPARTICLEDIRECTIONSIDESCREEN.TITLE"
 msgid "Emitting Particle Direction"
 msgstr "釋放粒子方向"
-
-#. STRINGS.UI.UISIDESCREENS.HIGHENERGYPARTICLESPAWNERSIDESCREEN.CURRENT_THRESHOLD
-msgctxt ""
-"STRINGS.UI.UISIDESCREENS.HIGHENERGYPARTICLESPAWNERSIDESCREEN."
-"CURRENT_THRESHOLD"
-msgid "Current Threshold: {0}%"
-msgstr "目前門檻：{0}%"
-
-#. STRINGS.UI.UISIDESCREENS.HIGHENERGYPARTICLESPAWNERSIDESCREEN.PROGRESS_BAR_LABEL
-msgctxt ""
-"STRINGS.UI.UISIDESCREENS.HIGHENERGYPARTICLESPAWNERSIDESCREEN."
-"PROGRESS_BAR_LABEL"
-msgid "Radbolt Generation"
-msgstr "輻射粒子產生"
-
-#. STRINGS.UI.UISIDESCREENS.HIGHENERGYPARTICLESPAWNERSIDESCREEN.PROGRESS_BAR_TOOLTIP
-msgctxt ""
-"STRINGS.UI.UISIDESCREENS.HIGHENERGYPARTICLESPAWNERSIDESCREEN."
-"PROGRESS_BAR_TOOLTIP"
-msgid ""
-"The building will emit a <style=\"KKeyword\">Radbolt</style> in the chosen "
-"direction when fully charged"
-msgstr "當充滿時，此建築會朝選擇方向釋放 <style=\"KKeyword\">輻射粒子</style>"
-
-#. STRINGS.UI.UISIDESCREENS.HIGHENERGYPARTICLESPAWNERSIDESCREEN.TITLE
-msgctxt "STRINGS.UI.UISIDESCREENS.HIGHENERGYPARTICLESPAWNERSIDESCREEN.TITLE"
-msgid "Radbolt Threshold"
-msgstr "輻輻粒子門檻"
-
-#. STRINGS.UI.UISIDESCREENS.HIGHENERGYPARTICLESPAWNERSIDESCREEN.TOOLTIP
-msgctxt "STRINGS.UI.UISIDESCREENS.HIGHENERGYPARTICLESPAWNERSIDESCREEN.TOOLTIP"
-msgid ""
-"Releases a <style=\"KKeyword\">Radbolt</style> when stored Radbolts exceed "
-"<b>{0}</b>"
-msgstr ""
-"當輻射粒子存量超過 <b>{0}</b> 釋放 <style=\"KKeyword\">輻射粒子</style>"
 
 #. STRINGS.UI.UISIDESCREENS.LAUNCHPADSIDESCREEN.CANCEL_LAND_BUTTON
 msgctxt "STRINGS.UI.UISIDESCREENS.LAUNCHPADSIDESCREEN.CANCEL_LAND_BUTTON"
@@ -84511,6 +84925,38 @@ msgctxt "STRINGS.UI.UISIDESCREENS.PLANTERSIDESCREEN.YIELDPERHARVEST"
 msgid "{0} {1} per harvest"
 msgstr "{0}：{1} / 每次收成"
 
+#. STRINGS.UI.UISIDESCREENS.RADBOLTTHRESHOLDSIDESCREEN.CURRENT_THRESHOLD
+msgctxt "STRINGS.UI.UISIDESCREENS.RADBOLTTHRESHOLDSIDESCREEN.CURRENT_THRESHOLD"
+msgid "Current Threshold: {0}%"
+msgstr "目前門檻：{0}%"
+
+#. STRINGS.UI.UISIDESCREENS.RADBOLTTHRESHOLDSIDESCREEN.PROGRESS_BAR_LABEL
+msgctxt ""
+"STRINGS.UI.UISIDESCREENS.RADBOLTTHRESHOLDSIDESCREEN.PROGRESS_BAR_LABEL"
+msgid "Radbolt Generation"
+msgstr "輻射粒子產生"
+
+#. STRINGS.UI.UISIDESCREENS.RADBOLTTHRESHOLDSIDESCREEN.PROGRESS_BAR_TOOLTIP
+msgctxt ""
+"STRINGS.UI.UISIDESCREENS.RADBOLTTHRESHOLDSIDESCREEN.PROGRESS_BAR_TOOLTIP"
+msgid ""
+"The building will emit a <style=\"KKeyword\">Radbolt</style> in the chosen "
+"direction when fully charged"
+msgstr "當充滿時，此建築會朝選擇方向釋放 <style=\"KKeyword\">輻射粒子</style>"
+
+#. STRINGS.UI.UISIDESCREENS.RADBOLTTHRESHOLDSIDESCREEN.TITLE
+msgctxt "STRINGS.UI.UISIDESCREENS.RADBOLTTHRESHOLDSIDESCREEN.TITLE"
+msgid "Radbolt Threshold"
+msgstr "輻射粒子門檻"
+
+#. STRINGS.UI.UISIDESCREENS.RADBOLTTHRESHOLDSIDESCREEN.TOOLTIP
+msgctxt "STRINGS.UI.UISIDESCREENS.RADBOLTTHRESHOLDSIDESCREEN.TOOLTIP"
+msgid ""
+"Releases a <style=\"KKeyword\">Radbolt</style> when stored Radbolts exceed "
+"<b>{0}</b>"
+msgstr ""
+"當輻射粒子存量超過 <b>{0}</b> 釋放 <style=\"KKeyword\">輻射粒子</style>"
+
 #. STRINGS.UI.UISIDESCREENS.RADIATIONSWITCHSIDESCREEN.ACTIVATE_IF
 msgctxt "STRINGS.UI.UISIDESCREENS.RADIATIONSWITCHSIDESCREEN.ACTIVATE_IF"
 msgid "Send <b><style=\"logic_on\">Green Signal</style></b> if:"
@@ -85298,7 +85744,7 @@ msgstr "打開星圖"
 #. STRINGS.UI.UISIDESCREENS.TELESCOPESIDESCREEN.TITLE
 msgctxt "STRINGS.UI.UISIDESCREENS.TELESCOPESIDESCREEN.TITLE"
 msgid "Telescope Configuration"
-msgstr "天文望遠鏡設定"
+msgstr "望遠鏡設定"
 
 #. STRINGS.UI.UISIDESCREENS.TEMPERATURESWITCHSIDESCREEN.ACTIVATE_IF
 msgctxt "STRINGS.UI.UISIDESCREENS.TEMPERATURESWITCHSIDESCREEN.ACTIVATE_IF"
@@ -88545,7 +88991,7 @@ msgctxt "STRINGS.WORLDS.FORESTMOONLET.DESCRIPTION"
 msgid ""
 "A small moon with a forest start.\n"
 "\n"
-"<smallcaps>Forest Asteroids have plenty of organic material but Duplicants "
+"<smallcaps>Folia Asteroids have plenty of organic material but Duplicants "
 "will have to venture outside their starting biome quickly to find any metal."
 "</smallcaps>"
 msgstr ""
@@ -88556,7 +89002,7 @@ msgstr ""
 
 #. STRINGS.WORLDS.FORESTMOONLET.NAME
 msgctxt "STRINGS.WORLDS.FORESTMOONLET.NAME"
-msgid "Forest Asteroid"
+msgid "Folia Asteroid"
 msgstr "森林小行星"
 
 #. STRINGS.WORLDS.HELICONA.DESCRIPTION
@@ -88633,6 +89079,24 @@ msgctxt "STRINGS.WORLDS.MEDIUMFORESTYRADIOACTIVEVANILLAWARPPLANET.NAME"
 msgid "Radioactive Forest Asteroid"
 msgstr "輻射森林小行星"
 
+#. STRINGS.WORLDS.MEDIUMFORESTYWASTELAND.DESCRIPTION
+msgctxt "STRINGS.WORLDS.MEDIUMFORESTYWASTELAND.DESCRIPTION"
+msgid ""
+"A large-ish forested asteroid with a frozen radioactive core.\n"
+"\n"
+"<smallcaps>While Glowood Wasteland Asteroids are largely foresty, they also "
+"contain a great deal of rust and wasteland.</smallcaps>"
+msgstr ""
+"一個有大片林地與冰凍輻射核心的世界\n"
+"\n"
+"<smallcaps>整個輻射森林小行星是個大型的森林地帶，也蘊藏大量的鐵鏽與荒地。</"
+"smallcaps>"
+
+#. STRINGS.WORLDS.MEDIUMFORESTYWASTELAND.NAME
+msgctxt "STRINGS.WORLDS.MEDIUMFORESTYWASTELAND.NAME"
+msgid "Glowood Wasteland Asteroid"
+msgstr "森林荒地小行星"
+
 #. STRINGS.WORLDS.MEDIUMRADIOACTIVEVANILLAWARPPLANET.DESCRIPTION
 msgctxt "STRINGS.WORLDS.MEDIUMRADIOACTIVEVANILLAWARPPLANET.DESCRIPTION"
 msgid ""
@@ -88666,6 +89130,24 @@ msgstr ""
 #. STRINGS.WORLDS.MEDIUMSANDYRADIOACTIVEVANILLAWARPPLANET.NAME
 msgctxt "STRINGS.WORLDS.MEDIUMSANDYRADIOACTIVEVANILLAWARPPLANET.NAME"
 msgid "Radioactive Terra Asteroid"
+msgstr "輻射類地小行星"
+
+#. STRINGS.WORLDS.MEDIUMSANDYSWAMP.DESCRIPTION
+msgctxt "STRINGS.WORLDS.MEDIUMSANDYSWAMP.DESCRIPTION"
+msgid ""
+"A mid-sized terra world with a radioactive core.\n"
+"\n"
+"<smallcaps>The Radioactive Terrabog Asteroid is fairly dry and sandy, but "
+"does contain swampy areas with a partially frozen surface.</smallcaps>"
+msgstr ""
+"一個有輻射核心的中型類地世界\n"
+"\n"
+"<smallcaps>輻射類地小行星相當乾燥與多沙，但確實包含表層部分凍結的沼澤。</"
+"smallcaps>"
+
+#. STRINGS.WORLDS.MEDIUMSANDYSWAMP.NAME
+msgctxt "STRINGS.WORLDS.MEDIUMSANDYSWAMP.NAME"
+msgid "Radioactive Terrabog Asteroid"
 msgstr "輻射類地小行星"
 
 #. STRINGS.WORLDS.MEDIUMSWAMPY.DESCRIPTION
@@ -88710,12 +89192,12 @@ msgctxt "STRINGS.WORLDS.MINIBADLANDS.DESCRIPTION"
 msgid ""
 "A barren location with an overabundance of mineral resources and oil.\n"
 "\n"
-"<smallcaps>The rocky terrain of The Badlands poses no immediate threats, but "
-"sparse resource availability will make expansion and technological progress "
-"challenging.</smallcaps>\n"
+"<smallcaps>The rocky terrain of The Desolands poses no immediate threats, "
+"but the limited variety of resources will make expansion and technological "
+"progress challenging.</smallcaps>\n"
 "\n"
 msgstr ""
-"一個荒蕪但有豐富礦物資源的地方。\n"
+"一個荒蕪但有豐富礦物與原油資源的地方。\n"
 "\n"
 "<smallcaps>岩石地型不會有立即的危險，\n"
 "但資源稀少對發展科技進程形成了挑戰。</smallcaps>\n"
@@ -88723,8 +89205,8 @@ msgstr ""
 
 #. STRINGS.WORLDS.MINIBADLANDS.NAME
 msgctxt "STRINGS.WORLDS.MINIBADLANDS.NAME"
-msgid "The Badlands Asteroid (experimental)"
-msgstr "荒地小行星（實驗性）"
+msgid "The Desolands Asteroid"
+msgstr "荒地小行星"
 
 #. STRINGS.WORLDS.MINIFLIPPED.DESCRIPTION
 msgctxt "STRINGS.WORLDS.MINIFLIPPED.DESCRIPTION"
@@ -88743,36 +89225,36 @@ msgstr ""
 
 #. STRINGS.WORLDS.MINIFLIPPED.NAME
 msgctxt "STRINGS.WORLDS.MINIFLIPPED.NAME"
-msgid "Flipped Asteroid (experimental)"
-msgstr "顛倒小行星（實驗性）"
+msgid "Flipped Asteroid"
+msgstr "顛倒小行星"
 
 #. STRINGS.WORLDS.MINIFORESTFROZEN.DESCRIPTION
 msgctxt "STRINGS.WORLDS.MINIFORESTFROZEN.DESCRIPTION"
 msgid ""
 "A frigid location marked by inhospitably low temperatures throughout.\n"
 "\n"
-"<smallcaps>Frozen Forest's low temperatures will make finding water and "
-"establishing farms or ranches problematic.</smallcaps>\n"
+"<smallcaps>The Frozen Forest Asteroid's low temperatures will make finding "
+"water and establishing farms or ranches problematic.</smallcaps>\n"
 "\n"
 msgstr ""
 "一個寒冷的地方，整個世界都處於低溫。\n"
 "\n"
-"<smallcaps>冰雪森林的寒冷氣候讓尋找水源與建造農場或是牧場變得困難。</"
+"<smallcaps>冰雪森林小行星的寒冷氣候讓尋找水源與建造農場或是牧場變得困難。</"
 "smallcaps>\n"
 "\n"
 
 #. STRINGS.WORLDS.MINIFORESTFROZEN.NAME
 msgctxt "STRINGS.WORLDS.MINIFORESTFROZEN.NAME"
-msgid "Frozen Forest Asteroid (experimental)"
-msgstr "冰雪森林小行星（實驗性）"
+msgid "Frozen Forest Asteroid"
+msgstr "冰雪森林小行星"
 
 #. STRINGS.WORLDS.MINIMETALLICSWAMPY.DESCRIPTION
 msgctxt "STRINGS.WORLDS.MINIMETALLICSWAMPY.DESCRIPTION"
 msgid ""
-"A small swampy world with an abudnance of renewable metal.\n"
+"A small swampy world with an abundance of renewable metal.\n"
 "\n"
-"<smallcaps>Metallic Swampy Asteroids have a high concentration of metal "
-"mixed with a swampy polluted atmosphere.</smallcaps>"
+"<smallcaps>Metallic Swampy Asteroids have a high concentration of metal and "
+"a swampy, polluted atmosphere.</smallcaps>"
 msgstr ""
 "一個充滿再生金屬資源的小型沼澤世界。\n"
 "\n"
@@ -88780,8 +89262,8 @@ msgstr ""
 
 #. STRINGS.WORLDS.MINIMETALLICSWAMPY.NAME
 msgctxt "STRINGS.WORLDS.MINIMETALLICSWAMPY.NAME"
-msgid "Metallic Swampy Asteroid (experimental)"
-msgstr "金屬小行星（實驗性）"
+msgid "Metallic Swampy Asteroid"
+msgstr "金屬沼澤小行星"
 
 #. STRINGS.WORLDS.MINIRADIOACTIVEOCEAN.DESCRIPTION
 msgctxt "STRINGS.WORLDS.MINIRADIOACTIVEOCEAN.DESCRIPTION"
@@ -88800,8 +89282,8 @@ msgstr ""
 
 #. STRINGS.WORLDS.MINIRADIOACTIVEOCEAN.NAME
 msgctxt "STRINGS.WORLDS.MINIRADIOACTIVEOCEAN.NAME"
-msgid "Radioactive Ocean Asteroid (experimental)"
-msgstr "輻射海洋小行星（實驗性）"
+msgid "Radioactive Ocean Asteroid"
+msgstr "輻射海洋小行星"
 
 #. STRINGS.WORLDS.MOOMOONLET.DESCRIPTION
 msgctxt "STRINGS.WORLDS.MOOMOONLET.DESCRIPTION"
@@ -88885,7 +89367,7 @@ msgstr "綠洲行星"
 #. STRINGS.WORLDS.OCEANIA.DESCRIPTION
 msgctxt "STRINGS.WORLDS.OCEANIA.DESCRIPTION"
 msgid ""
-"A location with vast quantities of unpotable salt water.\n"
+"A location with vast quantities of undrinkable salt water.\n"
 "\n"
 "<smallcaps>Oceania is quite stable and resource rich, but the majority of "
 "the area is covered in a saltwater ocean. Careful expansion and resource "
@@ -89103,9 +89585,9 @@ msgctxt "STRINGS.WORLDS.SWAMPMOONLET.DESCRIPTION"
 msgid ""
 "A large, polluted swamp world.\n"
 "\n"
-"<smallcaps>Swampy Asteroids are a great mass of frozen slush and wasteland. "
-"With a short distance to the surface, inter-world travel can be achieved "
-"quickly.</smallcaps>"
+"<smallcaps>Quagmiris Asteroids are a great mass of frozen slush and "
+"wasteland. With a short distance to the surface, inter-world travel can be "
+"achieved quickly.</smallcaps>"
 msgstr ""
 "一個巨大受汙染的沼澤世界。\n"
 "\n"
@@ -89114,7 +89596,7 @@ msgstr ""
 
 #. STRINGS.WORLDS.SWAMPMOONLET.NAME
 msgctxt "STRINGS.WORLDS.SWAMPMOONLET.NAME"
-msgid "Swampy Asteroid"
+msgid "Quagmiris Asteroid"
 msgstr "沼澤小行星"
 
 #. STRINGS.WORLDS.SWAMPYLANDINGSITE.DESCRIPTION
@@ -89137,20 +89619,20 @@ msgstr "輻射沼澤小行星"
 #. STRINGS.WORLDS.TERRAMOONLET.DESCRIPTION
 msgctxt "STRINGS.WORLDS.TERRAMOONLET.DESCRIPTION"
 msgid ""
-"A balanced variety of resources on a smaller world.\n"
+"A balanced variety of resources on a smaller sandstone world.\n"
 "\n"
-"<smallcaps>Terra Asteroids have everything needed to start a colony in a "
+"<smallcaps>Terrania Asteroids have everything needed to start a colony in a "
 "compact area. With a short distance to the surface, inter-world travel can "
 "be achieved quickly.</smallcaps>"
 msgstr ""
-"一個各種資源平衡的小世界。\n"
+"一個各種資源平衡的小型沙岩世界。\n"
 "\n"
 "<smallcaps>類地小行星有各種所需資源可將殖民地建立在一個小地方。\n"
 "離地表距離較短，可在短時間內實現星際旅行。</smallcaps>"
 
 #. STRINGS.WORLDS.TERRAMOONLET.NAME
 msgctxt "STRINGS.WORLDS.TERRAMOONLET.NAME"
-msgid "Sandstone Asteroid"
+msgid "Terrania Asteroid"
 msgstr "類地小行星"
 
 #. STRINGS.WORLDS.THE_ROCK.DESCRIPTION
@@ -89258,6 +89740,64 @@ msgctxt "STRINGS.WORLDS.TWINMOONLET.NAME"
 msgid "Tiny Twin Asteroid FOR DEVS"
 msgstr "小型的雙子小行星可供開發"
 
+#. STRINGS.WORLDS.VANILLAARBORIA.DESCRIPTION
+msgctxt "STRINGS.WORLDS.VANILLAARBORIA.DESCRIPTION"
+msgid ""
+"A location with a natural abundance of trees.\n"
+"\n"
+"<smallcaps>Colonizing Arboria will require careful planning right from the "
+"start. Because of its lack of metals, finding biological solutions to "
+"problems is a must.</smallcaps>"
+msgstr ""
+"一個天然樹木資源豐富的地方。\n"
+"\n"
+"<smallcaps>殖民喬木行星需要從一開始就仔細規劃。\n"
+"因為這裡缺少金屬，找到利用有機生物的決解方案是首要問題。</smallcaps>"
+
+#. STRINGS.WORLDS.VANILLAARBORIA.NAME
+msgctxt "STRINGS.WORLDS.VANILLAARBORIA.NAME"
+msgid "Arboria Asteroid"
+msgstr "喬木小行星"
+
+#. STRINGS.WORLDS.VANILLAARIDIO.DESCRIPTION
+msgctxt "STRINGS.WORLDS.VANILLAARIDIO.DESCRIPTION"
+msgid ""
+"A location with oppressively hot temperatures.\n"
+"\n"
+"<smallcaps>Temperatures on Aridio are much higher than expected. While "
+"resources are abundant, maintaining food and infrastructure could be "
+"difficult as our colony warms.</smallcaps>"
+msgstr ""
+"一個高溫的地方。\n"
+"\n"
+"<smallcaps>這裡的環境溫度比預期的高。\n"
+"雖然資源豐富，可是隨著殖民地溫度升高，\n"
+"維持食物與基礎設施會變的困難。</smallcaps>"
+
+#. STRINGS.WORLDS.VANILLAARIDIO.NAME
+msgctxt "STRINGS.WORLDS.VANILLAARIDIO.NAME"
+msgid "Aridio Asteroid"
+msgstr "熱帶小行星"
+
+#. STRINGS.WORLDS.VANILLABADLANDS.DESCRIPTION
+msgctxt "STRINGS.WORLDS.VANILLABADLANDS.DESCRIPTION"
+msgid ""
+"A barren location with an overabundance of mineral resources.\n"
+"\n"
+"<smallcaps>The rocky terrain of The Badlands poses no immediate threats, but "
+"sparse resource availability will make expansion and technological progress "
+"challenging.</smallcaps>"
+msgstr ""
+"一個荒蕪但有豐富礦物資源的地方。\n"
+"\n"
+"<smallcaps>岩石地型不會有立即的危險，\n"
+"但資源稀少對發展科技進程形成了挑戰。</smallcaps>"
+
+#. STRINGS.WORLDS.VANILLABADLANDS.NAME
+msgctxt "STRINGS.WORLDS.VANILLABADLANDS.NAME"
+msgid "The Badlands Asteroid"
+msgstr "荒地小行星"
+
 #. STRINGS.WORLDS.VANILLAFORESTDEFAULT.DESCRIPTION
 msgctxt "STRINGS.WORLDS.VANILLAFORESTDEFAULT.DESCRIPTION"
 msgid ""
@@ -89276,7 +89816,7 @@ msgstr ""
 
 #. STRINGS.WORLDS.VANILLAFORESTDEFAULT.NAME
 msgctxt "STRINGS.WORLDS.VANILLAFORESTDEFAULT.NAME"
-msgid "Verdante"
+msgid "Verdante Asteroid"
 msgstr "森林小行星"
 
 #. STRINGS.WORLDS.VANILLAOASIS.DESCRIPTION
@@ -89336,7 +89876,7 @@ msgstr ""
 
 #. STRINGS.WORLDS.VANILLASANDSTONEDEFAULT.NAME
 msgctxt "STRINGS.WORLDS.VANILLASANDSTONEDEFAULT.NAME"
-msgid "Terra"
+msgid "Terra Asteroid"
 msgstr "類地小行星"
 
 #. STRINGS.WORLDS.VANILLASANDSTONEFROZEN.DESCRIPTION
@@ -89363,9 +89903,9 @@ msgctxt "STRINGS.WORLDS.VANILLASWAMPDEFAULT.DESCRIPTION"
 msgid ""
 "A large, polluted swamp world.\n"
 "\n"
-"<smallcaps>Swampy Asteroids are a great mass of frozen slush and wasteland. "
-"With a short distance to the surface, inter-world travel can be achieved "
-"quickly.</smallcaps>"
+"<smallcaps>Squelchy Asteroids are a great mass of frozen slush and "
+"wasteland. With a short distance to the surface, inter-world travel can be "
+"achieved quickly.</smallcaps>"
 msgstr ""
 "一個巨大受汙染的沼澤世界。\n"
 "\n"
@@ -89374,8 +89914,27 @@ msgstr ""
 
 #. STRINGS.WORLDS.VANILLASWAMPDEFAULT.NAME
 msgctxt "STRINGS.WORLDS.VANILLASWAMPDEFAULT.NAME"
-msgid "Swampy Asteroid"
+msgid "Squelchy Asteroid"
 msgstr "沼澤小行星"
+
+#. STRINGS.WORLDS.VANILLAVOLCANIC.DESCRIPTION
+msgctxt "STRINGS.WORLDS.VANILLAVOLCANIC.DESCRIPTION"
+msgid ""
+"A location rife with molten lava pockets and intense heat.\n"
+"\n"
+"<smallcaps>Volcanea would be perfect if it wasn't for the volcanoes. Digging "
+"carefully and managing the temperatures in our colony will be essential to "
+"success.</smallcaps>"
+msgstr ""
+"一個充滿岩漿與高溫的地方。\n"
+"\n"
+"<smallcaps>這裡如果沒有火山會很完美。\n"
+"小心挖掘與管理溫度，對殖民地來說是成功的關鍵。</smallcaps>"
+
+#. STRINGS.WORLDS.VANILLAVOLCANIC.NAME
+msgctxt "STRINGS.WORLDS.VANILLAVOLCANIC.NAME"
+msgid "Volcanea Asteroid"
+msgstr "火山小行星"
 
 #. STRINGS.WORLDS.VOLCANIC.DESCRIPTION
 msgctxt "STRINGS.WORLDS.VOLCANIC.DESCRIPTION"
@@ -89432,6 +89991,104 @@ msgstr ""
 msgctxt "STRINGS.WORLDS.WATERMOONLET.NAME"
 msgid "Water Asteroid"
 msgstr "水小行星"
+
+#~ msgctxt "STRINGS.CLUSTER_NAMES.SWAMP_START_CLUSTER.NAME"
+#~ msgid "Swamp Cluster"
+#~ msgstr "沼澤星團"
+
+#~ msgctxt "STRINGS.CLUSTER_NAMES.VANILLA_SANDSTONE_CLUSTER.NAME"
+#~ msgid "Large Terra Cluster"
+#~ msgstr "大型類地星團"
+
+#~ msgctxt "STRINGS.CLUSTER_NAMES.VANILLA_SWAMP_CLUSTER.NAME"
+#~ msgid "Large Swamp Cluster"
+#~ msgstr "大型沼澤星團"
+
+#~ msgctxt "STRINGS.CODEX.GENETICS.HEADER_2"
+#~ msgid "Breeding"
+#~ msgstr "配種"
+
+#~ msgctxt "STRINGS.CODEX.GENETICS.HEADER_3"
+#~ msgid "Dangers"
+#~ msgstr "危險"
+
+#~ msgctxt "STRINGS.CODEX.GENETICS.PARAGRAPH_1"
+#~ msgid ""
+#~ "When selecting a seed to plant, a variety of mutations will be available "
+#~ "to choose from that will affect how the plant develops.\n"
+#~ "\n"
+#~ "Different plants and critters have different mutations which allow them "
+#~ "to thrive in different situations and produce different materials for "
+#~ "harvest.\n"
+#~ "\n"
+#~ msgstr ""
+#~ "當想要栽種植物時，有很多的植物變種可供選擇，這會影響植物的生長方式。\n"
+#~ "\n"
+#~ "不同的植物與動物有不同的變種，可讓它們生存在不同的環境與生產不同的原料可供"
+#~ "收獲。\n"
+#~ "\n"
+
+#~ msgctxt "STRINGS.CODEX.GENETICS.PARAGRAPH_2"
+#~ msgid "This is where the breeding information will go"
+#~ msgstr "這些是繁殖資訊的去向"
+
+#~ msgctxt "STRINGS.CODEX.GENETICS.PARAGRAPH_3"
+#~ msgid ""
+#~ "This is where the part about dangers will go\n"
+#~ "\n"
+#~ msgstr "這裡是危險的去向\n"
+
+#~ msgctxt "STRINGS.DUPLICANTS.ROLES.THERMAL_SUIT_WEARER.DESCRIPTION"
+#~ msgid "Work in progress skill"
+#~ msgstr "熟練中的技能"
+
+#~ msgctxt "STRINGS.DUPLICANTS.ROLES.THERMAL_SUIT_WEARER.NAME"
+#~ msgid "W.I.P. Skill"
+#~ msgstr "W.I.P. 技能"
+
+#~ msgctxt "STRINGS.UI.FRONTEND.MOTD.IMAGE_HEADER"
+#~ msgid "RAD NEW WORLDS"
+#~ msgstr "輻射新世界"
+
+#~ msgctxt "STRINGS.UI.UISIDESCREENS.HIGHENERGYPARTICLESPAWNERSIDESCREEN.TITLE"
+#~ msgid "Radbolt Threshold"
+#~ msgstr "輻輻粒子門檻"
+
+#~ msgctxt "STRINGS.WORLDS.MINIFLIPPED.NAME"
+#~ msgid "Flipped Asteroid (experimental)"
+#~ msgstr "顛倒小行星（實驗性）"
+
+#~ msgctxt "STRINGS.WORLDS.MINIFORESTFROZEN.NAME"
+#~ msgid "Frozen Forest Asteroid (experimental)"
+#~ msgstr "冰雪森林小行星（實驗性）"
+
+#~ msgctxt "STRINGS.WORLDS.MINIMETALLICSWAMPY.NAME"
+#~ msgid "Metallic Swampy Asteroid (experimental)"
+#~ msgstr "金屬小行星（實驗性）"
+
+#~ msgctxt "STRINGS.WORLDS.MINIRADIOACTIVEOCEAN.NAME"
+#~ msgid "Radioactive Ocean Asteroid (experimental)"
+#~ msgstr "輻射海洋小行星（實驗性）"
+
+#~ msgctxt "STRINGS.WORLDS.SWAMPMOONLET.NAME"
+#~ msgid "Swampy Asteroid"
+#~ msgstr "沼澤小行星"
+
+#~ msgctxt "STRINGS.WORLDS.TERRAMOONLET.NAME"
+#~ msgid "Sandstone Asteroid"
+#~ msgstr "類地小行星"
+
+#~ msgctxt "STRINGS.WORLDS.VANILLAFORESTDEFAULT.NAME"
+#~ msgid "Verdante"
+#~ msgstr "森林小行星"
+
+#~ msgctxt "STRINGS.WORLDS.VANILLASANDSTONEDEFAULT.NAME"
+#~ msgid "Terra"
+#~ msgstr "類地小行星"
+
+#~ msgctxt "STRINGS.WORLDS.VANILLASWAMPDEFAULT.NAME"
+#~ msgid "Swampy Asteroid"
+#~ msgstr "沼澤小行星"
 
 #~ msgctxt "STRINGS.BUILDINGS.PREFABS.ORBITALRESEARCHCENTER.DESC"
 #~ msgid ""
