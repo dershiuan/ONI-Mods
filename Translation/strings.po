@@ -41401,7 +41401,7 @@ msgstr "提升複製人的 <style=\"KKeyword\">畜牧</style> 技能"
 #. STRINGS.DUPLICANTS.ROLES.SENIOR_RANCHER.NAME
 msgctxt "STRINGS.DUPLICANTS.ROLES.SENIOR_RANCHER.NAME"
 msgid "<link=\"RANCHING2\">Critter Ranching II</link>"
-msgstr "<link=\"RANCHING2\">畜牧 I</link>"
+msgstr "<link=\"RANCHING2\">畜牧 II</link>"
 
 #. STRINGS.DUPLICANTS.ROLES.SENIOR_RESEARCHER.DESCRIPTION
 msgctxt "STRINGS.DUPLICANTS.ROLES.SENIOR_RESEARCHER.DESCRIPTION"
@@ -70948,7 +70948,7 @@ msgstr ""
 "   查看完整更新記錄了解更多細節！\n"
 "\n"
 "翻譯：古靈精怪\n"
-"版本：U38-486708-SD-REV-1"
+"版本：U38-486708-SD-REV-2"
 
 #. STRINGS.UI.FRONTEND.MOTD.UPDATE_TEXT
 msgctxt "STRINGS.UI.FRONTEND.MOTD.UPDATE_TEXT"
